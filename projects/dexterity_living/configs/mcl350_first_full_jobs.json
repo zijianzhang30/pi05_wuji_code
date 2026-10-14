@@ -1,0 +1,115 @@
+[
+  {
+    "id": "mcl350_v1_pick_place_012001_pipeline",
+    "gpu": 0,
+    "script": "/media/external/bowenjing/projects/dexterity_living/code/mcl350/collect_one.py",
+    "args": [
+      "--task",
+      "pick_place",
+      "--seed",
+      "12001",
+      "--name",
+      "mcl350_v1_pick_place_012001",
+      "--gpu",
+      "0"
+    ],
+    "timeout_seconds": 6000
+  },
+  {
+    "id": "mcl350_v1_stack_012001_pipeline",
+    "gpu": 1,
+    "script": "/media/external/bowenjing/projects/dexterity_living/code/mcl350/collect_one.py",
+    "args": [
+      "--task",
+      "stack",
+      "--seed",
+      "12001",
+      "--name",
+      "mcl350_v1_stack_012001",
+      "--gpu",
+      "1"
+    ],
+    "timeout_seconds": 6000
+  },
+  {
+    "id": "mcl350_probe_piano_0002_pipeline",
+    "gpu": 2,
+    "script": "/media/external/bowenjing/projects/dexterity_living/code/mcl350/collect_one.py",
+    "args": [
+      "--task",
+      "piano",
+      "--seed",
+      "11002",
+      "--name",
+      "mcl350_probe_piano_0002",
+      "--gpu",
+      "2",
+      "--existing"
+    ],
+    "timeout_seconds": 6000
+  },
+  {
+    "id": "mcl350_v1_gesture_one_012001_pipeline",
+    "gpu": 3,
+    "script": "/media/external/bowenjing/projects/dexterity_living/code/mcl350/collect_one.py",
+    "args": [
+      "--task",
+      "gesture_one",
+      "--seed",
+      "12001",
+      "--name",
+      "mcl350_v1_gesture_one_012001",
+      "--gpu",
+      "3"
+    ],
+    "timeout_seconds": 6000
+  },
+  {
+    "id": "mcl350_v1_gesture_two_012001_pipeline",
+    "gpu": 4,
+    "script": "/media/external/bowenjing/projects/dexterity_living/code/mcl350/collect_one.py",
+    "args": [
+      "--task",
+      "gesture_two",
+      "--seed",
+      "12001",
+      "--name",
+      "mcl350_v1_gesture_two_012001",
+      "--gpu",
+      "4"
+    ],
+    "timeout_seconds": 6000
+  },
+  {
+    "id": "mcl350_v1_produce_sort_012001_pipeline",
+    "gpu": 5,
+    "script": "/media/external/bowenjing/projects/dexterity_living/code/mcl350/collect_one.py",
+    "args": [
+      "--task",
+      "produce_sort",
+      "--seed",
+      "12001",
+      "--name",
+      "mcl350_v1_produce_sort_012001",
+      "--gpu",
+      "5"
+    ],
+    "timeout_seconds": 6000
+  },
+  {
+    "id": "mcl350_v1_microwave_open_012001_pipeline",
+    "gpu": 6,
+    "script": "/media/external/bowenjing/projects/dexterity_living/code/mcl350/collect_one.py",
+    "args": [
+      "--task",
+      "microwave_open",
+      "--seed",
+      "12001",
+      "--name",
+      "mcl350_v1_microwave_open_012001",
+      "--gpu",
+      "6"
+    ],
+    "timeout_seconds": 6000
+  }
+]

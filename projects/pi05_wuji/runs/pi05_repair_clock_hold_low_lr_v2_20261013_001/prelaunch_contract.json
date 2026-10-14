@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "scope": "unchanged dataset and inference preprocessing from v1 contract",
+  "source": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_repair_clock_hold_v1_20261013_001/prelaunch_contract.json",
+  "source_sha256": "963bca23d3941c25fa02643d4281707f68ca8231672e52ed53aedb74a9227d2d",
+  "dataset_ast_and_adapter_environment_bytes_equal": true
+}

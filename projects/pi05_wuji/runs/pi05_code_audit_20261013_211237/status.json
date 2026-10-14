@@ -1,0 +1,40 @@
+{
+  "state": "needs_further_debug",
+  "iteration": "physics_profile32_pilot",
+  "driver_pid": 982674,
+  "training_run": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_physics_profile32_pilot_20261013_214029",
+  "evaluation_run": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_physics_profile32_dev_20261013_214029",
+  "updated_at": 1791900073.717523,
+  "per_task": {
+    "produce_sort": {
+      "valid": 1,
+      "successes": 0
+    },
+    "stack": {
+      "valid": 1,
+      "successes": 0
+    },
+    "pick_place": {
+      "valid": 1,
+      "successes": 0
+    },
+    "microwave_open": {
+      "valid": 1,
+      "successes": 0
+    },
+    "gesture_one": {
+      "valid": 1,
+      "successes": 0
+    },
+    "gesture_two": {
+      "valid": 1,
+      "successes": 0
+    },
+    "piano": {
+      "valid": 1,
+      "successes": 0
+    }
+  },
+  "episodes": 7,
+  "result": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_physics_profile32_dev_20261013_214029/iteration_result.json"
+}

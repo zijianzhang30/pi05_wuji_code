@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "step": 38020,
+  "gpu_count": 8,
+  "optimizer_restored": true,
+  "all_arrays_on_8gpu_mesh": true
+}

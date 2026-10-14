@@ -1,0 +1,129 @@
+{
+  "checked_at": 1791870195.619862,
+  "status.json": {
+    "state": "training",
+    "pid": 454498,
+    "updated_at": 1791870191.280506,
+    "step": 13700,
+    "target_steps": 17000,
+    "global_batch": 8,
+    "equivalent_frame_epochs": 1.0218161476785381,
+    "elapsed_seconds": 638.2676945269923,
+    "last_step_seconds": 0.6822909779730253,
+    "grad_norm": 0.2330927848815918,
+    "grad_norm_action_expert": 0.18677078187465668,
+    "grad_norm_language": 0.06762280315160751,
+    "grad_norm_projection": 0.11852066963911057,
+    "grad_norm_vision": 0.01196235790848732,
+    "loss": 0.0020677142310887575,
+    "update_norm_action_expert": 0.0043731266632676125,
+    "update_norm_language": 0.008848924189805984,
+    "update_norm_projection": 7.250123599078506e-05,
+    "update_norm_vision": 0.003339598421007395
+  },
+  "optimizer_continuation_audit.json": {
+    "passed": true,
+    "source": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_repair_clock_hold_low_lr_v2_20261013_001/checkpoints/13000",
+    "state_step": 13000,
+    "optimizer_counts": [
+      13000,
+      13000
+    ],
+    "source_metadata_unchanged": true,
+    "source_opened_read_only": true,
+    "all_arrays_on_8gpu_mesh": true,
+    "learning_rate": 1e-06
+  },
+  "full_gradient_check_8gpu.json": {
+    "passed": true,
+    "step": 13003,
+    "metrics": {
+      "grad_norm": 0.22444409132003784,
+      "grad_norm_action_expert": 0.16491200029850006,
+      "grad_norm_language": 0.11111975461244583,
+      "grad_norm_projection": 0.09689393639564514,
+      "grad_norm_vision": 0.00855577178299427,
+      "loss": 0.005192409735172987,
+      "update_norm_action_expert": 0.0029428726993501186,
+      "update_norm_language": 0.00872169528156519,
+      "update_norm_projection": 4.841839108848944e-05,
+      "update_norm_vision": 0.0026912216562777758
+    }
+  },
+  "checkpoint_roundtrip_8gpu.json": {
+    "passed": true,
+    "step": 13020
+  },
+  "checkpoint_status.json": {
+    "step": 13020,
+    "path": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_repair_start_sampling_v3_20261013_001/checkpoints/13020",
+    "saved": true
+  },
+  "validation": [
+    {
+      "step": 13020,
+      "per_task_flow_loss": {
+        "gesture_one": 0.002912582131102681,
+        "gesture_two": 0.002828268799930811,
+        "microwave_open": 0.0040000732988119125,
+        "piano": 0.00868928898125887,
+        "pick_place": 0.0023175198584795,
+        "produce_sort": 0.008294924162328243,
+        "stack": 0.002541904104873538
+      },
+      "macro_mean": 0.004512080190969365,
+      "scope": "held-out fixed sample flow matching loss, not success rate"
+    }
+  ],
+  "recent_metrics": [
+    {
+      "step": 13690,
+      "target_steps": 17000,
+      "global_batch": 8,
+      "equivalent_frame_epochs": 1.0210702964758531,
+      "elapsed_seconds": 631.2207379890024,
+      "last_step_seconds": 0.6805866479990073,
+      "grad_norm": 0.19151316583156586,
+      "grad_norm_action_expert": 0.14863143861293793,
+      "grad_norm_language": 0.06112660467624664,
+      "grad_norm_projection": 0.10030276328325272,
+      "grad_norm_vision": 0.0195870753377676,
+      "loss": 0.00213800510391593,
+      "update_norm_action_expert": 0.004443744663149118,
+      "update_norm_language": 0.008614909835159779,
+      "update_norm_projection": 7.689003541599959e-05,
+      "update_norm_vision": 0.0038327963557094336
+    },
+    {
+      "step": 13700,
+      "target_steps": 17000,
+      "global_batch": 8,
+      "equivalent_frame_epochs": 1.0218161476785381,
+      "elapsed_seconds": 638.2676945269923,
+      "last_step_seconds": 0.6822909779730253,
+      "grad_norm": 0.2330927848815918,
+      "grad_norm_action_expert": 0.18677078187465668,
+      "grad_norm_language": 0.06762280315160751,
+      "grad_norm_projection": 0.11852066963911057,
+      "grad_norm_vision": 0.01196235790848732,
+      "loss": 0.0020677142310887575,
+      "update_norm_action_expert": 0.0043731266632676125,
+      "update_norm_language": 0.008848924189805984,
+      "update_norm_projection": 7.250123599078506e-05,
+      "update_norm_vision": 0.003339598421007395
+    }
+  ],
+  "all_logged_loss_updates_finite": true,
+  "processes": {
+    "training_pid": {
+      "pid": 454498,
+      "cmd": "/media/external/bowenjing/projects/pi05_wuji/env/bin/python /media/external/bowenjing/projects/pi05_wuji/runs/pi05_repair_start_sampling_v3_20261013_001/code/train_full_8gpu.py "
+    },
+    "driver_pid": {
+      "pid": 454499,
+      "cmd": "python3 /media/external/bowenjing/projects/pi05_wuji/runs/pi05_repair_start_sampling_v3_dev_20261013_001/code/iteration_driver.py "
+    }
+  },
+  "eval_logs/driver.log": "",
+  "gpu": "0, 62519, 99\n1, 62517, 78\n2, 62517, 99\n3, 62517, 75\n4, 62517, 99\n5, 62517, 99\n6, 62517, 75\n7, 62517, 82\n"
+}

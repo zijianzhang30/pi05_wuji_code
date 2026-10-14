@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "train_episode_index": 0,
+  "train_frames": 331,
+  "train_episodes": 1,
+  "validation_episodes": 0,
+  "shape": [
+    32,
+    30,
+    52
+  ],
+  "time_padding_masked": true,
+  "unchanged_normalization_roundtrip": true,
+  "source": {
+    "path": "/media/external/bowenjing/projects/act_wuji/datasets_v21/pick_place/data/chunk-000/episode_000000.parquet",
+    "source": "/media/external/bowenjing/projects/dexterity_living/datasets/wuji_mcl350_v1/pick_place/episode_012001",
+    "frames": 331,
+    "original_frames": 331,
+    "numeric_sha256": "d17ca75b9316a69d61877e5f66a1a38029a81a52591d3572fb200a7dfd21ee63",
+    "image_sha256": "48cd6c5321e100432d9dfe22f1dd4785afd25afdffd3eb2c8957d3c2036393b5"
+  }
+}

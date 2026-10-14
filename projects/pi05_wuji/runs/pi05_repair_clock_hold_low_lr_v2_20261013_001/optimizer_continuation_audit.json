@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "source": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_full52_en_b8_20261013_001/checkpoints/10000",
+  "state_step": 10000,
+  "optimizer_counts": [
+    10000,
+    10000
+  ],
+  "source_metadata_unchanged": true,
+  "source_opened_read_only": true,
+  "all_arrays_on_8gpu_mesh": true,
+  "learning_rate": 1e-06
+}

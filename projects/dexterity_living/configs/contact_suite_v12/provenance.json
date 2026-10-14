@@ -1,0 +1,62 @@
+[
+  {
+    "file": "contact_tip_1.json",
+    "sha256": "46d62cc28f2540697f07b30a1c0d5f93fa72e1b8ed2e9a6f5704cd9196b19efe",
+    "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/contact_tip_1.json"
+  },
+  {
+    "file": "approach_tip_1.json",
+    "sha256": "aff8881b62b4ab4b95f7f7d31dd2cbd93a7e3f9b4416cea77cacc6bb67fccb70",
+    "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/approach_tip_1.json"
+  },
+  {
+    "file": "gesture_pose_centered_v11.json",
+    "sha256": "bf3ba75273245a9bea43439fb2f7d92b654f2181be0892f810d6493a34d14336",
+    "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/gesture_pose_centered_v11.json"
+  },
+  {
+    "file": "micro_tip_0.json",
+    "sha256": "8a34d4e6da68bdfd1a24d16d6e86742a8ca86b783534f9a1db0d6a8c6c236711",
+    "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/micro_tip_0.json"
+  },
+  {
+    "file": "micro_tip_1.json",
+    "sha256": "65745c38c8e9143607d2b4e35308fa803cb1270aa3cbd0b41376fad84c288127",
+    "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/micro_tip_1.json"
+  },
+  {
+    "file": "micro_tip_2.json",
+    "sha256": "753be943e3f9bb71828ceceabfaa47b13cc6b919eac13253b8b3fc4d808a02b1",
+    "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/micro_tip_2.json"
+  },
+  {
+    "file": "micro_approach_v11_0.json",
+    "sha256": "2a92d4c94b9c7edb98b262d9b2077fba0123efed8dcd5fd42cd40b61661e24fc",
+    "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/micro_approach_v11_0.json"
+  },
+  {
+    "file": "micro_approach_v11_1.json",
+    "sha256": "fa824152efb827b6c3574c3a4094b1b1d1b03c6de111325fe1c9761033020703",
+    "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/micro_approach_v11_1.json"
+  },
+  {
+    "file": "micro_approach_v11_2.json",
+    "sha256": "7ffa7654df6f32975b08df4204ecbfc9dd13f6080c75f5a8a0638ea8e87ef5ea",
+    "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/micro_approach_v11_2.json"
+  },
+  {
+    "file": "micro_close_v11_0.json",
+    "sha256": "84084ab411445b4ede08c20fecefbbf961dd1757f628d3033dabdd4018dff86c",
+    "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/micro_close_v11_0.json"
+  },
+  {
+    "file": "micro_close_v11_1.json",
+    "sha256": "8d47e9b1621ab7cbc760e40f6df00956dc03da0052b59c5ddacf75eac81bb9e7",
+    "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/micro_close_v11_1.json"
+  },
+  {
+    "file": "micro_close_v11_2.json",
+    "sha256": "75198945be40fe7180db4bb6920f60a621bc81c6bc2e4d8ef3bd974a7b000e9c",
+    "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/micro_close_v11_2.json"
+  }
+]

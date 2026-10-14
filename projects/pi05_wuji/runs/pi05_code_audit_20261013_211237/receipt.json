@@ -1,0 +1,20 @@
+{
+  "pid": 982673,
+  "run": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_physics_profile32_pilot_20261013_214029",
+  "gpu_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "driver_pid": 982674,
+  "training_pid": 982673,
+  "training_run": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_physics_profile32_pilot_20261013_214029",
+  "evaluation_run": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_physics_profile32_dev_20261013_214029",
+  "started_at": 1791898960.8627493,
+  "experiment": "physics_profile32_pilot"
+}

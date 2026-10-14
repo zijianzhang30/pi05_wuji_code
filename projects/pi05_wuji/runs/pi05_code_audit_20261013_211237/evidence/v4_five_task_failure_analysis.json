@@ -1,0 +1,2502 @@
+{
+  "snapshot_beijing": "2026-10-13 23:19:28",
+  "evaluation_run": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_v4_step14000_eval50_20261013_225607",
+  "summary": {
+    "piano": {
+      "valid_episodes": 12,
+      "failure_reasons": {
+        "contact_gate": 9,
+        "wrong_note_sequence": 3
+      },
+      "mean_frames": 39.166666666666664,
+      "mean_endpoint_to_observed_arm_rad": 0.03793762493132043,
+      "force_over5N": 9,
+      "note_events": [
+        [
+          5
+        ],
+        [
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5
+        ],
+        [
+          5
+        ],
+        [
+          7
+        ],
+        [
+          5
+        ],
+        [
+          5
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          4
+        ]
+      ]
+    },
+    "microwave_open": {
+      "valid_episodes": 13,
+      "failure_reasons": {
+        "contact_gate": 13
+      },
+      "mean_frames": 30.23076923076923,
+      "mean_endpoint_to_observed_arm_rad": 0.013886875139548073,
+      "episodes_with_four_finger_streak_ge5": 0,
+      "max_door_angle_deg": 0.08386330306529999,
+      "max_body_force_N": 0.0,
+      "max_table_force_N": 0.0
+    },
+    "pick_place": {
+      "valid_episodes": 12,
+      "failure_reasons": {
+        "time_limit": 12
+      },
+      "mean_frames": 450.0,
+      "mean_endpoint_to_observed_arm_rad": 0.026973365789029192,
+      "episodes_ever_contacted_object": 0,
+      "episodes_reached_lift_threshold": 0,
+      "mean_final_xy_distance_to_goal_m": 0.30009936067318294
+    },
+    "stack": {
+      "valid_episodes": 12,
+      "failure_reasons": {
+        "time_limit": 12
+      },
+      "mean_frames": 540.0,
+      "mean_endpoint_to_observed_arm_rad": 0.02163568906027819,
+      "episodes_ever_contacted_object": 0,
+      "episodes_reached_lift_threshold": 0,
+      "mean_final_xy_distance_to_goal_m": 0.30009936067318294
+    },
+    "produce_sort": {
+      "valid_episodes": 10,
+      "failure_reasons": {
+        "time_limit": 10
+      },
+      "mean_frames": 1200.0,
+      "mean_endpoint_to_observed_arm_rad": 0.021539992079368468,
+      "max_food_force_N": 0.0,
+      "max_xy_displacement_m": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "details": {
+    "piano": [
+      {
+        "seed": 910001,
+        "frames": 32,
+        "reason": "contact_gate",
+        "max_penetration_m": 0.0006929063238203526,
+        "mean_endpoint_to_observed_arm_rad": 0.040072536163885765,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_piano_910001_h30_a1",
+        "last_control_metrics": {
+          "frame": 31,
+          "t": 1.0666666666666667,
+          "contact_penetration_m": 0.0006929063238203526,
+          "key_contact_N": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            228.0304718017578,
+            0.0,
+            0.0
+          ],
+          "key_travel_m": [
+            2.392232900660929e-07,
+            1.7293394094508585e-06,
+            1.7293394094508585e-06,
+            1.7293394094508585e-06,
+            4.929384594021258e-05,
+            0.002999783366966824,
+            1.7198811730345653e-06,
+            1.9670337486843437e-05
+          ],
+          "events": [
+            5
+          ]
+        },
+        "events": [
+          5
+        ],
+        "max_key_force_N": 228.0304718017578,
+        "max_key_travel_m": 0.002999783366966824,
+        "force_over5N_any": true
+      },
+      {
+        "seed": 910002,
+        "frames": 32,
+        "reason": "contact_gate",
+        "max_penetration_m": 1.3969838619232178e-09,
+        "mean_endpoint_to_observed_arm_rad": 0.044446697510769205,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_piano_910002_h30_a1",
+        "last_control_metrics": {
+          "frame": 31,
+          "t": 1.0666666666666667,
+          "contact_penetration_m": 1.3969838619232178e-09,
+          "key_contact_N": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            5.488448143005371,
+            2.1319451332092285,
+            0.0,
+            0.0
+          ],
+          "key_travel_m": [
+            2.392232900660929e-07,
+            1.7293394094508585e-06,
+            1.7293394094508585e-06,
+            1.7293394094508585e-06,
+            0.0003027327955251735,
+            0.0016879447401052516,
+            1.7198811730345653e-06,
+            1.9670337486843437e-05
+          ],
+          "events": [
+            5
+          ]
+        },
+        "events": [
+          5
+        ],
+        "max_key_force_N": 5.488448143005371,
+        "max_key_travel_m": 0.0016879447401052516,
+        "force_over5N_any": true
+      },
+      {
+        "seed": 910003,
+        "frames": 33,
+        "reason": "contact_gate",
+        "max_penetration_m": 0.00043390272185206413,
+        "mean_endpoint_to_observed_arm_rad": 0.039001046293626794,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_piano_910003_h30_a1",
+        "last_control_metrics": {
+          "frame": 32,
+          "t": 1.1,
+          "contact_penetration_m": 0.00043390272185206413,
+          "key_contact_N": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            4.483425140380859,
+            188.89859008789062,
+            0.0,
+            0.0
+          ],
+          "key_travel_m": [
+            2.392232900660929e-07,
+            1.7293394094508585e-06,
+            1.7293394094508585e-06,
+            1.7293394094508585e-06,
+            0.0020783551633840602,
+            0.0029999025762563747,
+            1.7198811730345653e-06,
+            1.9670337486843437e-05
+          ],
+          "events": [
+            4,
+            5
+          ]
+        },
+        "events": [
+          4,
+          5
+        ],
+        "max_key_force_N": 188.89859008789062,
+        "max_key_travel_m": 0.0029999025762563747,
+        "force_over5N_any": true
+      },
+      {
+        "seed": 910004,
+        "frames": 33,
+        "reason": "contact_gate",
+        "max_penetration_m": 6.374264194164425e-05,
+        "mean_endpoint_to_observed_arm_rad": 0.037887390438970554,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_piano_910004_h30_a1",
+        "last_control_metrics": {
+          "frame": 32,
+          "t": 1.1,
+          "contact_penetration_m": 6.374264194164425e-05,
+          "key_contact_N": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            176.66493225097656,
+            0.0,
+            0.0
+          ],
+          "key_travel_m": [
+            2.392232900660929e-07,
+            1.7293394094508585e-06,
+            1.7293394094508585e-06,
+            1.7293394094508585e-06,
+            1.7293394094508585e-06,
+            0.00299996218090115,
+            1.7198811730345653e-06,
+            1.9670337486843437e-05
+          ],
+          "events": [
+            5
+          ]
+        },
+        "events": [
+          5
+        ],
+        "max_key_force_N": 176.66493225097656,
+        "max_key_travel_m": 0.00299996218090115,
+        "force_over5N_any": true
+      },
+      {
+        "seed": 910005,
+        "frames": 35,
+        "reason": "contact_gate",
+        "max_penetration_m": 9.552374831400812e-05,
+        "mean_endpoint_to_observed_arm_rad": 0.03578967439631621,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_piano_910005_h30_a1",
+        "last_control_metrics": {
+          "frame": 34,
+          "t": 1.1666666666666667,
+          "contact_penetration_m": 9.552374831400812e-05,
+          "key_contact_N": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            197.4620361328125,
+            0.0,
+            0.0
+          ],
+          "key_travel_m": [
+            2.392232900660929e-07,
+            1.7293394094508585e-06,
+            1.7293394094508585e-06,
+            1.7293394094508585e-06,
+            1.7293394094508585e-06,
+            0.002999783366966824,
+            1.7198811730345653e-06,
+            1.9670337486843437e-05
+          ],
+          "events": [
+            5
+          ]
+        },
+        "events": [
+          5
+        ],
+        "max_key_force_N": 197.4620361328125,
+        "max_key_travel_m": 0.002999783366966824,
+        "force_over5N_any": true
+      },
+      {
+        "seed": 910006,
+        "frames": 108,
+        "reason": "wrong_note_sequence",
+        "max_penetration_m": 1.8496066331863403e-05,
+        "mean_endpoint_to_observed_arm_rad": 0.03114801121392017,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_piano_910006_h30_a1",
+        "last_control_metrics": {
+          "frame": 107,
+          "t": 3.6,
+          "contact_penetration_m": 1.8496066331863403e-05,
+          "key_contact_N": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.7806576490402222
+          ],
+          "key_travel_m": [
+            2.392232900660929e-07,
+            1.7293394094508585e-06,
+            1.7293394094508585e-06,
+            1.7293394094508585e-06,
+            1.7293394094508585e-06,
+            1.7293394094508585e-06,
+            1.7198811730345653e-06,
+            0.001304388850975613
+          ],
+          "events": [
+            7
+          ]
+        },
+        "events": [
+          7
+        ],
+        "max_key_force_N": 0.7806576490402222,
+        "max_key_travel_m": 0.001304388850975613,
+        "force_over5N_any": false
+      },
+      {
+        "seed": 910007,
+        "frames": 33,
+        "reason": "contact_gate",
+        "max_penetration_m": 8.477010851493105e-05,
+        "mean_endpoint_to_observed_arm_rad": 0.04133727479810742,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_piano_910007_h30_a1",
+        "last_control_metrics": {
+          "frame": 32,
+          "t": 1.1,
+          "contact_penetration_m": 8.477010851493105e-05,
+          "key_contact_N": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            128.06893920898438,
+            0.0,
+            0.0
+          ],
+          "key_travel_m": [
+            2.392232900660929e-07,
+            1.7293394094508585e-06,
+            1.7293394094508585e-06,
+            1.7293394094508585e-06,
+            1.7293394094508585e-06,
+            0.002999783366966824,
+            2.911974068542378e-06,
+            1.9670337486843437e-05
+          ],
+          "events": [
+            5
+          ]
+        },
+        "events": [
+          5
+        ],
+        "max_key_force_N": 128.06893920898438,
+        "max_key_travel_m": 0.002999783366966824,
+        "force_over5N_any": true
+      },
+      {
+        "seed": 910008,
+        "frames": 29,
+        "reason": "contact_gate",
+        "max_penetration_m": 1.6086269170045853e-05,
+        "mean_endpoint_to_observed_arm_rad": 0.04061658456372953,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_piano_910008_h30_a1",
+        "last_control_metrics": {
+          "frame": 28,
+          "t": 0.9666666666666667,
+          "contact_penetration_m": 1.2985896319150925e-05,
+          "key_contact_N": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            27.805147171020508,
+            0.0,
+            0.0
+          ],
+          "key_travel_m": [
+            2.392232900660929e-07,
+            1.7293394094508585e-06,
+            1.7293394094508585e-06,
+            1.7293394094508585e-06,
+            1.7293394094508585e-06,
+            0.002925337165642361,
+            1.7198811730345653e-06,
+            1.9670337486843437e-05
+          ],
+          "events": [
+            5
+          ]
+        },
+        "events": [
+          5
+        ],
+        "max_key_force_N": 27.805147171020508,
+        "max_key_travel_m": 0.002925337165642361,
+        "force_over5N_any": true
+      },
+      {
+        "seed": 910009,
+        "frames": 34,
+        "reason": "wrong_note_sequence",
+        "max_penetration_m": 2.0390376448631287e-05,
+        "mean_endpoint_to_observed_arm_rad": 0.0363145639923602,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_piano_910009_h30_a1",
+        "last_control_metrics": {
+          "frame": 33,
+          "t": 1.1333333333333333,
+          "contact_penetration_m": 2.0390376448631287e-05,
+          "key_contact_N": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.9086774587631226,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "key_travel_m": [
+            2.392232900660929e-07,
+            1.7293394094508585e-06,
+            1.7293394094508585e-06,
+            1.7293394094508585e-06,
+            0.00118261656169949,
+            1.7293394094508585e-06,
+            1.7198811730345653e-06,
+            1.9670337486843437e-05
+          ],
+          "events": [
+            4
+          ]
+        },
+        "events": [
+          4
+        ],
+        "max_key_force_N": 0.9086774587631226,
+        "max_key_travel_m": 0.00118261656169949,
+        "force_over5N_any": false
+      },
+      {
+        "seed": 910010,
+        "frames": 33,
+        "reason": "contact_gate",
+        "max_penetration_m": 0.00015105586498975754,
+        "mean_endpoint_to_observed_arm_rad": 0.03620091327930556,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_piano_910010_h30_a1",
+        "last_control_metrics": {
+          "frame": 32,
+          "t": 1.1,
+          "contact_penetration_m": 0.00015105586498975754,
+          "key_contact_N": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            153.3735809326172,
+            0.0,
+            0.0
+          ],
+          "key_travel_m": [
+            2.392232900660929e-07,
+            1.7293394094508585e-06,
+            1.7293394094508585e-06,
+            1.7293394094508585e-06,
+            3.0101150322536796e-05,
+            0.002999783366966824,
+            1.7198811730345653e-06,
+            1.9670337486843437e-05
+          ],
+          "events": [
+            5
+          ]
+        },
+        "events": [
+          5
+        ],
+        "max_key_force_N": 153.3735809326172,
+        "max_key_travel_m": 0.002999783366966824,
+        "force_over5N_any": true
+      },
+      {
+        "seed": 910011,
+        "frames": 36,
+        "reason": "wrong_note_sequence",
+        "max_penetration_m": 2.975575625896454e-05,
+        "mean_endpoint_to_observed_arm_rad": 0.03230247846632092,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_piano_910011_h30_a1",
+        "last_control_metrics": {
+          "frame": 35,
+          "t": 1.2,
+          "contact_penetration_m": 2.975575625896454e-05,
+          "key_contact_N": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.9189332723617554,
+            0.9602914452552795,
+            0.0
+          ],
+          "key_travel_m": [
+            2.392232900660929e-07,
+            1.7293394094508585e-06,
+            1.7293394094508585e-06,
+            1.7293394094508585e-06,
+            1.7293394094508585e-06,
+            0.0012255319059377712,
+            0.0019299897443016967,
+            1.9670337486843437e-05
+          ],
+          "events": [
+            5,
+            6
+          ]
+        },
+        "events": [
+          5,
+          6
+        ],
+        "max_key_force_N": 0.9602914452552795,
+        "max_key_travel_m": 0.0019299897443016967,
+        "force_over5N_any": false
+      },
+      {
+        "seed": 910012,
+        "frames": 32,
+        "reason": "contact_gate",
+        "max_penetration_m": 0.0003060312010347843,
+        "mean_endpoint_to_observed_arm_rad": 0.04013432805853275,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_piano_910012_h30_a1",
+        "last_control_metrics": {
+          "frame": 31,
+          "t": 1.0666666666666667,
+          "contact_penetration_m": 0.0003060312010347843,
+          "key_contact_N": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            214.35743713378906,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "key_travel_m": [
+            2.392232900660929e-07,
+            1.7293394094508585e-06,
+            1.7293394094508585e-06,
+            1.7293394094508585e-06,
+            0.0029999025762563747,
+            1.7293394094508585e-06,
+            1.7198811730345653e-06,
+            1.9670337486843437e-05
+          ],
+          "events": [
+            4
+          ]
+        },
+        "events": [
+          4
+        ],
+        "max_key_force_N": 214.35743713378906,
+        "max_key_travel_m": 0.0029999025762563747,
+        "force_over5N_any": true
+      }
+    ],
+    "microwave_open": [
+      {
+        "seed": 910001,
+        "frames": 17,
+        "reason": "contact_gate",
+        "max_penetration_m": 7.227064884318679e-07,
+        "mean_endpoint_to_observed_arm_rad": 0.013122303813111549,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_microwave_open_910001_h30_a1",
+        "last_control_metrics": {
+          "frame": 16,
+          "t": 0.5666666666666667,
+          "contact_penetration_m": 5.504121531885176e-07,
+          "door_angle_deg": -1.3798945097676096e-08,
+          "door_velocity": -2.1191226551309228e-10,
+          "four_finger_forces_N": [
+            25.572839736938477,
+            3.596825122833252,
+            10.718175888061523,
+            3.040316581726074
+          ],
+          "four_finger_max_streak": 1,
+          "body_force_N": 0.0,
+          "table_force_N": 0.0
+        },
+        "max_door_angle_deg": 0.08386330306529999,
+        "max_four_finger_streak": 1,
+        "max_body_force_N": 0.0,
+        "max_table_force_N": 0.0
+      },
+      {
+        "seed": 910002,
+        "frames": 31,
+        "reason": "contact_gate",
+        "max_penetration_m": 7.211925208139291e-07,
+        "mean_endpoint_to_observed_arm_rad": 0.01356921144711074,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_microwave_open_910002_h30_a1",
+        "last_control_metrics": {
+          "frame": 30,
+          "t": 1.0333333333333334,
+          "contact_penetration_m": 4.288747561531636e-07,
+          "door_angle_deg": -6.3667151550816925e-09,
+          "door_velocity": -3.143441063002683e-10,
+          "four_finger_forces_N": [
+            14.856093406677246,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "four_finger_max_streak": 0,
+          "body_force_N": 0.0,
+          "table_force_N": 0.0
+        },
+        "max_door_angle_deg": 0.08386330306529999,
+        "max_four_finger_streak": 0,
+        "max_body_force_N": 0.0,
+        "max_table_force_N": 0.0
+      },
+      {
+        "seed": 910003,
+        "frames": 30,
+        "reason": "contact_gate",
+        "max_penetration_m": 4.0442682802677155e-05,
+        "mean_endpoint_to_observed_arm_rad": 0.012528901629977756,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_microwave_open_910003_h30_a1",
+        "last_control_metrics": {
+          "frame": 29,
+          "t": 1.0,
+          "contact_penetration_m": 4.0442682802677155e-05,
+          "door_angle_deg": 0.0010993428295478225,
+          "door_velocity": -0.005597592331469059,
+          "four_finger_forces_N": [
+            0.0,
+            -2.494717234686672,
+            -0.35000901503488707,
+            -0.03232609486647486
+          ],
+          "four_finger_max_streak": 0,
+          "body_force_N": 0.0,
+          "table_force_N": 0.0
+        },
+        "max_door_angle_deg": 0.08386330306529999,
+        "max_four_finger_streak": 0,
+        "max_body_force_N": 0.0,
+        "max_table_force_N": 0.0
+      },
+      {
+        "seed": 910004,
+        "frames": 32,
+        "reason": "contact_gate",
+        "max_penetration_m": 6.221234798431396e-07,
+        "mean_endpoint_to_observed_arm_rad": 0.014609304492672287,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_microwave_open_910004_h30_a1",
+        "last_control_metrics": {
+          "frame": 31,
+          "t": 1.0666666666666667,
+          "contact_penetration_m": 6.221234798431396e-07,
+          "door_angle_deg": -4.347758775224975e-08,
+          "door_velocity": -4.148205334786326e-08,
+          "four_finger_forces_N": [
+            21.25806999206542,
+            3.7265474796295166,
+            2.942711353302002,
+            0.0
+          ],
+          "four_finger_max_streak": 0,
+          "body_force_N": 0.0,
+          "table_force_N": 0.0
+        },
+        "max_door_angle_deg": 0.08386330306529999,
+        "max_four_finger_streak": 0,
+        "max_body_force_N": 0.0,
+        "max_table_force_N": 0.0
+      },
+      {
+        "seed": 910005,
+        "frames": 32,
+        "reason": "contact_gate",
+        "max_penetration_m": 8.763745427131653e-07,
+        "mean_endpoint_to_observed_arm_rad": 0.01566229556997617,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_microwave_open_910005_h30_a1",
+        "last_control_metrics": {
+          "frame": 31,
+          "t": 1.0666666666666667,
+          "contact_penetration_m": 8.763745427131653e-07,
+          "door_angle_deg": -8.790163263938666e-09,
+          "door_velocity": 0.0018955920822918415,
+          "four_finger_forces_N": [
+            16.033986091613766,
+            5.077860355377197,
+            3.99607515335083,
+            0.0
+          ],
+          "four_finger_max_streak": 0,
+          "body_force_N": 0.0,
+          "table_force_N": 0.0
+        },
+        "max_door_angle_deg": 0.08386330306529999,
+        "max_four_finger_streak": 0,
+        "max_body_force_N": 0.0,
+        "max_table_force_N": 0.0
+      },
+      {
+        "seed": 910006,
+        "frames": 30,
+        "reason": "contact_gate",
+        "max_penetration_m": 5.003204569220543e-05,
+        "mean_endpoint_to_observed_arm_rad": 0.012043177048365276,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_microwave_open_910006_h30_a1",
+        "last_control_metrics": {
+          "frame": 29,
+          "t": 1.0,
+          "contact_penetration_m": 5.003204569220543e-05,
+          "door_angle_deg": 3.9243708283009937e-10,
+          "door_velocity": -1.5870682545937598e-10,
+          "four_finger_forces_N": [
+            -1.2401067018405965,
+            -3.7148921489212827,
+            0.0,
+            -0.4283903241106913
+          ],
+          "four_finger_max_streak": 0,
+          "body_force_N": 0.0,
+          "table_force_N": 0.0
+        },
+        "max_door_angle_deg": 0.08386330306529999,
+        "max_four_finger_streak": 0,
+        "max_body_force_N": 0.0,
+        "max_table_force_N": 0.0
+      },
+      {
+        "seed": 910007,
+        "frames": 31,
+        "reason": "contact_gate",
+        "max_penetration_m": 9.064100936484465e-07,
+        "mean_endpoint_to_observed_arm_rad": 0.01322024212088636,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_microwave_open_910007_h30_a1",
+        "last_control_metrics": {
+          "frame": 30,
+          "t": 1.0333333333333334,
+          "contact_penetration_m": 1.9685846552874864e-07,
+          "door_angle_deg": -2.150792788313538e-08,
+          "door_velocity": -4.893081495538354e-10,
+          "four_finger_forces_N": [
+            5.881864547729487,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "four_finger_max_streak": 0,
+          "body_force_N": 0.0,
+          "table_force_N": 0.0
+        },
+        "max_door_angle_deg": 0.08386330306529999,
+        "max_four_finger_streak": 0,
+        "max_body_force_N": 0.0,
+        "max_table_force_N": 0.0
+      },
+      {
+        "seed": 910008,
+        "frames": 32,
+        "reason": "contact_gate",
+        "max_penetration_m": 7.087363087521226e-07,
+        "mean_endpoint_to_observed_arm_rad": 0.012665483405192695,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_microwave_open_910008_h30_a1",
+        "last_control_metrics": {
+          "frame": 31,
+          "t": 1.0666666666666667,
+          "contact_penetration_m": 5.548320132220397e-07,
+          "door_angle_deg": -2.9412381863380688e-08,
+          "door_velocity": -8.139977580867708e-10,
+          "four_finger_forces_N": [
+            24.718334197998043,
+            3.025458812713623,
+            0.0,
+            0.0
+          ],
+          "four_finger_max_streak": 0,
+          "body_force_N": 0.0,
+          "table_force_N": 0.0
+        },
+        "max_door_angle_deg": 0.08386330306529999,
+        "max_four_finger_streak": 0,
+        "max_body_force_N": 0.0,
+        "max_table_force_N": 0.0
+      },
+      {
+        "seed": 910009,
+        "frames": 32,
+        "reason": "contact_gate",
+        "max_penetration_m": 6.034970283508301e-07,
+        "mean_endpoint_to_observed_arm_rad": 0.015862324411670365,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_microwave_open_910009_h30_a1",
+        "last_control_metrics": {
+          "frame": 31,
+          "t": 1.0666666666666667,
+          "contact_penetration_m": 6.034970283508301e-07,
+          "door_angle_deg": -6.4665970356259095e-09,
+          "door_velocity": 0.011027075350284576,
+          "four_finger_forces_N": [
+            14.631390571594237,
+            5.843268394470215,
+            4.834234714508057,
+            0.0
+          ],
+          "four_finger_max_streak": 0,
+          "body_force_N": 0.0,
+          "table_force_N": 0.0
+        },
+        "max_door_angle_deg": 0.08386330306529999,
+        "max_four_finger_streak": 0,
+        "max_body_force_N": 0.0,
+        "max_table_force_N": 0.0
+      },
+      {
+        "seed": 910010,
+        "frames": 31,
+        "reason": "contact_gate",
+        "max_penetration_m": 5.388881163526094e-07,
+        "mean_endpoint_to_observed_arm_rad": 0.014378516545859714,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_microwave_open_910010_h30_a1",
+        "last_control_metrics": {
+          "frame": 30,
+          "t": 1.0333333333333334,
+          "contact_penetration_m": 3.0873349032845e-07,
+          "door_angle_deg": -1.3518414165858417e-09,
+          "door_velocity": 0.0028423708863556385,
+          "four_finger_forces_N": [
+            6.082205772399902,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "four_finger_max_streak": 0,
+          "body_force_N": 0.0,
+          "table_force_N": 0.0
+        },
+        "max_door_angle_deg": 0.08386330306529999,
+        "max_four_finger_streak": 0,
+        "max_body_force_N": 0.0,
+        "max_table_force_N": 0.0
+      },
+      {
+        "seed": 910011,
+        "frames": 32,
+        "reason": "contact_gate",
+        "max_penetration_m": 2.114381641149521e-05,
+        "mean_endpoint_to_observed_arm_rad": 0.01476952721675237,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_microwave_open_910011_h30_a1",
+        "last_control_metrics": {
+          "frame": 31,
+          "t": 1.0666666666666667,
+          "contact_penetration_m": 4.186294972896576e-07,
+          "door_angle_deg": -5.087140930726264e-09,
+          "door_velocity": -3.1513991416431963e-09,
+          "four_finger_forces_N": [
+            7.656355381011792,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "four_finger_max_streak": 0,
+          "body_force_N": 0.0,
+          "table_force_N": 0.0
+        },
+        "max_door_angle_deg": 0.08386330306529999,
+        "max_four_finger_streak": 0,
+        "max_body_force_N": 0.0,
+        "max_table_force_N": 0.0
+      },
+      {
+        "seed": 910012,
+        "frames": 31,
+        "reason": "contact_gate",
+        "max_penetration_m": 7.67875462770462e-07,
+        "mean_endpoint_to_observed_arm_rad": 0.013518625536272602,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_microwave_open_910012_h30_a1",
+        "last_control_metrics": {
+          "frame": 30,
+          "t": 1.0333333333333334,
+          "contact_penetration_m": 5.327165126800537e-07,
+          "door_angle_deg": -1.4466617237474111e-08,
+          "door_velocity": 0.004018651321530342,
+          "four_finger_forces_N": [
+            21.649768829345703,
+            3.4468839168548584,
+            4.438498497009277,
+            1.1617939472198486
+          ],
+          "four_finger_max_streak": 1,
+          "body_force_N": 0.0,
+          "table_force_N": 0.0
+        },
+        "max_door_angle_deg": 0.08386330306529999,
+        "max_four_finger_streak": 1,
+        "max_body_force_N": 0.0,
+        "max_table_force_N": 0.0
+      },
+      {
+        "seed": 910013,
+        "frames": 32,
+        "reason": "contact_gate",
+        "max_penetration_m": 4.0605664253234863e-07,
+        "mean_endpoint_to_observed_arm_rad": 0.014579463576277098,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_microwave_open_910013_h30_a1",
+        "last_control_metrics": {
+          "frame": 31,
+          "t": 1.0666666666666667,
+          "contact_penetration_m": 4.0605664253234863e-07,
+          "door_angle_deg": -2.250191855068806e-08,
+          "door_velocity": 0.0026545387227088213,
+          "four_finger_forces_N": [
+            15.367266654968255,
+            5.0173163414001465,
+            3.997148782014847,
+            0.0
+          ],
+          "four_finger_max_streak": 0,
+          "body_force_N": 0.0,
+          "table_force_N": 0.0
+        },
+        "max_door_angle_deg": 0.08386330306529999,
+        "max_four_finger_streak": 0,
+        "max_body_force_N": 0.0,
+        "max_table_force_N": 0.0
+      }
+    ],
+    "pick_place": [
+      {
+        "seed": 910001,
+        "frames": 450,
+        "reason": "time_limit",
+        "max_penetration_m": 0.0,
+        "mean_endpoint_to_observed_arm_rad": 0.0270805828970055,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_pick_place_910001_h30_a1",
+        "last_control_metrics": {
+          "frame": 449,
+          "t": 15.0,
+          "contact_penetration_m": 0.0,
+          "object_pose": [
+            -1.872713565826416,
+            -3.4959869384765625,
+            0.7053002119064331
+          ],
+          "object_velocity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "object_contact_N": 0.0,
+          "table_contact_N": 0.0,
+          "max_object_z_m": 0.7053002119064331
+        },
+        "max_object_force_N": 0.0,
+        "max_table_force_N": 0.0,
+        "max_object_z_m": 0.7053002119064331,
+        "final_xy_distance_to_goal_m": 0.29742303075194076,
+        "max_xy_displacement_m": 0.0
+      },
+      {
+        "seed": 910002,
+        "frames": 450,
+        "reason": "time_limit",
+        "max_penetration_m": 0.0,
+        "mean_endpoint_to_observed_arm_rad": 0.027142923284466894,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_pick_place_910002_h30_a1",
+        "last_control_metrics": {
+          "frame": 449,
+          "t": 15.0,
+          "contact_penetration_m": 0.0,
+          "object_pose": [
+            -1.8693026304244995,
+            -3.495999574661255,
+            0.7053002119064331
+          ],
+          "object_velocity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "object_contact_N": 0.0,
+          "table_contact_N": 0.0,
+          "max_object_z_m": 0.7053002119064331
+        },
+        "max_object_force_N": 0.0,
+        "max_table_force_N": 0.0,
+        "max_object_z_m": 0.7053002119064331,
+        "final_xy_distance_to_goal_m": 0.3008320390615059,
+        "max_xy_displacement_m": 0.0
+      },
+      {
+        "seed": 910003,
+        "frames": 450,
+        "reason": "time_limit",
+        "max_penetration_m": 0.0,
+        "mean_endpoint_to_observed_arm_rad": 0.02650030189196745,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_pick_place_910003_h30_a1",
+        "last_control_metrics": {
+          "frame": 449,
+          "t": 15.0,
+          "contact_penetration_m": 0.0,
+          "object_pose": [
+            -1.8691514730453491,
+            -3.4945662021636963,
+            0.7053001523017883
+          ],
+          "object_velocity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "object_contact_N": 0.0,
+          "table_contact_N": 0.0,
+          "max_object_z_m": 0.7053001523017883
+        },
+        "max_object_force_N": 0.0,
+        "max_table_force_N": 0.0,
+        "max_object_z_m": 0.7053001523017883,
+        "final_xy_distance_to_goal_m": 0.3010294010691848,
+        "max_xy_displacement_m": 0.0
+      },
+      {
+        "seed": 910004,
+        "frames": 450,
+        "reason": "time_limit",
+        "max_penetration_m": 0.0,
+        "mean_endpoint_to_observed_arm_rad": 0.027019255383357973,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_pick_place_910004_h30_a1",
+        "last_control_metrics": {
+          "frame": 449,
+          "t": 15.0,
+          "contact_penetration_m": 0.0,
+          "object_pose": [
+            -1.8679534196853638,
+            -3.4961624145507812,
+            0.7053002119064331
+          ],
+          "object_velocity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "object_contact_N": 0.0,
+          "table_contact_N": 0.0,
+          "max_object_z_m": 0.7053002119064331
+        },
+        "max_object_force_N": 0.0,
+        "max_table_force_N": 0.0,
+        "max_object_z_m": 0.7053002119064331,
+        "final_xy_distance_to_goal_m": 0.3021758421785868,
+        "max_xy_displacement_m": 0.0
+      },
+      {
+        "seed": 910005,
+        "frames": 450,
+        "reason": "time_limit",
+        "max_penetration_m": 0.0,
+        "mean_endpoint_to_observed_arm_rad": 0.026682225960086497,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_pick_place_910005_h30_a1",
+        "last_control_metrics": {
+          "frame": 449,
+          "t": 15.0,
+          "contact_penetration_m": 0.0,
+          "object_pose": [
+            -1.8679907321929932,
+            -3.4945085048675537,
+            0.7053001523017883
+          ],
+          "object_velocity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "object_contact_N": 0.0,
+          "table_contact_N": 0.0,
+          "max_object_z_m": 0.7053001523017883
+        },
+        "max_object_force_N": 0.0,
+        "max_table_force_N": 0.0,
+        "max_object_z_m": 0.7053001523017883,
+        "final_xy_distance_to_goal_m": 0.3021914448018648,
+        "max_xy_displacement_m": 0.0
+      },
+      {
+        "seed": 910006,
+        "frames": 450,
+        "reason": "time_limit",
+        "max_penetration_m": 0.0,
+        "mean_endpoint_to_observed_arm_rad": 0.025649482855818306,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_pick_place_910006_h30_a1",
+        "last_control_metrics": {
+          "frame": 449,
+          "t": 15.0,
+          "contact_penetration_m": 0.0,
+          "object_pose": [
+            -1.8722655773162842,
+            -3.493040084838867,
+            0.7053001523017883
+          ],
+          "object_velocity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "object_contact_N": 0.0,
+          "table_contact_N": 0.0,
+          "max_object_z_m": 0.7053001523017883
+        },
+        "max_object_force_N": 0.0,
+        "max_table_force_N": 0.0,
+        "max_object_z_m": 0.7053001523017883,
+        "final_xy_distance_to_goal_m": 0.29797453921680456,
+        "max_xy_displacement_m": 0.0
+      },
+      {
+        "seed": 910007,
+        "frames": 450,
+        "reason": "time_limit",
+        "max_penetration_m": 0.0,
+        "mean_endpoint_to_observed_arm_rad": 0.027402808476295927,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_pick_place_910007_h30_a1",
+        "last_control_metrics": {
+          "frame": 449,
+          "t": 15.0,
+          "contact_penetration_m": 0.0,
+          "object_pose": [
+            -1.868760347366333,
+            -3.4962730407714844,
+            0.7053002119064331
+          ],
+          "object_velocity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "object_contact_N": 0.0,
+          "table_contact_N": 0.0,
+          "max_object_z_m": 0.7053002119064331
+        },
+        "max_object_force_N": 0.0,
+        "max_table_force_N": 0.0,
+        "max_object_z_m": 0.7053002119064331,
+        "final_xy_distance_to_goal_m": 0.30136603679948487,
+        "max_xy_displacement_m": 0.0
+      },
+      {
+        "seed": 910008,
+        "frames": 450,
+        "reason": "time_limit",
+        "max_penetration_m": 0.0,
+        "mean_endpoint_to_observed_arm_rad": 0.027443159648424222,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_pick_place_910008_h30_a1",
+        "last_control_metrics": {
+          "frame": 449,
+          "t": 15.0,
+          "contact_penetration_m": 0.0,
+          "object_pose": [
+            -1.871284008026123,
+            -3.4969682693481445,
+            0.7053000926971436
+          ],
+          "object_velocity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "object_contact_N": 0.0,
+          "table_contact_N": 0.0,
+          "max_object_z_m": 0.7053000926971436
+        },
+        "max_object_force_N": 0.0,
+        "max_table_force_N": 0.0,
+        "max_object_z_m": 0.7053000926971436,
+        "final_xy_distance_to_goal_m": 0.2988239491041527,
+        "max_xy_displacement_m": 0.0
+      },
+      {
+        "seed": 910009,
+        "frames": 450,
+        "reason": "time_limit",
+        "max_penetration_m": 0.0,
+        "mean_endpoint_to_observed_arm_rad": 0.02820917883425727,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_pick_place_910009_h30_a1",
+        "last_control_metrics": {
+          "frame": 449,
+          "t": 15.0,
+          "contact_penetration_m": 0.0,
+          "object_pose": [
+            -1.8723533153533936,
+            -3.496091604232788,
+            0.7053001523017883
+          ],
+          "object_velocity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "object_contact_N": 0.0,
+          "table_contact_N": 0.0,
+          "max_object_z_m": 0.7053001523017883
+        },
+        "max_object_force_N": 0.0,
+        "max_table_force_N": 0.0,
+        "max_object_z_m": 0.7053001523017883,
+        "final_xy_distance_to_goal_m": 0.2977799664118821,
+        "max_xy_displacement_m": 0.0
+      },
+      {
+        "seed": 910010,
+        "frames": 450,
+        "reason": "time_limit",
+        "max_penetration_m": 0.0,
+        "mean_endpoint_to_observed_arm_rad": 0.026913704824013014,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_pick_place_910010_h30_a1",
+        "last_control_metrics": {
+          "frame": 449,
+          "t": 15.0,
+          "contact_penetration_m": 0.0,
+          "object_pose": [
+            -1.8688600063323975,
+            -3.4946799278259277,
+            0.7053001523017883
+          ],
+          "object_velocity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "object_contact_N": 0.0,
+          "table_contact_N": 0.0,
+          "max_object_z_m": 0.7053001523017883
+        },
+        "max_object_force_N": 0.0,
+        "max_table_force_N": 0.0,
+        "max_object_z_m": 0.7053001523017883,
+        "final_xy_distance_to_goal_m": 0.3013167762933251,
+        "max_xy_displacement_m": 0.0
+      },
+      {
+        "seed": 910011,
+        "frames": 450,
+        "reason": "time_limit",
+        "max_penetration_m": 0.0,
+        "mean_endpoint_to_observed_arm_rad": 0.026652989623790466,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_pick_place_910011_h30_a1",
+        "last_control_metrics": {
+          "frame": 449,
+          "t": 15.0,
+          "contact_penetration_m": 0.0,
+          "object_pose": [
+            -1.8723111152648926,
+            -3.493473768234253,
+            0.7053001523017883
+          ],
+          "object_velocity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "object_contact_N": 0.0,
+          "table_contact_N": 0.0,
+          "max_object_z_m": 0.7053001523017883
+        },
+        "max_object_force_N": 0.0,
+        "max_table_force_N": 0.0,
+        "max_object_z_m": 0.7053001523017883,
+        "final_xy_distance_to_goal_m": 0.2979119435563968,
+        "max_xy_displacement_m": 0.0
+      },
+      {
+        "seed": 910012,
+        "frames": 450,
+        "reason": "time_limit",
+        "max_penetration_m": 0.0,
+        "mean_endpoint_to_observed_arm_rad": 0.026983775788866775,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_pick_place_910012_h30_a1",
+        "last_control_metrics": {
+          "frame": 449,
+          "t": 15.0,
+          "contact_penetration_m": 0.0,
+          "object_pose": [
+            -1.8677281141281128,
+            -3.4974021911621094,
+            0.7053002119064331
+          ],
+          "object_velocity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "object_contact_N": 0.0,
+          "table_contact_N": 0.0,
+          "max_object_z_m": 0.7053002119064331
+        },
+        "max_object_force_N": 0.0,
+        "max_table_force_N": 0.0,
+        "max_object_z_m": 0.7053002119064331,
+        "final_xy_distance_to_goal_m": 0.3023673588330663,
+        "max_xy_displacement_m": 0.0
+      }
+    ],
+    "stack": [
+      {
+        "seed": 910001,
+        "frames": 540,
+        "reason": "time_limit",
+        "max_penetration_m": 0.0,
+        "mean_endpoint_to_observed_arm_rad": 0.021794590673810028,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_stack_910001_h30_a1",
+        "last_control_metrics": {
+          "frame": 539,
+          "t": 18.0,
+          "contact_penetration_m": 0.0,
+          "object_pose": [
+            -1.872713565826416,
+            -3.4959869384765625,
+            0.7053002119064331
+          ],
+          "object_velocity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "object_contact_N": 0.0,
+          "table_contact_N": 0.0,
+          "max_object_z_m": 0.7053002119064331
+        },
+        "max_object_force_N": 0.0,
+        "max_table_force_N": 0.0,
+        "max_object_z_m": 0.7053002119064331,
+        "final_xy_distance_to_goal_m": 0.29742303075194076,
+        "max_xy_displacement_m": 0.0
+      },
+      {
+        "seed": 910002,
+        "frames": 540,
+        "reason": "time_limit",
+        "max_penetration_m": 0.0,
+        "mean_endpoint_to_observed_arm_rad": 0.022416153928127718,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_stack_910002_h30_a1",
+        "last_control_metrics": {
+          "frame": 539,
+          "t": 18.0,
+          "contact_penetration_m": 0.0,
+          "object_pose": [
+            -1.8693026304244995,
+            -3.495999574661255,
+            0.7053002119064331
+          ],
+          "object_velocity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "object_contact_N": 0.0,
+          "table_contact_N": 0.0,
+          "max_object_z_m": 0.7053002119064331
+        },
+        "max_object_force_N": 0.0,
+        "max_table_force_N": 0.0,
+        "max_object_z_m": 0.7053002119064331,
+        "final_xy_distance_to_goal_m": 0.3008320390615059,
+        "max_xy_displacement_m": 0.0
+      },
+      {
+        "seed": 910003,
+        "frames": 540,
+        "reason": "time_limit",
+        "max_penetration_m": 0.0,
+        "mean_endpoint_to_observed_arm_rad": 0.02160729186864064,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_stack_910003_h30_a1",
+        "last_control_metrics": {
+          "frame": 539,
+          "t": 18.0,
+          "contact_penetration_m": 0.0,
+          "object_pose": [
+            -1.8691514730453491,
+            -3.4945662021636963,
+            0.7053001523017883
+          ],
+          "object_velocity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "object_contact_N": 0.0,
+          "table_contact_N": 0.0,
+          "max_object_z_m": 0.7053001523017883
+        },
+        "max_object_force_N": 0.0,
+        "max_table_force_N": 0.0,
+        "max_object_z_m": 0.7053001523017883,
+        "final_xy_distance_to_goal_m": 0.3010294010691848,
+        "max_xy_displacement_m": 0.0
+      },
+      {
+        "seed": 910004,
+        "frames": 540,
+        "reason": "time_limit",
+        "max_penetration_m": 0.0,
+        "mean_endpoint_to_observed_arm_rad": 0.02168166567791132,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_stack_910004_h30_a1",
+        "last_control_metrics": {
+          "frame": 539,
+          "t": 18.0,
+          "contact_penetration_m": 0.0,
+          "object_pose": [
+            -1.8679534196853638,
+            -3.4961624145507812,
+            0.7053002119064331
+          ],
+          "object_velocity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "object_contact_N": 0.0,
+          "table_contact_N": 0.0,
+          "max_object_z_m": 0.7053002119064331
+        },
+        "max_object_force_N": 0.0,
+        "max_table_force_N": 0.0,
+        "max_object_z_m": 0.7053002119064331,
+        "final_xy_distance_to_goal_m": 0.3021758421785868,
+        "max_xy_displacement_m": 0.0
+      },
+      {
+        "seed": 910005,
+        "frames": 540,
+        "reason": "time_limit",
+        "max_penetration_m": 0.0,
+        "mean_endpoint_to_observed_arm_rad": 0.020723934806308443,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_stack_910005_h30_a1",
+        "last_control_metrics": {
+          "frame": 539,
+          "t": 18.0,
+          "contact_penetration_m": 0.0,
+          "object_pose": [
+            -1.8679907321929932,
+            -3.4945085048675537,
+            0.7053001523017883
+          ],
+          "object_velocity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "object_contact_N": 0.0,
+          "table_contact_N": 0.0,
+          "max_object_z_m": 0.7053001523017883
+        },
+        "max_object_force_N": 0.0,
+        "max_table_force_N": 0.0,
+        "max_object_z_m": 0.7053001523017883,
+        "final_xy_distance_to_goal_m": 0.3021914448018648,
+        "max_xy_displacement_m": 0.0
+      },
+      {
+        "seed": 910006,
+        "frames": 540,
+        "reason": "time_limit",
+        "max_penetration_m": 0.0,
+        "mean_endpoint_to_observed_arm_rad": 0.021322735642282046,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_stack_910006_h30_a1",
+        "last_control_metrics": {
+          "frame": 539,
+          "t": 18.0,
+          "contact_penetration_m": 0.0,
+          "object_pose": [
+            -1.8722655773162842,
+            -3.493040084838867,
+            0.7053001523017883
+          ],
+          "object_velocity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "object_contact_N": 0.0,
+          "table_contact_N": 0.0,
+          "max_object_z_m": 0.7053001523017883
+        },
+        "max_object_force_N": 0.0,
+        "max_table_force_N": 0.0,
+        "max_object_z_m": 0.7053001523017883,
+        "final_xy_distance_to_goal_m": 0.29797453921680456,
+        "max_xy_displacement_m": 0.0
+      },
+      {
+        "seed": 910007,
+        "frames": 540,
+        "reason": "time_limit",
+        "max_penetration_m": 0.0,
+        "mean_endpoint_to_observed_arm_rad": 0.02149628763108922,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_stack_910007_h30_a1",
+        "last_control_metrics": {
+          "frame": 539,
+          "t": 18.0,
+          "contact_penetration_m": 0.0,
+          "object_pose": [
+            -1.868760347366333,
+            -3.4962730407714844,
+            0.7053002119064331
+          ],
+          "object_velocity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "object_contact_N": 0.0,
+          "table_contact_N": 0.0,
+          "max_object_z_m": 0.7053002119064331
+        },
+        "max_object_force_N": 0.0,
+        "max_table_force_N": 0.0,
+        "max_object_z_m": 0.7053002119064331,
+        "final_xy_distance_to_goal_m": 0.30136603679948487,
+        "max_xy_displacement_m": 0.0
+      },
+      {
+        "seed": 910008,
+        "frames": 540,
+        "reason": "time_limit",
+        "max_penetration_m": 0.0,
+        "mean_endpoint_to_observed_arm_rad": 0.021753552604337326,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_stack_910008_h30_a1",
+        "last_control_metrics": {
+          "frame": 539,
+          "t": 18.0,
+          "contact_penetration_m": 0.0,
+          "object_pose": [
+            -1.871284008026123,
+            -3.4969682693481445,
+            0.7053000926971436
+          ],
+          "object_velocity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "object_contact_N": 0.0,
+          "table_contact_N": 0.0,
+          "max_object_z_m": 0.7053000926971436
+        },
+        "max_object_force_N": 0.0,
+        "max_table_force_N": 0.0,
+        "max_object_z_m": 0.7053000926971436,
+        "final_xy_distance_to_goal_m": 0.2988239491041527,
+        "max_xy_displacement_m": 0.0
+      },
+      {
+        "seed": 910009,
+        "frames": 540,
+        "reason": "time_limit",
+        "max_penetration_m": 0.0,
+        "mean_endpoint_to_observed_arm_rad": 0.022293574975970214,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_stack_910009_h30_a1",
+        "last_control_metrics": {
+          "frame": 539,
+          "t": 18.0,
+          "contact_penetration_m": 0.0,
+          "object_pose": [
+            -1.8723533153533936,
+            -3.496091604232788,
+            0.7053001523017883
+          ],
+          "object_velocity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "object_contact_N": 0.0,
+          "table_contact_N": 0.0,
+          "max_object_z_m": 0.7053001523017883
+        },
+        "max_object_force_N": 0.0,
+        "max_table_force_N": 0.0,
+        "max_object_z_m": 0.7053001523017883,
+        "final_xy_distance_to_goal_m": 0.2977799664118821,
+        "max_xy_displacement_m": 0.0
+      },
+      {
+        "seed": 910010,
+        "frames": 540,
+        "reason": "time_limit",
+        "max_penetration_m": 0.0,
+        "mean_endpoint_to_observed_arm_rad": 0.021150926369627548,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_stack_910010_h30_a1",
+        "last_control_metrics": {
+          "frame": 539,
+          "t": 18.0,
+          "contact_penetration_m": 0.0,
+          "object_pose": [
+            -1.8688600063323975,
+            -3.4946799278259277,
+            0.7053001523017883
+          ],
+          "object_velocity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "object_contact_N": 0.0,
+          "table_contact_N": 0.0,
+          "max_object_z_m": 0.7053001523017883
+        },
+        "max_object_force_N": 0.0,
+        "max_table_force_N": 0.0,
+        "max_object_z_m": 0.7053001523017883,
+        "final_xy_distance_to_goal_m": 0.3013167762933251,
+        "max_xy_displacement_m": 0.0
+      },
+      {
+        "seed": 910011,
+        "frames": 540,
+        "reason": "time_limit",
+        "max_penetration_m": 0.0,
+        "mean_endpoint_to_observed_arm_rad": 0.021313453128958052,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_stack_910011_h30_a1",
+        "last_control_metrics": {
+          "frame": 539,
+          "t": 18.0,
+          "contact_penetration_m": 0.0,
+          "object_pose": [
+            -1.8723111152648926,
+            -3.493473768234253,
+            0.7053001523017883
+          ],
+          "object_velocity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "object_contact_N": 0.0,
+          "table_contact_N": 0.0,
+          "max_object_z_m": 0.7053001523017883
+        },
+        "max_object_force_N": 0.0,
+        "max_table_force_N": 0.0,
+        "max_object_z_m": 0.7053001523017883,
+        "final_xy_distance_to_goal_m": 0.2979119435563968,
+        "max_xy_displacement_m": 0.0
+      },
+      {
+        "seed": 910012,
+        "frames": 540,
+        "reason": "time_limit",
+        "max_penetration_m": 0.0,
+        "mean_endpoint_to_observed_arm_rad": 0.022074101416275745,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_stack_910012_h30_a1",
+        "last_control_metrics": {
+          "frame": 539,
+          "t": 18.0,
+          "contact_penetration_m": 0.0,
+          "object_pose": [
+            -1.8677281141281128,
+            -3.4974021911621094,
+            0.7053002119064331
+          ],
+          "object_velocity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "object_contact_N": 0.0,
+          "table_contact_N": 0.0,
+          "max_object_z_m": 0.7053002119064331
+        },
+        "max_object_force_N": 0.0,
+        "max_table_force_N": 0.0,
+        "max_object_z_m": 0.7053002119064331,
+        "final_xy_distance_to_goal_m": 0.3023673588330663,
+        "max_xy_displacement_m": 0.0
+      }
+    ],
+    "produce_sort": [
+      {
+        "seed": 910001,
+        "frames": 1200,
+        "reason": "time_limit",
+        "max_penetration_m": 0.0,
+        "mean_endpoint_to_observed_arm_rad": 0.022155939057803824,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_produce_sort_910001_h30_a2",
+        "last_control_metrics": {
+          "frame": 1199,
+          "t": 40.0,
+          "contact_penetration_m": 0.0,
+          "collection_criteria": {
+            "success": false,
+            "goal": false,
+            "released_last15": true,
+            "settled_last15": true,
+            "max_last15_displacement_m": 0.0
+          },
+          "food_velocity_m_s": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              9.173661965178326e-05,
+              -0.00015286884445231408,
+              7.632696906512138e-06
+            ]
+          ],
+          "food_poses": [
+            [
+              -1.9367027282714844,
+              -3.575201988220215,
+              0.7122197151184082
+            ],
+            [
+              -2.0724380016326904,
+              -3.586360454559326,
+              0.7103010416030884
+            ]
+          ],
+          "food_contact_N": [
+            0.0,
+            0.0
+          ],
+          "bin_positions": [
+            [
+              -1.7527961730957031,
+              -3.5049796104431152,
+              0.6814999580383301
+            ],
+            [
+              -2.309999942779541,
+              -3.5350003242492676,
+              0.6814999580383301
+            ]
+          ],
+          "unintended_contact_N": 0.0
+        },
+        "max_food_force_N": 0.0,
+        "max_food_z_m": [
+          0.7122197151184082,
+          0.7103010416030884
+        ],
+        "max_xy_displacement_m": [
+          0.0,
+          0.0
+        ],
+        "final_criteria": {
+          "success": false,
+          "goal": false,
+          "released_last15": true,
+          "settled_last15": true,
+          "max_last15_displacement_m": 0.0
+        }
+      },
+      {
+        "seed": 910002,
+        "frames": 1200,
+        "reason": "time_limit",
+        "max_penetration_m": 0.0,
+        "mean_endpoint_to_observed_arm_rad": 0.021755780579655607,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_produce_sort_910002_h30_a1",
+        "last_control_metrics": {
+          "frame": 1199,
+          "t": 40.0,
+          "contact_penetration_m": 0.0,
+          "collection_criteria": {
+            "success": false,
+            "goal": false,
+            "released_last15": true,
+            "settled_last15": true,
+            "max_last15_displacement_m": 0.0
+          },
+          "food_velocity_m_s": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "food_poses": [
+            [
+              -1.933273434638977,
+              -3.575279474258423,
+              0.7122196555137634
+            ],
+            [
+              -2.0671868324279785,
+              -3.5828258991241455,
+              0.7103010416030884
+            ]
+          ],
+          "food_contact_N": [
+            0.0,
+            0.0
+          ],
+          "bin_positions": [
+            [
+              -1.7480578422546387,
+              -3.504988193511963,
+              0.6814999580383301
+            ],
+            [
+              -2.309999942779541,
+              -3.5350003242492676,
+              0.6814999580383301
+            ]
+          ],
+          "unintended_contact_N": 0.0
+        },
+        "max_food_force_N": 0.0,
+        "max_food_z_m": [
+          0.7122196555137634,
+          0.7103010416030884
+        ],
+        "max_xy_displacement_m": [
+          0.0,
+          0.0
+        ],
+        "final_criteria": {
+          "success": false,
+          "goal": false,
+          "released_last15": true,
+          "settled_last15": true,
+          "max_last15_displacement_m": 0.0
+        }
+      },
+      {
+        "seed": 910003,
+        "frames": 1200,
+        "reason": "time_limit",
+        "max_penetration_m": 0.0,
+        "mean_endpoint_to_observed_arm_rad": 0.022002196886668043,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_produce_sort_910003_h30_a1",
+        "last_control_metrics": {
+          "frame": 1199,
+          "t": 40.0,
+          "contact_penetration_m": 0.0,
+          "collection_criteria": {
+            "success": false,
+            "goal": false,
+            "released_last15": true,
+            "settled_last15": true,
+            "max_last15_displacement_m": 0.0
+          },
+          "food_velocity_m_s": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "food_poses": [
+            [
+              -1.9331110715866089,
+              -3.5738158226013184,
+              0.7122197151184082
+            ],
+            [
+              -2.0695548057556152,
+              -3.5831069946289062,
+              0.7103010416030884
+            ]
+          ],
+          "food_contact_N": [
+            0.0,
+            0.0
+          ],
+          "bin_positions": [
+            [
+              -1.7423343658447266,
+              -3.5049808025360107,
+              0.6814999580383301
+            ],
+            [
+              -2.309999942779541,
+              -3.5350003242492676,
+              0.6814999580383301
+            ]
+          ],
+          "unintended_contact_N": 0.0
+        },
+        "max_food_force_N": 0.0,
+        "max_food_z_m": [
+          0.7122197151184082,
+          0.7103010416030884
+        ],
+        "max_xy_displacement_m": [
+          0.0,
+          0.0
+        ],
+        "final_criteria": {
+          "success": false,
+          "goal": false,
+          "released_last15": true,
+          "settled_last15": true,
+          "max_last15_displacement_m": 0.0
+        }
+      },
+      {
+        "seed": 910004,
+        "frames": 1200,
+        "reason": "time_limit",
+        "max_penetration_m": 0.0,
+        "mean_endpoint_to_observed_arm_rad": 0.021606857428862633,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_produce_sort_910004_h30_a1",
+        "last_control_metrics": {
+          "frame": 1199,
+          "t": 40.0,
+          "contact_penetration_m": 0.0,
+          "collection_criteria": {
+            "success": false,
+            "goal": false,
+            "released_last15": true,
+            "settled_last15": true,
+            "max_last15_displacement_m": 0.0
+          },
+          "food_velocity_m_s": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "food_poses": [
+            [
+              -1.9319111108779907,
+              -3.5753979682922363,
+              0.7122198343276978
+            ],
+            [
+              -2.0681140422821045,
+              -3.5850789546966553,
+              0.7103010416030884
+            ]
+          ],
+          "food_contact_N": [
+            0.0,
+            0.0
+          ],
+          "bin_positions": [
+            [
+              -1.7444500923156738,
+              -3.5049960613250732,
+              0.6814998984336853
+            ],
+            [
+              -2.309999942779541,
+              -3.5350003242492676,
+              0.6814999580383301
+            ]
+          ],
+          "unintended_contact_N": 0.0
+        },
+        "max_food_force_N": 0.0,
+        "max_food_z_m": [
+          0.7122198343276978,
+          0.7103010416030884
+        ],
+        "max_xy_displacement_m": [
+          0.0,
+          0.0
+        ],
+        "final_criteria": {
+          "success": false,
+          "goal": false,
+          "released_last15": true,
+          "settled_last15": true,
+          "max_last15_displacement_m": 0.0
+        }
+      },
+      {
+        "seed": 910005,
+        "frames": 1200,
+        "reason": "time_limit",
+        "max_penetration_m": 0.0,
+        "mean_endpoint_to_observed_arm_rad": 0.020921913966353248,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_produce_sort_910005_h30_a1",
+        "last_control_metrics": {
+          "frame": 1199,
+          "t": 40.0,
+          "contact_penetration_m": 0.0,
+          "collection_criteria": {
+            "success": false,
+            "goal": false,
+            "released_last15": true,
+            "settled_last15": true,
+            "max_last15_displacement_m": 0.0
+          },
+          "food_velocity_m_s": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "food_poses": [
+            [
+              -1.9319828748703003,
+              -3.5737428665161133,
+              0.7122197151184082
+            ],
+            [
+              -2.0709214210510254,
+              -3.5857889652252197,
+              0.7103010416030884
+            ]
+          ],
+          "food_contact_N": [
+            0.0,
+            0.0
+          ],
+          "bin_positions": [
+            [
+              -1.74027419090271,
+              -3.504993200302124,
+              0.6814999580383301
+            ],
+            [
+              -2.309999942779541,
+              -3.5350003242492676,
+              0.6814999580383301
+            ]
+          ],
+          "unintended_contact_N": 0.0
+        },
+        "max_food_force_N": 0.0,
+        "max_food_z_m": [
+          0.7122197151184082,
+          0.7103010416030884
+        ],
+        "max_xy_displacement_m": [
+          0.0,
+          0.0
+        ],
+        "final_criteria": {
+          "success": false,
+          "goal": false,
+          "released_last15": true,
+          "settled_last15": true,
+          "max_last15_displacement_m": 0.0
+        }
+      },
+      {
+        "seed": 910006,
+        "frames": 1200,
+        "reason": "time_limit",
+        "max_penetration_m": 0.0,
+        "mean_endpoint_to_observed_arm_rad": 0.0209994505132828,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_produce_sort_910006_h30_a1",
+        "last_control_metrics": {
+          "frame": 1199,
+          "t": 40.0,
+          "contact_penetration_m": 0.0,
+          "collection_criteria": {
+            "success": false,
+            "goal": false,
+            "released_last15": true,
+            "settled_last15": true,
+            "max_last15_displacement_m": 0.0
+          },
+          "food_velocity_m_s": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "food_poses": [
+            [
+              -1.936228632926941,
+              -3.5722014904022217,
+              0.7122197151184082
+            ],
+            [
+              -2.0728235244750977,
+              -3.583946466445923,
+              0.7103010416030884
+            ]
+          ],
+          "food_contact_N": [
+            0.0,
+            0.0
+          ],
+          "bin_positions": [
+            [
+              -1.7496362924575806,
+              -3.504985809326172,
+              0.6814999580383301
+            ],
+            [
+              -2.309999942779541,
+              -3.5350003242492676,
+              0.6814999580383301
+            ]
+          ],
+          "unintended_contact_N": 0.0
+        },
+        "max_food_force_N": 0.0,
+        "max_food_z_m": [
+          0.7122197151184082,
+          0.7103010416030884
+        ],
+        "max_xy_displacement_m": [
+          0.0,
+          0.0
+        ],
+        "final_criteria": {
+          "success": false,
+          "goal": false,
+          "released_last15": true,
+          "settled_last15": true,
+          "max_last15_displacement_m": 0.0
+        }
+      },
+      {
+        "seed": 910007,
+        "frames": 1200,
+        "reason": "time_limit",
+        "max_penetration_m": 0.0,
+        "mean_endpoint_to_observed_arm_rad": 0.021892307639806433,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_produce_sort_910007_h30_a1",
+        "last_control_metrics": {
+          "frame": 1199,
+          "t": 40.0,
+          "contact_penetration_m": 0.0,
+          "collection_criteria": {
+            "success": false,
+            "goal": false,
+            "released_last15": true,
+            "settled_last15": true,
+            "max_last15_displacement_m": 0.0
+          },
+          "food_velocity_m_s": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "food_poses": [
+            [
+              -1.9327359199523926,
+              -3.5755319595336914,
+              0.7122197151184082
+            ],
+            [
+              -2.0680036544799805,
+              -3.583876132965088,
+              0.7103010416030884
+            ]
+          ],
+          "food_contact_N": [
+            0.0,
+            0.0
+          ],
+          "bin_positions": [
+            [
+              -1.7458226680755615,
+              -3.5049970149993896,
+              0.6814999580383301
+            ],
+            [
+              -2.309999942779541,
+              -3.5350003242492676,
+              0.6814999580383301
+            ]
+          ],
+          "unintended_contact_N": 0.0
+        },
+        "max_food_force_N": 0.0,
+        "max_food_z_m": [
+          0.7122197151184082,
+          0.7103010416030884
+        ],
+        "max_xy_displacement_m": [
+          0.0,
+          0.0
+        ],
+        "final_criteria": {
+          "success": false,
+          "goal": false,
+          "released_last15": true,
+          "settled_last15": true,
+          "max_last15_displacement_m": 0.0
+        }
+      },
+      {
+        "seed": 910008,
+        "frames": 1200,
+        "reason": "time_limit",
+        "max_penetration_m": 0.0,
+        "mean_endpoint_to_observed_arm_rad": 0.020206355120383542,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_produce_sort_910008_h30_a1",
+        "last_control_metrics": {
+          "frame": 1199,
+          "t": 40.0,
+          "contact_penetration_m": 0.0,
+          "collection_criteria": {
+            "success": false,
+            "goal": false,
+            "released_last15": true,
+            "settled_last15": true,
+            "max_last15_displacement_m": 0.0
+          },
+          "food_velocity_m_s": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "food_poses": [
+            [
+              -1.935265302658081,
+              -3.576237916946411,
+              0.7122197151184082
+            ],
+            [
+              -2.073105812072754,
+              -3.584475517272949,
+              0.7103010416030884
+            ]
+          ],
+          "food_contact_N": [
+            0.0,
+            0.0
+          ],
+          "bin_positions": [
+            [
+              -1.744317889213562,
+              -3.5049874782562256,
+              0.6814999580383301
+            ],
+            [
+              -2.309999942779541,
+              -3.5350003242492676,
+              0.6814999580383301
+            ]
+          ],
+          "unintended_contact_N": 0.0
+        },
+        "max_food_force_N": 0.0,
+        "max_food_z_m": [
+          0.7122197151184082,
+          0.7103010416030884
+        ],
+        "max_xy_displacement_m": [
+          0.0,
+          0.0
+        ],
+        "final_criteria": {
+          "success": false,
+          "goal": false,
+          "released_last15": true,
+          "settled_last15": true,
+          "max_last15_displacement_m": 0.0
+        }
+      },
+      {
+        "seed": 910009,
+        "frames": 1200,
+        "reason": "time_limit",
+        "max_penetration_m": 0.0,
+        "mean_endpoint_to_observed_arm_rad": 0.021831689634817606,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_produce_sort_910009_h30_a1",
+        "last_control_metrics": {
+          "frame": 1199,
+          "t": 40.0,
+          "contact_penetration_m": 0.0,
+          "collection_criteria": {
+            "success": false,
+            "goal": false,
+            "released_last15": true,
+            "settled_last15": true,
+            "max_last15_displacement_m": 0.0
+          },
+          "food_velocity_m_s": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "food_poses": [
+            [
+              -1.9362961053848267,
+              -3.575388193130493,
+              0.7122198343276978
+            ],
+            [
+              -2.0676586627960205,
+              -3.5820250511169434,
+              0.7103010416030884
+            ]
+          ],
+          "food_contact_N": [
+            0.0,
+            0.0
+          ],
+          "bin_positions": [
+            [
+              -1.7340797185897827,
+              -3.5048978328704834,
+              0.6814998984336853
+            ],
+            [
+              -2.309999942779541,
+              -3.5350003242492676,
+              0.6814999580383301
+            ]
+          ],
+          "unintended_contact_N": 0.0
+        },
+        "max_food_force_N": 0.0,
+        "max_food_z_m": [
+          0.7122198343276978,
+          0.7103010416030884
+        ],
+        "max_xy_displacement_m": [
+          0.0,
+          0.0
+        ],
+        "final_criteria": {
+          "success": false,
+          "goal": false,
+          "released_last15": true,
+          "settled_last15": true,
+          "max_last15_displacement_m": 0.0
+        }
+      },
+      {
+        "seed": 910010,
+        "frames": 1200,
+        "reason": "time_limit",
+        "max_penetration_m": 0.0,
+        "mean_endpoint_to_observed_arm_rad": 0.022027429966050945,
+        "source": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_v4_step14000_eval50_20261013_225607_produce_sort_910010_h30_a1",
+        "last_control_metrics": {
+          "frame": 1199,
+          "t": 40.0,
+          "contact_penetration_m": 0.0,
+          "collection_criteria": {
+            "success": false,
+            "goal": false,
+            "released_last15": true,
+            "settled_last15": true,
+            "max_last15_displacement_m": 0.0
+          },
+          "food_velocity_m_s": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "food_poses": [
+            [
+              -1.9328227043151855,
+              -3.573935031890869,
+              0.7122197151184082
+            ],
+            [
+              -2.0694580078125,
+              -3.5809056758880615,
+              0.7103010416030884
+            ]
+          ],
+          "food_contact_N": [
+            0.0,
+            0.0
+          ],
+          "bin_positions": [
+            [
+              -1.7313321828842163,
+              -3.504990339279175,
+              0.6814998984336853
+            ],
+            [
+              -2.309999942779541,
+              -3.5350003242492676,
+              0.6814999580383301
+            ]
+          ],
+          "unintended_contact_N": 0.0
+        },
+        "max_food_force_N": 0.0,
+        "max_food_z_m": [
+          0.7122197151184082,
+          0.7103010416030884
+        ],
+        "max_xy_displacement_m": [
+          0.0,
+          0.0
+        ],
+        "final_criteria": {
+          "success": false,
+          "goal": false,
+          "released_last15": true,
+          "settled_last15": true,
+          "max_last15_displacement_m": 0.0
+        }
+      }
+    ]
+  },
+  "scope": "Completed actual v4 policy traces; symptoms and failure locations, not proof of training-code causality. Endpoint-to-observed difference is commanded motion/tracking gap, not offline prediction error."
+}

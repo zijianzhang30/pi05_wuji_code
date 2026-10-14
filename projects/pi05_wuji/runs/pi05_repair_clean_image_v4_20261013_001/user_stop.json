@@ -1,0 +1,15 @@
+{
+  "state": "stopped_by_user",
+  "iteration": "clean_image_v4",
+  "updated_at": 1791874756.0135758,
+  "training_run": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_repair_clean_image_v4_20261013_001",
+  "evaluation_run": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_repair_clean_image_v4_dev_20261013_001",
+  "last_recorded_step": 14580,
+  "last_saved_checkpoint": {
+    "step": 14000,
+    "path": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_repair_clean_image_v4_20261013_001/checkpoints/14000",
+    "saved": true
+  },
+  "processes_confirmed_exited": true,
+  "automation": "PAUSED"
+}

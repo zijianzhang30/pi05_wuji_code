@@ -1,0 +1,105 @@
+{
+  "passed": true,
+  "global_batch": 32,
+  "per_gpu_batch": 4,
+  "action_shape": [
+    32,
+    30,
+    52
+  ],
+  "state_shape": [
+    32,
+    52
+  ],
+  "invalid_terminal_actions_excluded": true,
+  "actual_episode_refs": [
+    {
+      "task": "gesture_one",
+      "episode_index": 0,
+      "split": "train",
+      "frames": 99
+    },
+    {
+      "task": "gesture_one",
+      "episode_index": 45,
+      "split": "validation",
+      "frames": 99
+    },
+    {
+      "task": "gesture_two",
+      "episode_index": 0,
+      "split": "train",
+      "frames": 99
+    },
+    {
+      "task": "gesture_two",
+      "episode_index": 45,
+      "split": "validation",
+      "frames": 99
+    },
+    {
+      "task": "microwave_open",
+      "episode_index": 0,
+      "split": "train",
+      "frames": 273
+    },
+    {
+      "task": "microwave_open",
+      "episode_index": 45,
+      "split": "validation",
+      "frames": 273
+    },
+    {
+      "task": "piano",
+      "episode_index": 0,
+      "split": "train",
+      "frames": 228
+    },
+    {
+      "task": "piano",
+      "episode_index": 45,
+      "split": "validation",
+      "frames": 228
+    },
+    {
+      "task": "pick_place",
+      "episode_index": 0,
+      "split": "train",
+      "frames": 331
+    },
+    {
+      "task": "pick_place",
+      "episode_index": 45,
+      "split": "validation",
+      "frames": 331
+    },
+    {
+      "task": "produce_sort",
+      "episode_index": 0,
+      "split": "train",
+      "frames": 933
+    },
+    {
+      "task": "produce_sort",
+      "episode_index": 45,
+      "split": "validation",
+      "frames": 933
+    },
+    {
+      "task": "stack",
+      "episode_index": 0,
+      "split": "train",
+      "frames": 423
+    },
+    {
+      "task": "stack",
+      "episode_index": 45,
+      "split": "validation",
+      "frames": 423
+    }
+  ],
+  "training_code_sha256": "d1b6b6f6f2a1cd2fe9eefe7abe94cfc4a3d87c0b29855932dc134b50a8389011",
+  "jax_backend": "cpu",
+  "scope": "Executed actual Dataset methods on14 real train/heldout episodes; CPU only, no GPU model or optimizer restore claimed",
+  "created_at": 1791908497.5047114
+}

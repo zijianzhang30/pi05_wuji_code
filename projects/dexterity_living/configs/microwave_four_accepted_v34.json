@@ -1,0 +1,12 @@
+{
+  "accepted_run": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/micro_four_v34_gpu7",
+  "controller": "code/physical_v11/run_micro_four_enclosed.py",
+  "plans": [
+    "configs/plans/microwave_four_hook_v34.json",
+    "configs/plans/microwave_four_approach_v34.json"
+  ],
+  "physics_report_sha256": "a4095e4d97fd830aeb493bd1eb2aee9f3ff876c69e97a7977513edc708a663f2",
+  "trajectory_sha256": "c1c24e405965b63eeddc9703015fb73471ed4587cce9aa48ac7574e77ca9c100",
+  "geometry_report_sha256": "34d06556876224013d21a6c987e1748ba8be136693c0e58c22db883d27a7967c",
+  "scope": "Four-finger grip and unlatching, followed by passive inertial swing and later contact; not sustained four-finger contact over whole swing."
+}

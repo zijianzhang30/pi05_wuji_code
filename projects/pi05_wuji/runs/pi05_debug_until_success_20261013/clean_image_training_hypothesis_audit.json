@@ -1,0 +1,29 @@
+{
+  "created_at": 1791873119.6936438,
+  "source_training_episode": "/media/external/bowenjing/projects/act_wuji/datasets_v21/piano/data/chunk-000/episode_000000.parquet",
+  "source_split": "train",
+  "actual_augmented_batch": 8,
+  "mean_abs_rgb_difference_0_255": 42.221764996647835,
+  "per_sample_mae_rgb": [
+    32.607154846191406,
+    52.232486724853516,
+    39.8466796875,
+    27.515522003173828,
+    35.59447479248047,
+    40.375606536865234,
+    45.18162155151367,
+    64.42047882080078
+  ],
+  "clean_train_preprocess_equals_inference_exact": true,
+  "compute_loss_train_flag_call_sites": [
+    "_model.preprocess_observation(preprocess_rng, observation, train=train)"
+  ],
+  "confirmed_source_augmentations": [
+    "random 95% crop plus resize",
+    "random rotation -5..5 degrees",
+    "color jitter brightness .3 contrast .4 saturation .5"
+  ],
+  "scope": "confirms training/inference image augmentation difference, not proof of failure causation",
+  "hypothesis": "Fixed calibrated-camera narrow tasks may benefit from preserving pixel geometry/appearance during continued full-parameter updates. Test clean-image continuation against v2 from same weights+optimizer, original uniform sampler.",
+  "changes_for_candidate": "compute_loss(train=False) only; model.train(), gradients, flow noise/time, full optimizer updates remain active; no inference/environment modifications"
+}

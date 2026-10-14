@@ -1,0 +1,21 @@
+{
+  "run_root": "/media/external/bowenjing/projects/dexterity_living/runs/wuji_blackwhite_smooth_pt4k_20261011",
+  "hands": "black Wuji pair",
+  "table": "white",
+  "bins": {
+    "vegetable": "all green",
+    "fruit": "all yellow"
+  },
+  "piano_audio_tempo": 0.5,
+  "finger_tip_change_bound_mm": 3,
+  "arm_position_time_mapping": "shared across entire scene",
+  "physics_validated": false,
+  "microwave_collision_fix": false,
+  "renderer": "PathTracing",
+  "resolution": [
+    3840,
+    2880
+  ],
+  "spp": 1024,
+  "max_bounces": 12
+}

@@ -1,0 +1,31 @@
+{
+  "scope": "Required evidence before treating a variant as repaired",
+  "development_seeds": [
+    920101,
+    920102,
+    920103,
+    920104,
+    920105
+  ],
+  "per_task_minimum_valid": 5,
+  "per_task_minimum_successes": 4,
+  "tasks": [
+    "produce_sort",
+    "stack",
+    "pick_place",
+    "microwave_open",
+    "gesture_one",
+    "gesture_two",
+    "piano"
+  ],
+  "requirements": [
+    "Model server loaded the declared checkpoint; no expert action source",
+    "Every episode has a unique task+seed identity; policy failures are retained",
+    "30 Hz control, 52D absolute targets and original task/contact/geometry criteria",
+    "Every claimed success has geometry frames equal rollout frames and zero checked intersections",
+    "Success videos fully decode and frame count equals physics recording",
+    "All seven tasks pass development gate; one or two solved tasks is progress, not completion",
+    "After the development gate, perform a new 7x50 confirmation in a versioned directory using frozen seeds910001..910050; report every success and failure",
+    "State that elapsed-step-conditioned policy is a new variant and the scope is narrow-distribution simulation"
+  ]
+}

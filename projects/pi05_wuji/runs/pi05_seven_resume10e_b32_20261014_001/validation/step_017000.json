@@ -1,0 +1,14 @@
+{
+  "step": 17000,
+  "per_task_flow_loss": {
+    "gesture_one": 0.0032905323896557093,
+    "gesture_two": 0.003783503780141473,
+    "microwave_open": 0.006877773441374302,
+    "piano": 0.007281317841261625,
+    "pick_place": 0.003476242069154978,
+    "produce_sort": 0.00807269662618637,
+    "stack": 0.004088826477527618
+  },
+  "macro_mean": 0.005267270375043154,
+  "scope": "fixed32 held-out samples per task, baseline before resume updates; not success"
+}

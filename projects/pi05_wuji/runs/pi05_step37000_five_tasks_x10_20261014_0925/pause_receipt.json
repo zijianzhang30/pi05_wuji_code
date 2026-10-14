@@ -1,0 +1,10 @@
+{
+  "state": "paused_for_five_task_probe",
+  "resume_step": 37020,
+  "last_logged_step": 37030,
+  "target_steps": 46269,
+  "previous_training_pid": 2131293,
+  "probe_run": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_step37000_five_tasks_x10_20261014_0925",
+  "automatic_resume": true,
+  "updated_at": 1791941210.9994762
+}

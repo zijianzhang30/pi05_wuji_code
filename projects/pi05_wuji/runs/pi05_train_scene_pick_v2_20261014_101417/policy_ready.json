@@ -1,0 +1,8 @@
+{
+  "pid": 2248389,
+  "socket": "/tmp/pi05_train_scene_pick_v2_20261014_101417.sock",
+  "checkpoint": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_train_scene_pick_v2_20261014_101417/checkpoints/37000",
+  "step": 37000,
+  "gpu": 0,
+  "ready_at": 1791944128.6022942
+}

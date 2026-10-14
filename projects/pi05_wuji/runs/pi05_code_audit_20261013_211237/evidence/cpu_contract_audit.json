@@ -1,0 +1,455 @@
+{
+  "scope": "CPU contracts on two actual episodes per task; existing online failures; no policy success claim",
+  "created_at": 1791897308.1578221,
+  "training_run": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_repair_clean_image_v4_20261013_001",
+  "evaluation_run": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_repair_clean_image_v4_dev_20261013_001",
+  "checks": [
+    {
+      "task": "pick_place",
+      "episode": 0,
+      "split": "train",
+      "frames": 331,
+      "passed": true,
+      "max_tokens": 200,
+      "parquet_hdf5_exact": true,
+      "online_joint_order_exact": true,
+      "train_inference_input_exact": true,
+      "action_roundtrip": true,
+      "terminal_padding_mask": true,
+      "substep_endpoint_interpolation_error_max_rad": 0.01793205924332142,
+      "substep_nonlinear_windows_over_1e6": 2
+    },
+    {
+      "task": "pick_place",
+      "episode": 45,
+      "split": "validation",
+      "frames": 331,
+      "passed": true,
+      "max_tokens": 200,
+      "parquet_hdf5_exact": true,
+      "online_joint_order_exact": true,
+      "train_inference_input_exact": true,
+      "action_roundtrip": true,
+      "terminal_padding_mask": true,
+      "substep_endpoint_interpolation_error_max_rad": 0.015939608216285706,
+      "substep_nonlinear_windows_over_1e6": 2
+    },
+    {
+      "task": "stack",
+      "episode": 0,
+      "split": "train",
+      "frames": 423,
+      "passed": true,
+      "max_tokens": 206,
+      "parquet_hdf5_exact": true,
+      "online_joint_order_exact": true,
+      "train_inference_input_exact": true,
+      "action_roundtrip": true,
+      "terminal_padding_mask": true,
+      "substep_endpoint_interpolation_error_max_rad": 0.0007331396918743849,
+      "substep_nonlinear_windows_over_1e6": 2
+    },
+    {
+      "task": "stack",
+      "episode": 45,
+      "split": "validation",
+      "frames": 423,
+      "passed": true,
+      "max_tokens": 206,
+      "parquet_hdf5_exact": true,
+      "online_joint_order_exact": true,
+      "train_inference_input_exact": true,
+      "action_roundtrip": true,
+      "terminal_padding_mask": true,
+      "substep_endpoint_interpolation_error_max_rad": 0.000730444211512804,
+      "substep_nonlinear_windows_over_1e6": 2
+    },
+    {
+      "task": "piano",
+      "episode": 0,
+      "split": "train",
+      "frames": 228,
+      "passed": true,
+      "max_tokens": 238,
+      "parquet_hdf5_exact": true,
+      "online_joint_order_exact": true,
+      "train_inference_input_exact": true,
+      "action_roundtrip": true,
+      "terminal_padding_mask": true,
+      "substep_endpoint_interpolation_error_max_rad": 2.5209039449691772e-05,
+      "substep_nonlinear_windows_over_1e6": 1
+    },
+    {
+      "task": "piano",
+      "episode": 45,
+      "split": "validation",
+      "frames": 228,
+      "passed": true,
+      "max_tokens": 238,
+      "parquet_hdf5_exact": true,
+      "online_joint_order_exact": true,
+      "train_inference_input_exact": true,
+      "action_roundtrip": true,
+      "terminal_padding_mask": true,
+      "substep_endpoint_interpolation_error_max_rad": 2.5209039449691772e-05,
+      "substep_nonlinear_windows_over_1e6": 1
+    },
+    {
+      "task": "gesture_one",
+      "episode": 0,
+      "split": "train",
+      "frames": 99,
+      "passed": true,
+      "max_tokens": 198,
+      "parquet_hdf5_exact": true,
+      "online_joint_order_exact": true,
+      "train_inference_input_exact": true,
+      "action_roundtrip": true,
+      "terminal_padding_mask": true,
+      "substep_endpoint_interpolation_error_max_rad": 1.1920928955078125e-07,
+      "substep_nonlinear_windows_over_1e6": 0
+    },
+    {
+      "task": "gesture_one",
+      "episode": 45,
+      "split": "validation",
+      "frames": 99,
+      "passed": true,
+      "max_tokens": 197,
+      "parquet_hdf5_exact": true,
+      "online_joint_order_exact": true,
+      "train_inference_input_exact": true,
+      "action_roundtrip": true,
+      "terminal_padding_mask": true,
+      "substep_endpoint_interpolation_error_max_rad": 1.1920928955078125e-07,
+      "substep_nonlinear_windows_over_1e6": 0
+    },
+    {
+      "task": "gesture_two",
+      "episode": 0,
+      "split": "train",
+      "frames": 99,
+      "passed": true,
+      "max_tokens": 191,
+      "parquet_hdf5_exact": true,
+      "online_joint_order_exact": true,
+      "train_inference_input_exact": true,
+      "action_roundtrip": true,
+      "terminal_padding_mask": true,
+      "substep_endpoint_interpolation_error_max_rad": 1.1920928955078125e-07,
+      "substep_nonlinear_windows_over_1e6": 0
+    },
+    {
+      "task": "gesture_two",
+      "episode": 45,
+      "split": "validation",
+      "frames": 99,
+      "passed": true,
+      "max_tokens": 191,
+      "parquet_hdf5_exact": true,
+      "online_joint_order_exact": true,
+      "train_inference_input_exact": true,
+      "action_roundtrip": true,
+      "terminal_padding_mask": true,
+      "substep_endpoint_interpolation_error_max_rad": 1.1920928955078125e-07,
+      "substep_nonlinear_windows_over_1e6": 0
+    },
+    {
+      "task": "produce_sort",
+      "episode": 0,
+      "split": "train",
+      "frames": 933,
+      "passed": true,
+      "max_tokens": 198,
+      "parquet_hdf5_exact": true,
+      "online_joint_order_exact": true,
+      "train_inference_input_exact": true,
+      "action_roundtrip": true,
+      "terminal_padding_mask": true,
+      "substep_endpoint_interpolation_error_max_rad": 2.0609586499631405e-05,
+      "substep_nonlinear_windows_over_1e6": 1
+    },
+    {
+      "task": "produce_sort",
+      "episode": 45,
+      "split": "validation",
+      "frames": 933,
+      "passed": true,
+      "max_tokens": 199,
+      "parquet_hdf5_exact": true,
+      "online_joint_order_exact": true,
+      "train_inference_input_exact": true,
+      "action_roundtrip": true,
+      "terminal_padding_mask": true,
+      "substep_endpoint_interpolation_error_max_rad": 2.023868728429079e-05,
+      "substep_nonlinear_windows_over_1e6": 1
+    },
+    {
+      "task": "microwave_open",
+      "episode": 0,
+      "split": "train",
+      "frames": 273,
+      "passed": true,
+      "max_tokens": 212,
+      "parquet_hdf5_exact": true,
+      "online_joint_order_exact": true,
+      "train_inference_input_exact": true,
+      "action_roundtrip": true,
+      "terminal_padding_mask": true,
+      "substep_endpoint_interpolation_error_max_rad": 1.1920928955078125e-07,
+      "substep_nonlinear_windows_over_1e6": 0
+    },
+    {
+      "task": "microwave_open",
+      "episode": 45,
+      "split": "validation",
+      "frames": 273,
+      "passed": true,
+      "max_tokens": 212,
+      "parquet_hdf5_exact": true,
+      "online_joint_order_exact": true,
+      "train_inference_input_exact": true,
+      "action_roundtrip": true,
+      "terminal_padding_mask": true,
+      "substep_endpoint_interpolation_error_max_rad": 1.1920928955078125e-07,
+      "substep_nonlinear_windows_over_1e6": 0
+    }
+  ],
+  "source_sha256": {
+    "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_repair_clean_image_v4_20261013_001/code/train_full_8gpu.py": "077787f87291a5b9ec85e8fb110ad1d41b035299f60575caee841f9aba54ee73",
+    "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_repair_clean_image_v4_dev_20261013_001/code/adapter.py": "9c59afc3fbcc059da4d020dbcfae1267f1bc40790c3d7152c09546dca25548c2",
+    "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_repair_clean_image_v4_dev_20261013_001/code/eval_environment.py": "497bac17f80fd4c7b2c53cf4cd2cf5463257e75bc3634bb9f043b3313cd0d4e1",
+    "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_repair_clean_image_v4_dev_20261013_001/code/policy_server.py": "059fb0e76003856f0a10784d4a9659f304fa75d417260a942175fd3ed772a472",
+    "/media/external/bowenjing/projects/pi05_wuji/openpi/src/openpi/models/pi0.py": "24b32d7c6ed5e409459afa8ca5af96a4dae09c2dcdf48e828907e411f4f12342"
+  },
+  "normalization_train_inference_identical": true,
+  "online_results": [
+    {
+      "task": "pick_place",
+      "seed": 920101,
+      "success": false,
+      "reason": "time_limit",
+      "frames": 450,
+      "action_limit_clipped_frames": 56
+    },
+    {
+      "task": "stack",
+      "seed": 920101,
+      "success": false,
+      "reason": "time_limit",
+      "frames": 540,
+      "action_limit_clipped_frames": 38
+    },
+    {
+      "task": "piano",
+      "seed": 920101,
+      "success": false,
+      "reason": "contact_gate",
+      "frames": 32,
+      "action_limit_clipped_frames": 30
+    },
+    {
+      "task": "gesture_one",
+      "seed": 920101,
+      "success": true,
+      "reason": "task_success",
+      "frames": 70,
+      "action_limit_clipped_frames": 38
+    },
+    {
+      "task": "gesture_two",
+      "seed": 920101,
+      "success": true,
+      "reason": "task_success",
+      "frames": 70,
+      "action_limit_clipped_frames": 6
+    },
+    {
+      "task": "produce_sort",
+      "seed": 920101,
+      "success": false,
+      "reason": "time_limit",
+      "frames": 1200,
+      "action_limit_clipped_frames": 35
+    },
+    {
+      "task": "microwave_open",
+      "seed": 920101,
+      "success": false,
+      "reason": "contact_gate",
+      "frames": 5,
+      "action_limit_clipped_frames": 2
+    }
+  ],
+  "last_failure_evidence": {
+    "pick_place": {
+      "contact_penetration_m": 0.0,
+      "object_pose": [
+        -1.8727034330368042,
+        -3.495485305786133,
+        0.7053002119064331
+      ],
+      "object_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "object_contact_N": 0.0,
+      "table_contact_N": 0.0,
+      "max_object_z_m": 0.7053002119064331
+    },
+    "stack": {
+      "contact_penetration_m": 0.0,
+      "object_pose": [
+        -1.8727034330368042,
+        -3.495485305786133,
+        0.7053002119064331
+      ],
+      "object_velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "object_contact_N": 0.0,
+      "table_contact_N": 0.0,
+      "max_object_z_m": 0.7053002119064331
+    },
+    "piano": {
+      "contact_penetration_m": 0.000353389565134421,
+      "key_contact_N": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        132.7613525390625,
+        143.34169006347656,
+        0.0,
+        0.0
+      ],
+      "key_travel_m": [
+        2.392232900660929e-07,
+        1.7293394094508585e-06,
+        1.7293394094508585e-06,
+        1.7293394094508585e-06,
+        0.0029998429716115993,
+        0.002836049407768826,
+        1.7198811730345653e-06,
+        1.9670337486843437e-05
+      ],
+      "events": [
+        4,
+        5
+      ]
+    },
+    "gesture_one": {
+      "contact_penetration_m": 0.0,
+      "goal_max_joint_error_rad": 0.06552924411331817,
+      "unintended_contact_N": 0.0
+    },
+    "gesture_two": {
+      "contact_penetration_m": 0.0,
+      "goal_max_joint_error_rad": 0.07275237209486729,
+      "unintended_contact_N": 0.0
+    },
+    "produce_sort": {
+      "contact_penetration_m": 0.0,
+      "food_velocity_m_s": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "food_poses": [
+        [
+          -1.9366908073425293,
+          -3.5747175216674805,
+          0.7122197151184082
+        ],
+        [
+          -2.0732052326202393,
+          -3.583587169647217,
+          0.7103010416030884
+        ]
+      ],
+      "food_contact_N": [
+        0.0,
+        0.0
+      ],
+      "bin_positions": [
+        [
+          -1.7502195835113525,
+          -3.504983901977539,
+          0.6814998984336853
+        ],
+        [
+          -2.309999942779541,
+          -3.5350003242492676,
+          0.6814999580383301
+        ]
+      ],
+      "unintended_contact_N": 0.0
+    },
+    "microwave_open": {
+      "contact_penetration_m": 6.449408260778e-07,
+      "door_angle_deg": -3.920809898971811e-09,
+      "door_velocity": -2.2447466108133085e-10,
+      "four_finger_forces_N": [
+        17.105148315429688,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "four_finger_max_streak": 0,
+      "body_force_N": 0.0,
+      "table_force_N": 0.0
+    }
+  },
+  "all_training_token_max": {
+    "gesture_one": 198,
+    "gesture_two": 191,
+    "microwave_open": 212,
+    "piano": 238,
+    "pick_place": 200,
+    "produce_sort": 199,
+    "stack": 206
+  },
+  "original_randomized_head_tensors": [
+    {
+      "key": "action_in_proj/bias",
+      "shape": [
+        1024
+      ],
+      "source": "new_52d_projection"
+    },
+    {
+      "key": "action_in_proj/kernel",
+      "shape": [
+        52,
+        1024
+      ],
+      "source": "new_52d_projection"
+    },
+    {
+      "key": "action_out_proj/bias",
+      "shape": [
+        52
+      ],
+      "source": "new_52d_projection"
+    },
+    {
+      "key": "action_out_proj/kernel",
+      "shape": [
+        1024,
+        52
+      ],
+      "source": "new_52d_projection"
+    }
+  ],
+  "passed": true
+}

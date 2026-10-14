@@ -1,0 +1,19 @@
+{
+  "training_run": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_seven_resume10e_b32_20261014_001",
+  "future_evaluation_run": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_seven_resume10e_b32_dev_20261014_001",
+  "parent_handoff": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_seven_task_10epoch_handoff_20261014_001",
+  "checkpoint_step": 37000,
+  "reference": {
+    "episode_index": 0,
+    "source": "/media/external/bowenjing/projects/dexterity_living/datasets/wuji_mcl350_v1/pick_place/episode_012001",
+    "split": "train",
+    "length": 331,
+    "source_start_frame": 30,
+    "source_end_frame": 361,
+    "terminal_observation_excluded_from_training": true,
+    "numeric_sha256": "69e18180168363f03849fab83578b7fa2966b7ccc808721ffdc5191e325886a3",
+    "image_sha256": "ee2b624d71498d2c690d2653a5b8389853bcb9b3086bea5f4d38934981517f9f",
+    "parquet_numeric_and_jpeg_exact": true
+  },
+  "pause_after_next_checkpoint": true
+}

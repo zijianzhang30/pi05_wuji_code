@@ -1,0 +1,37 @@
+{
+  "gesture_one": {
+    "mean_teacher_endpoint_to_actual_arm_rad": 0.019909698516130447,
+    "mean_teacher_endpoint_frame_motion_rad": 0.006232165265828371,
+    "max_teacher_endpoint_frame_motion_rad": 0.049919724464416504
+  },
+  "gesture_two": {
+    "mean_teacher_endpoint_to_actual_arm_rad": 0.01936694234609604,
+    "mean_teacher_endpoint_frame_motion_rad": 0.00605897419154644,
+    "max_teacher_endpoint_frame_motion_rad": 0.049838755279779434
+  },
+  "microwave_open": {
+    "mean_teacher_endpoint_to_actual_arm_rad": 0.019970281049609184,
+    "mean_teacher_endpoint_frame_motion_rad": 0.005780464969575405,
+    "max_teacher_endpoint_frame_motion_rad": 0.05500006675720215
+  },
+  "piano": {
+    "mean_teacher_endpoint_to_actual_arm_rad": 0.012560352683067322,
+    "mean_teacher_endpoint_frame_motion_rad": 0.00390881672501564,
+    "max_teacher_endpoint_frame_motion_rad": 0.056624382734298706
+  },
+  "pick_place": {
+    "mean_teacher_endpoint_to_actual_arm_rad": 0.030757958069443703,
+    "mean_teacher_endpoint_frame_motion_rad": 0.009731626138091087,
+    "max_teacher_endpoint_frame_motion_rad": 0.09806084632873535
+  },
+  "produce_sort": {
+    "mean_teacher_endpoint_to_actual_arm_rad": 0.01830943673849106,
+    "mean_teacher_endpoint_frame_motion_rad": 0.00567534239962697,
+    "max_teacher_endpoint_frame_motion_rad": 0.09117555618286133
+  },
+  "stack": {
+    "mean_teacher_endpoint_to_actual_arm_rad": 0.0243599321693182,
+    "mean_teacher_endpoint_frame_motion_rad": 0.0076438128016889095,
+    "max_teacher_endpoint_frame_motion_rad": 0.07181358337402344
+  }
+}

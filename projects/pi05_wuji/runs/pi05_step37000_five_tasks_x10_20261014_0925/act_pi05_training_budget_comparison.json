@@ -1,0 +1,66 @@
+{
+  "created_at": "2026-10-14T09:38:33.103155+08:00",
+  "act_single_task_configs": {
+    "produce_sort": {
+      "steps": 30000,
+      "batch_size": 32,
+      "lr": 1e-05,
+      "backbone_lr": 1e-05,
+      "image_preprocess": "RGB; AREA resize to 320x240; /255; ImageNet mean/std",
+      "training_mode": "one single-task policy per GPU; no language input",
+      "state_dim": 52,
+      "action_dim": 52
+    },
+    "stack": {
+      "steps": 30000,
+      "batch_size": 32,
+      "lr": 1e-05,
+      "backbone_lr": 1e-05,
+      "image_preprocess": "RGB; AREA resize to 320x240; /255; ImageNet mean/std",
+      "training_mode": "one single-task policy per GPU; no language input",
+      "state_dim": 52,
+      "action_dim": 52
+    },
+    "pick_place": {
+      "steps": 30000,
+      "batch_size": 32,
+      "lr": 1e-05,
+      "backbone_lr": 1e-05,
+      "image_preprocess": "RGB; AREA resize to 320x240; /255; ImageNet mean/std",
+      "training_mode": "one single-task policy per GPU; no language input",
+      "state_dim": 52,
+      "action_dim": 52
+    },
+    "microwave_open": {
+      "steps": 30000,
+      "batch_size": 32,
+      "lr": 1e-05,
+      "backbone_lr": 1e-05,
+      "image_preprocess": "RGB; AREA resize to 320x240; /255; ImageNet mean/std",
+      "training_mode": "one single-task policy per GPU; no language input",
+      "state_dim": 52,
+      "action_dim": 52
+    },
+    "piano": {
+      "steps": 30000,
+      "batch_size": 32,
+      "lr": 1e-05,
+      "backbone_lr": 1e-05,
+      "image_preprocess": "RGB; AREA resize to 320x240; /255; ImageNet mean/std",
+      "training_mode": "one single-task policy per GPU; no language input",
+      "state_dim": 52,
+      "action_dim": 52
+    }
+  },
+  "act_sample_windows_per_task": 960000,
+  "pi05_at_checkpoint37000_total_sample_windows": 776000,
+  "pi05_expected_windows_per_task_uniform_task_sampling": 110857.14285714286,
+  "window_budget_ratio": 8.65979381443299,
+  "caveats": [
+    "Expected per-task count, not exact sampled task counts",
+    "Both policies use52 dimensions; joint dimensionality alone is not a sufficient diagnosis",
+    "Image resolution, architecture, normalization and training budget differ",
+    "Budget difference is a candidate explanation, not an isolated causal experiment",
+    "ACT30000 steps is the full training budget; evaluation uses best validation checkpoints, which may be earlier."
+  ]
+}

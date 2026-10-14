@@ -1,0 +1,160 @@
+{
+  "passed": true,
+  "dataset_and_sampler_ast_identical_to_v2": true,
+  "validation_ast_identical": true,
+  "step_function_only_compute_loss_augmentation_flag_changed": true,
+  "full_model_train_mode_retained": true,
+  "environment_and_adapter_no_behavior_change": true,
+  "actual_input_contract_pending": false,
+  "old_iteration_and_children_exited": true,
+  "actual_input_contract_passed": true,
+  "actual_heldout_samples": [
+    {
+      "task": "gesture_one",
+      "frame": 0,
+      "valid_targets": 30,
+      "tokens": 173,
+      "passed": true
+    },
+    {
+      "task": "gesture_one",
+      "frame": 49,
+      "valid_targets": 30,
+      "tokens": 195,
+      "passed": true
+    },
+    {
+      "task": "gesture_one",
+      "frame": 98,
+      "valid_targets": 1,
+      "tokens": 195,
+      "passed": true
+    },
+    {
+      "task": "gesture_two",
+      "frame": 0,
+      "valid_targets": 30,
+      "tokens": 172,
+      "passed": true
+    },
+    {
+      "task": "gesture_two",
+      "frame": 49,
+      "valid_targets": 30,
+      "tokens": 190,
+      "passed": true
+    },
+    {
+      "task": "gesture_two",
+      "frame": 98,
+      "valid_targets": 1,
+      "tokens": 190,
+      "passed": true
+    },
+    {
+      "task": "microwave_open",
+      "frame": 0,
+      "valid_targets": 30,
+      "tokens": 210,
+      "passed": true
+    },
+    {
+      "task": "microwave_open",
+      "frame": 136,
+      "valid_targets": 30,
+      "tokens": 210,
+      "passed": true
+    },
+    {
+      "task": "microwave_open",
+      "frame": 272,
+      "valid_targets": 1,
+      "tokens": 206,
+      "passed": true
+    },
+    {
+      "task": "piano",
+      "frame": 0,
+      "valid_targets": 30,
+      "tokens": 235,
+      "passed": true
+    },
+    {
+      "task": "piano",
+      "frame": 114,
+      "valid_targets": 30,
+      "tokens": 237,
+      "passed": true
+    },
+    {
+      "task": "piano",
+      "frame": 227,
+      "valid_targets": 1,
+      "tokens": 237,
+      "passed": true
+    },
+    {
+      "task": "pick_place",
+      "frame": 0,
+      "valid_targets": 30,
+      "tokens": 181,
+      "passed": true
+    },
+    {
+      "task": "pick_place",
+      "frame": 165,
+      "valid_targets": 30,
+      "tokens": 199,
+      "passed": true
+    },
+    {
+      "task": "pick_place",
+      "frame": 330,
+      "valid_targets": 1,
+      "tokens": 195,
+      "passed": true
+    },
+    {
+      "task": "produce_sort",
+      "frame": 0,
+      "valid_targets": 30,
+      "tokens": 180,
+      "passed": true
+    },
+    {
+      "task": "produce_sort",
+      "frame": 466,
+      "valid_targets": 30,
+      "tokens": 192,
+      "passed": true
+    },
+    {
+      "task": "produce_sort",
+      "frame": 932,
+      "valid_targets": 1,
+      "tokens": 195,
+      "passed": true
+    },
+    {
+      "task": "stack",
+      "frame": 0,
+      "valid_targets": 30,
+      "tokens": 177,
+      "passed": true
+    },
+    {
+      "task": "stack",
+      "frame": 211,
+      "valid_targets": 30,
+      "tokens": 205,
+      "passed": true
+    },
+    {
+      "task": "stack",
+      "frame": 422,
+      "valid_targets": 1,
+      "tokens": 201,
+      "passed": true
+    }
+  ]
+}

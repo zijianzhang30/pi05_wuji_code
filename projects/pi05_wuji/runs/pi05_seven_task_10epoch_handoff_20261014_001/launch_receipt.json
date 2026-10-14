@@ -1,0 +1,12 @@
+{
+  "driver_pid": 1563330,
+  "training_run": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_seven_resume10e_b32_20261014_001",
+  "evaluation_run": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_seven_resume10e_b32_dev_20261014_001",
+  "handoff_run": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_seven_task_10epoch_handoff_20261014_001",
+  "state": "queued_after_previous350",
+  "resume_step": 17000,
+  "target_steps": 46269,
+  "global_batch": 32,
+  "training_mode": "seven_task_mixed_resume",
+  "old_piano_automatic_resume": false
+}

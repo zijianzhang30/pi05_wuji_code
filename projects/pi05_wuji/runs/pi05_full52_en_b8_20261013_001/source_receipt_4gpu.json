@@ -1,0 +1,6 @@
+{
+  "train_script_sha256": "a4890bff4f7076e10de6116605598dbaa2474de6abfe0950c54d2c763ad426c5",
+  "launch_script_sha256": "6e88ebfa954d48c61c72996f39e9f31285191bf415b0cd521d2fd4f572d6324c",
+  "upstream_commit": "215abfb217dbac7d5f1273282331b9b1866c0479",
+  "runtime_compatibility": "runtime_compatibility.json"
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "pid": 1077307,
+    "cmdline": "python3 /media/external/bowenjing/projects/pi05_wuji/runs/pi05_v4_step14000_eval50_20261013_225607/code/coordinator.py "
+  },
+  {
+    "pid": 1568057,
+    "cmdline": "python3 /media/external/bowenjing/projects/pi05_wuji/runs/pi05_v4_step14000_eval50_20261013_225607/code/launch_eval.py --task produce_sort --seed 910050 --gpu 1 --horizon 30 --attempt 1 "
+  },
+  {
+    "pid": 1568058,
+    "cmdline": "/home/bowenjing/envs/isaaclab3/bin/python /media/external/bowenjing/projects/pi05_wuji/runs/pi05_v4_step14000_eval50_20261013_225607/code/run_eval.py --task produce_sort --seed 910050 --gpu 1 --name pi05_v4_step14000_eval50_20261013_225607_produce_sort_910050_h30_a1 --socket /tmp/pi05_v4_step14000_eval50_20261013_225607.sock --horizon 30 "
+  },
+  {
+    "pid": 1569528,
+    "cmdline": ""
+  }
+]

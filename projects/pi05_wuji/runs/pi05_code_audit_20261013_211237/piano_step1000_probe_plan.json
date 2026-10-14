@@ -1,0 +1,9 @@
+{
+  "evaluation_run": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_piano_step1000_probe_20261013_231650",
+  "checkpoint": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_single_piano_b32_20261013_221719/checkpoints/1000",
+  "gpus": [
+    7,
+    6
+  ],
+  "scope": "separate interim development probe; reserve GPUs only after in-flight v4 episodes finish"
+}

@@ -1,0 +1,73 @@
+{
+  "checked_at": 1791866118.6866698,
+  "evidence": {
+    "status.json": {
+      "state": "training",
+      "pid": 382129,
+      "updated_at": 1791866117.825308,
+      "step": 10030,
+      "target_steps": 13000,
+      "global_batch": 8,
+      "equivalent_frame_epochs": 0.7480887562931196,
+      "elapsed_seconds": 200.8554588969564,
+      "last_step_seconds": 0.6847870640340261,
+      "grad_norm": 0.6410070657730103,
+      "grad_norm_action_expert": 0.530703067779541,
+      "grad_norm_language": 0.25810620188713074,
+      "grad_norm_projection": 0.20718790590763092,
+      "grad_norm_vision": 0.04262961447238922,
+      "loss": 0.011321703903377056,
+      "update_norm_action_expert": 0.00437582703307271,
+      "update_norm_language": 0.01161076407879591,
+      "update_norm_projection": 7.341716991504654e-05,
+      "update_norm_vision": 0.0034227229189127684
+    },
+    "optimizer_continuation_audit.json": {
+      "passed": true,
+      "source": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_full52_en_b8_20261013_001/checkpoints/10000",
+      "state_step": 10000,
+      "optimizer_counts": [
+        10000,
+        10000
+      ],
+      "source_metadata_unchanged": true,
+      "source_opened_read_only": true,
+      "all_arrays_on_8gpu_mesh": true,
+      "learning_rate": 1e-06
+    },
+    "full_gradient_check_8gpu.json": {
+      "passed": true,
+      "step": 10003,
+      "metrics": {
+        "grad_norm": 2.0126612186431885,
+        "grad_norm_action_expert": 1.7195521593093872,
+        "grad_norm_language": 0.5670085549354553,
+        "grad_norm_projection": 0.41897672414779663,
+        "grad_norm_vision": 0.07296649366617203,
+        "loss": 0.023986604064702988,
+        "update_norm_action_expert": 0.0057496679946780205,
+        "update_norm_language": 0.012928190641105175,
+        "update_norm_projection": 9.307661821367219e-05,
+        "update_norm_vision": 0.00362195260822773
+      }
+    },
+    "checkpoint_roundtrip_8gpu.json": {
+      "passed": true,
+      "step": 10020
+    },
+    "validation/step_010020.json": {
+      "step": 10020,
+      "per_task_flow_loss": {
+        "gesture_one": 0.009699283167719841,
+        "gesture_two": 0.016986289992928505,
+        "microwave_open": 0.006851276848465204,
+        "piano": 0.011359122581779957,
+        "pick_place": 0.004628674127161503,
+        "produce_sort": 0.013582044281065464,
+        "stack": 0.004182556178420782
+      },
+      "macro_mean": 0.009612749596791608,
+      "scope": "held-out fixed sample flow matching loss, not success rate"
+    }
+  }
+}

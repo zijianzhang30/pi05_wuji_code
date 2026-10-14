@@ -1,0 +1,139 @@
+{
+  "dataset": "wuji_mcl350_v1",
+  "target_per_task": 50,
+  "target_total": 350,
+  "accepted_count": 0,
+  "scene": "current frozen living EGO, black Wuji, white desk",
+  "controllers": {
+    "pick_place": {
+      "script": "code/physical_v11/run_pick_fluid.py",
+      "args": [
+        "--candidate",
+        "1",
+        "--contact-stop",
+        ".2",
+        "--pinch",
+        "0",
+        "--open-gap",
+        ".012",
+        "--hold-force",
+        "3",
+        "--move-seconds",
+        "3",
+        "--motion-scale",
+        ".3"
+      ]
+    },
+    "stack": {
+      "script": "code/physical_v11/run_stack_fluid.py",
+      "args": [
+        "--candidate",
+        "1",
+        "--contact-stop",
+        ".2",
+        "--pinch",
+        "0",
+        "--open-gap",
+        ".012",
+        "--hold-force",
+        "3",
+        "--move-seconds",
+        "3",
+        "--motion-scale",
+        ".4"
+      ]
+    },
+    "piano": {
+      "script": "code/physical_v11/run_piano_fluid.py",
+      "args": []
+    },
+    "gesture_one": {
+      "script": "code/physical_v11/run_gesture_fluid.py",
+      "args": [
+        "--task",
+        "gesture_one"
+      ]
+    },
+    "gesture_two": {
+      "script": "code/physical_v11/run_gesture_fluid.py",
+      "args": [
+        "--task",
+        "gesture_two"
+      ]
+    },
+    "produce_sort": {
+      "script": "code/physical_v11/run_produce_surface_validated.py",
+      "args": [
+        "--gap",
+        ".02",
+        "--substeps",
+        "32",
+        "--force",
+        "6",
+        "--close-distance",
+        ".038",
+        "--motion-scale",
+        "1.0",
+        "--real-proportions",
+        "--cart-rotation-weight",
+        ".025"
+      ]
+    },
+    "microwave_open": {
+      "script": "code/physical_v11/run_micro_four_enclosed.py",
+      "args": [
+        "--plan",
+        "/media/external/bowenjing/projects/dexterity_living/configs/plans/microwave_four_hook_v34.json",
+        "--approach-plan",
+        "/media/external/bowenjing/projects/dexterity_living/configs/plans/microwave_four_approach_v34.json",
+        "--approach-seconds",
+        "1.8",
+        "--force",
+        "1.5",
+        "--grip-shift",
+        ".013",
+        "--lead",
+        "1.0",
+        "--soft-kp",
+        "80",
+        "--follow-speed",
+        "1.2"
+      ]
+    }
+  },
+  "instructions": {
+    "pick_place": "用右手抓起方块，放入左侧目标圈并松手。",
+    "stack": "用右手把上方方块堆叠到另一个方块上并松手。",
+    "piano": "用右手按顺序弹奏当前八个音符。",
+    "gesture_one": "用右手做出数字一的手势并保持。",
+    "gesture_two": "用右手做出数字二的手势并保持。",
+    "produce_sort": "将橙子和甜椒分别放入正确的分类碗中并松手。",
+    "microwave_open": "用左手四指勾握微波炉把手，拉开门。"
+  },
+  "randomization": {
+    "pick_stack_food_xy_m": 0.003,
+    "active_arm_initial_rad": 0.012,
+    "active_fingers_initial_rad": 0.018,
+    "gesture_target_translation_m": 0.008,
+    "microwave_approach_seconds": [
+      1.76,
+      1.84
+    ],
+    "piano_phase_duration_jitter_s": 0.025
+  },
+  "benchmark_relationship": "Inspired by RoboDojo episode/seed/observation organization, not official RoboDojo data or leaderboard protocol",
+  "source": "generated finite-actuator physics demonstrations, not human teleoperation",
+  "image": {
+    "view": "ego",
+    "resolution": [
+      640,
+      480
+    ],
+    "fps": 30,
+    "color": "RGB",
+    "terminal_observation": true
+  },
+  "qualification": "dynamics + full recorded-frame mesh check + synchronized RGB + schema audit; failed candidates excluded; human review tracked separately",
+  "micro_scope": "four-finger load during grip/unlatching followed by passive inertial swing; not sustained four-finger force throughout",
+  "initial_robot_variation": {}
+}

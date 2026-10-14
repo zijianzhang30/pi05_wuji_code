@@ -1,0 +1,38 @@
+{
+  "method": "full_finetune",
+  "all_parameters_trainable": true,
+  "lora": false,
+  "global_batch": 8,
+  "gradient_accumulation": 1,
+  "fsdp_devices": 8,
+  "gpu_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "max_steps": 10000,
+  "learning_rate": 1e-05,
+  "warmup_steps": 500,
+  "action_dim": 52,
+  "action_horizon": 30,
+  "max_token_len": 320,
+  "seed": 20261013,
+  "language": "en",
+  "ema": false,
+  "train_frames": 111310,
+  "equivalent_frame_epochs": 0.7187135028299344,
+  "model_source_commit": "215abfb217dbac7d5f1273282331b9b1866c0479",
+  "sampling": "uniform task then uniform episode then uniform start frame; replacement",
+  "image_preprocessing": "PIL bilinear resize+pad224, official training augmentations",
+  "quantile_half_range_floor_rad": 0.04,
+  "state_clip": [
+    -1,
+    1
+  ],
+  "action_clip": false
+}

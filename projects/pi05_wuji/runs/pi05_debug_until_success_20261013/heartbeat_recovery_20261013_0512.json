@@ -1,0 +1,103 @@
+{
+  "checked_at": 1791868611.5265367,
+  "master": {
+    "state": "evaluating_repair",
+    "iteration": "clock_hold_low_lr_v2",
+    "driver_pid": 430406,
+    "training_run": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_repair_clock_hold_low_lr_v2_20261013_001",
+    "evaluation_run": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_repair_clock_hold_low_lr_v2_dev_20261013_002",
+    "updated_at": 1791868570.1431017,
+    "seed": 920101,
+    "completed": 0,
+    "policy_pid": 430417
+  },
+  "episode_count": 7,
+  "policy_ready.json": {
+    "pid": 430417,
+    "socket": "/tmp/pi05_repair_clock_hold_low_lr_v2_dev.sock",
+    "checkpoint": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_repair_clock_hold_low_lr_v2_20261013_001/checkpoints/13000",
+    "step": 13000,
+    "gpu": 0,
+    "ready_at": 1791868569.8157675
+  },
+  "preflight/inference.json": {
+    "passed": true,
+    "checkpoint": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_repair_clock_hold_low_lr_v2_20261013_001/checkpoints/13000",
+    "per_task": {
+      "produce_sort": {
+        "shape": [
+          30,
+          52
+        ],
+        "finite": true,
+        "seconds": 0.07657860103063285,
+        "min": -1.2039800882339478,
+        "max": 2.123351573944092
+      },
+      "stack": {
+        "shape": [
+          30,
+          52
+        ],
+        "finite": true,
+        "seconds": 0.0762812810135074,
+        "min": -1.2461168766021729,
+        "max": 2.1804232597351074
+      },
+      "pick_place": {
+        "shape": [
+          30,
+          52
+        ],
+        "finite": true,
+        "seconds": 0.07629444095073268,
+        "min": -1.233616590499878,
+        "max": 2.150170087814331
+      },
+      "microwave_open": {
+        "shape": [
+          30,
+          52
+        ],
+        "finite": true,
+        "seconds": 0.0762590310187079,
+        "min": -2.5305569171905518,
+        "max": 2.2045750617980957
+      },
+      "gesture_one": {
+        "shape": [
+          30,
+          52
+        ],
+        "finite": true,
+        "seconds": 0.07619139197049662,
+        "min": -1.2905235290527344,
+        "max": 2.132599115371704
+      },
+      "gesture_two": {
+        "shape": [
+          30,
+          52
+        ],
+        "finite": true,
+        "seconds": 0.07646894099889323,
+        "min": -1.2957096099853516,
+        "max": 2.139476776123047
+      },
+      "piano": {
+        "shape": [
+          30,
+          52
+        ],
+        "finite": true,
+        "seconds": 0.07624672102974728,
+        "min": -1.516447901725769,
+        "max": 2.126314878463745
+      }
+    }
+  },
+  "logs/driver.log": "",
+  "logs/policy.log": "POLICY_READY\n",
+  "driver_cmd": "python3 /media/external/bowenjing/projects/pi05_wuji/runs/pi05_repair_clock_hold_low_lr_v2_dev_20261013_002/code/iteration_driver.py ",
+  "policy_cmd": "/media/external/bowenjing/projects/pi05_wuji/env/bin/python /media/external/bowenjing/projects/pi05_wuji/runs/pi05_repair_clock_hold_low_lr_v2_dev_20261013_002/code/policy_server.py "
+}

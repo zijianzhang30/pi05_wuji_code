@@ -1,0 +1,11 @@
+{
+  "attempt": 3,
+  "reason": "first full train step failed CUDA illegal address under original JAX 0.5.3 on Blackwell",
+  "XLA_FLAGS": "--xla_gpu_enable_triton_gemm=false --xla_gpu_enable_command_buffer=",
+  "NCCL_P2P_DISABLE": "1",
+  "NCCL_CUMEM_ENABLE": "0",
+  "NCCL_CUMEM_HOST_ENABLE": "0",
+  "NCCL_IB_DISABLE": "1",
+  "NCCL_PROTO": "Simple",
+  "scope": "only this process environment; no package or system changes"
+}

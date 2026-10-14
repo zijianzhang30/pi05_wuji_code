@@ -1,0 +1,1 @@
+Seven-task development evaluation after final10 equivalent frame epochs checkpoint. 35 valid target episodes, unchanged task/contact/geometry/video gates; failed policies do not cause early stop. Source training: /media/external/bowenjing/projects/pi05_wuji/runs/pi05_seven_resume10e_b32_20261014_001

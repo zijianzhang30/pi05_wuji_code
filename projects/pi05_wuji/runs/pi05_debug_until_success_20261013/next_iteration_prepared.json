@@ -1,0 +1,6 @@
+{
+  "training_run": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_repair_clock_hold_low_lr_v2_20261013_001",
+  "evaluation_run": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_repair_clock_hold_low_lr_v2_dev_20261013_001",
+  "prepared_at": 1791865834.2063212,
+  "plan": "Continue ORIGINAL step10000 weights AND AdamW state for3000 updates at constant1e-6. Eight GPU FSDP, globalbatch8, full model. Same clock context/gesture trim as v1; no extra data/protocol changes. Select checkpoint by fixed held-out macro flow loss only; then development closed-loop. Original results preserved. No success claim until real closed-loop gate passes."
+}

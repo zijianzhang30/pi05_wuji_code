@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "tasks": {
+    "pick_place": {
+      "tokens": 181,
+      "state_and_action_roundtrip": true
+    },
+    "stack": {
+      "tokens": 177,
+      "state_and_action_roundtrip": true
+    },
+    "piano": {
+      "tokens": 235,
+      "state_and_action_roundtrip": true
+    },
+    "gesture_one": {
+      "tokens": 173,
+      "state_and_action_roundtrip": true
+    },
+    "gesture_two": {
+      "tokens": 172,
+      "state_and_action_roundtrip": true
+    },
+    "produce_sort": {
+      "tokens": 180,
+      "state_and_action_roundtrip": true
+    },
+    "microwave_open": {
+      "tokens": 210,
+      "state_and_action_roundtrip": true
+    }
+  },
+  "scope": "CPU preprocessing only; GPU checkpoint inference and simulation follow after training completes"
+}

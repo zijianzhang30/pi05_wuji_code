@@ -1,0 +1,173 @@
+{
+  "created_at": 1791873422.364483,
+  "source": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_repair_start_sampling_v3_dev_20261013_001",
+  "scope": "v3 actual closed-loop action/contact and state-quantization diagnostics. Quantization coarseness is a candidate to investigate, not proven failure cause or an action-error lower bound. No model/protocol changes applied by this audit.",
+  "rows": [
+    {
+      "task": "microwave_open",
+      "valid": true,
+      "success": false,
+      "reason": "contact_gate",
+      "frames": 21,
+      "active_arm_bin_width_rad": [
+        0.009678937830030918,
+        0.008857925069005432,
+        0.005834338138229214,
+        0.006051368971820923,
+        0.009374391627497971,
+        0.01006505585508421
+      ],
+      "active_arm_mean_halfbin_reconstruction_error_rad": 0.004038304650936168,
+      "active_arm_fraction_outside_frozen_q01q99": 0.1111111111111111,
+      "raw_action_peak_adjacent_jump_rad": 0.03751254081726074,
+      "max_success_streak": 0,
+      "geometry_checked_frames": null,
+      "video_full_decode": null,
+      "last_four_finger_forces_N": [
+        23.84239187836647,
+        4.493077278137207,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "task": "gesture_two",
+      "valid": true,
+      "success": true,
+      "reason": "task_success",
+      "frames": 69,
+      "active_arm_bin_width_rad": [
+        0.006549045341089368,
+        0.003918323335237801,
+        0.005538945319131017,
+        0.011760878842324018,
+        0.00829178124666214,
+        0.012294368974180543
+      ],
+      "active_arm_mean_halfbin_reconstruction_error_rad": 0.0020232620242586984,
+      "active_arm_fraction_outside_frozen_q01q99": 0.0024154589371980675,
+      "raw_action_peak_adjacent_jump_rad": 0.12075856328010559,
+      "max_success_streak": 30,
+      "geometry_checked_frames": 69,
+      "video_full_decode": true
+    },
+    {
+      "task": "gesture_one",
+      "valid": true,
+      "success": true,
+      "reason": "task_success",
+      "frames": 69,
+      "active_arm_bin_width_rad": [
+        0.006549045341089368,
+        0.003918323335237801,
+        0.005538945319131017,
+        0.011760878842324018,
+        0.00829178124666214,
+        0.012294368974180543
+      ],
+      "active_arm_mean_halfbin_reconstruction_error_rad": 0.0020821972762022738,
+      "active_arm_fraction_outside_frozen_q01q99": 0.014492753623188406,
+      "raw_action_peak_adjacent_jump_rad": 0.14840877056121826,
+      "max_success_streak": 30,
+      "geometry_checked_frames": 69,
+      "video_full_decode": true
+    },
+    {
+      "task": "piano",
+      "valid": true,
+      "success": false,
+      "reason": "contact_gate",
+      "frames": 62,
+      "active_arm_bin_width_rad": [
+        0.006549045341089368,
+        0.003918323335237801,
+        0.005538945319131017,
+        0.011760878842324018,
+        0.00829178124666214,
+        0.012294368974180543
+      ],
+      "active_arm_mean_halfbin_reconstruction_error_rad": 0.0021810336123385776,
+      "active_arm_fraction_outside_frozen_q01q99": 0.005376344086021506,
+      "raw_action_peak_adjacent_jump_rad": 0.16178739070892334,
+      "max_success_streak": 0,
+      "geometry_checked_frames": null,
+      "video_full_decode": null,
+      "last_note_events": [
+        5
+      ],
+      "last_key_force_N": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        236.02398681640625,
+        2.2269794940948486,
+        1.1084184646606445
+      ]
+    },
+    {
+      "task": "pick_place",
+      "valid": true,
+      "success": false,
+      "reason": "time_limit",
+      "frames": 450,
+      "active_arm_bin_width_rad": [
+        0.006549045341089368,
+        0.003918323335237801,
+        0.005538945319131017,
+        0.011760878842324018,
+        0.00829178124666214,
+        0.012294368974180543
+      ],
+      "active_arm_mean_halfbin_reconstruction_error_rad": 0.002062091291471924,
+      "active_arm_fraction_outside_frozen_q01q99": 0.004074074074074074,
+      "raw_action_peak_adjacent_jump_rad": 0.37752485275268555,
+      "max_success_streak": 0,
+      "geometry_checked_frames": null,
+      "video_full_decode": null
+    },
+    {
+      "task": "stack",
+      "valid": true,
+      "success": false,
+      "reason": "time_limit",
+      "frames": 540,
+      "active_arm_bin_width_rad": [
+        0.006549045341089368,
+        0.003918323335237801,
+        0.005538945319131017,
+        0.011760878842324018,
+        0.00829178124666214,
+        0.012294368974180543
+      ],
+      "active_arm_mean_halfbin_reconstruction_error_rad": 0.0020556868670823926,
+      "active_arm_fraction_outside_frozen_q01q99": 0.004629629629629629,
+      "raw_action_peak_adjacent_jump_rad": 0.27834391593933105,
+      "max_success_streak": 0,
+      "geometry_checked_frames": null,
+      "video_full_decode": null
+    },
+    {
+      "task": "produce_sort",
+      "valid": true,
+      "success": false,
+      "reason": "time_limit",
+      "frames": 1200,
+      "active_arm_bin_width_rad": [
+        0.006549045341089368,
+        0.003918323335237801,
+        0.005538945319131017,
+        0.011760878842324018,
+        0.00829178124666214,
+        0.012294368974180543
+      ],
+      "active_arm_mean_halfbin_reconstruction_error_rad": 0.002067273467799496,
+      "active_arm_fraction_outside_frozen_q01q99": 0.0025,
+      "raw_action_peak_adjacent_jump_rad": 0.3630664348602295,
+      "max_success_streak": 0,
+      "geometry_checked_frames": null,
+      "video_full_decode": null
+    }
+  ]
+}

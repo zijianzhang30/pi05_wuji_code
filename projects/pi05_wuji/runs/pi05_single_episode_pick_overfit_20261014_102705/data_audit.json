@@ -1,0 +1,97 @@
+{
+  "passed": true,
+  "total_train_frames": 331,
+  "frames": {
+    "pick_place": {
+      "train": 331,
+      "validation": 0
+    }
+  },
+  "joint_names": [
+    "fl_joint1",
+    "fl_joint2",
+    "fl_joint3",
+    "fl_joint4",
+    "fl_joint5",
+    "fl_joint6",
+    "left_finger1_joint1",
+    "left_finger2_joint1",
+    "left_finger3_joint1",
+    "left_finger4_joint1",
+    "left_finger5_joint1",
+    "left_finger1_joint2",
+    "left_finger2_joint2",
+    "left_finger3_joint2",
+    "left_finger4_joint2",
+    "left_finger5_joint2",
+    "left_finger1_joint3",
+    "left_finger2_joint3",
+    "left_finger3_joint3",
+    "left_finger4_joint3",
+    "left_finger5_joint3",
+    "left_finger1_joint4",
+    "left_finger2_joint4",
+    "left_finger3_joint4",
+    "left_finger4_joint4",
+    "left_finger5_joint4",
+    "fr_joint1",
+    "fr_joint2",
+    "fr_joint3",
+    "fr_joint4",
+    "fr_joint5",
+    "fr_joint6",
+    "right_finger1_joint1",
+    "right_finger2_joint1",
+    "right_finger3_joint1",
+    "right_finger4_joint1",
+    "right_finger5_joint1",
+    "right_finger1_joint2",
+    "right_finger2_joint2",
+    "right_finger3_joint2",
+    "right_finger4_joint2",
+    "right_finger5_joint2",
+    "right_finger1_joint3",
+    "right_finger2_joint3",
+    "right_finger3_joint3",
+    "right_finger4_joint3",
+    "right_finger5_joint3",
+    "right_finger1_joint4",
+    "right_finger2_joint4",
+    "right_finger3_joint4",
+    "right_finger4_joint4",
+    "right_finger5_joint4"
+  ],
+  "train_episodes": 1,
+  "validation_episodes": 0,
+  "split_sha256": {
+    "pick_place": "089fa90cbbbeca8bef75acce7bac1dc4d133495b6850bd75ddf658ee2319f817"
+  },
+  "normalization_train_only": true,
+  "state_clip": [
+    -1,
+    1
+  ],
+  "quantile_half_range_floor_rad": 0.04,
+  "original_source_unmodified": true,
+  "prompt_language": "en",
+  "max_token_len": 320,
+  "max_actual_tokens": {
+    "pick_place": 200
+  },
+  "action": "52D absolute joint targets in radians",
+  "alignment": "ego[t] + qpos[t] -> action[t:t+30]; no episode crossing; padded targets excluded from loss",
+  "episodes": [
+    {
+      "task": "pick_place",
+      "split": "train",
+      "episode_index": 0,
+      "path": "/media/external/bowenjing/projects/act_wuji/datasets_v21/pick_place/data/chunk-000/episode_000000.parquet",
+      "source": "/media/external/bowenjing/projects/dexterity_living/datasets/wuji_mcl350_v1/pick_place/episode_012001",
+      "frames": 331,
+      "original_frames": 331,
+      "numeric_sha256": "d17ca75b9316a69d61877e5f66a1a38029a81a52591d3572fb200a7dfd21ee63",
+      "image_sha256": "48cd6c5321e100432d9dfe22f1dd4785afd25afdffd3eb2c8957d3c2036393b5"
+    }
+  ],
+  "epoch_definition": "new diagnostic updates *32/331; one training episode with replacement; fit checks are train-set checks"
+}

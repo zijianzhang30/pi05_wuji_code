@@ -1,0 +1,19 @@
+{
+  "source_snapshot": "/Users/arthur12137/Downloads/pi05_wuji_code_review_20261014_112108",
+  "snapshot_beijing": "2026-10-14T11:21:12.213078+08:00",
+  "omitted_from_source_snapshot": [
+    "DOWNLOAD_VERIFIED.json",
+    "projects/dexterity_living/sources/20261011/robots/wuji/assembled.urdf",
+    "projects/pi05_wuji/runs/pi05_train_scene_pick_v2_20261014_101417/diagnostic.lock",
+    "projects/pi05_wuji/runs/pi05_step37000_five_tasks_x10_20261014_0925/probe.lock",
+    "projects/pi05_wuji/runs/pi05_step37000_five_tasks_x10_20261014_0925/coordinator.lock",
+    "projects/pi05_wuji/runs/pi05_full52_en_b8_20261013_001/launch.lock",
+    "projects/pi05_wuji/runs/pi05_seven_resume10e_b32_20261014_001/launch.lock",
+    "projects/pi05_wuji/runs/pi05_seven_task_10epoch_handoff_20261014_001/queue.lock",
+    "projects/pi05_wuji/runs/pi05_repair_clock_hold_low_lr_v2_20261013_001/launch.lock",
+    "projects/pi05_wuji/runs/pi05_single_episode_pick_overfit_20261014_102705/launch.lock",
+    "projects/pi05_wuji/runs/pi05_single_episode_pick_overfit_20261014_102705/queue.lock",
+    "projects/pi05_wuji/runs/pi05_repair_clean_image_v4_20261013_001/launch.lock"
+  ],
+  "reason": "Code/config/report publication; model/data/media/environment and robot asset files excluded. Source snapshot manifest records original local snapshot, not publication file set. Process locks are excluded; legitimate OpenPI client runtime source is included."
+}

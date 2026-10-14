@@ -1,0 +1,15 @@
+{
+  "status.json": {
+    "state": "saving_checkpoint",
+    "pid": 454498,
+    "updated_at": 1791869575.2572641,
+    "step": 13020,
+    "target_steps": 17000
+  },
+  "checkpoint_status.json": {
+    "step": 13020,
+    "path": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_repair_start_sampling_v3_20261013_001/checkpoints/13020",
+    "saved": true
+  },
+  "checked_at": 1791869668.667391
+}

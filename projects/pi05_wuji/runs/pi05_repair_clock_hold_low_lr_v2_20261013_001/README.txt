@@ -1,0 +1,1 @@
+Continue ORIGINAL step10000 weights AND AdamW state for3000 updates at constant1e-6. Eight GPU FSDP, globalbatch8, full model. Same clock context/gesture trim as v1; no extra data/protocol changes. Select checkpoint by fixed held-out macro flow loss only; then development closed-loop. Original results preserved. No success claim until real closed-loop gate passes.

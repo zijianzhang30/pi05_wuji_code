@@ -1,0 +1,6 @@
+{
+  "driver_pid": 1581850,
+  "driver": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_seven_task_10epoch_handoff_20261014_001/resume_after_user_stop.py",
+  "reason": "User explicitly stops evaluation349/350 and requests immediate resume",
+  "started_at": 1791908670.2344148
+}

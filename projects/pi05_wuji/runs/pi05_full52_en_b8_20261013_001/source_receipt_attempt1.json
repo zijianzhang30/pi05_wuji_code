@@ -1,0 +1,5 @@
+{
+  "sha256": "757ccf29250345864590604dd2c245931075bea5bef5e43978a0a91f01465be4",
+  "training_script": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_full52_en_b8_20261013_001/code/train_full.py",
+  "upstream_commit": "215abfb217dbac7d5f1273282331b9b1866c0479"
+}

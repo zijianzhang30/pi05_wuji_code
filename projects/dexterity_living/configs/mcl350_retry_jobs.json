@@ -1,0 +1,1 @@
+[{"id": "mcl350_probe_piano_0002", "gpu": 7, "script": "/media/external/bowenjing/projects/dexterity_living/code/mcl350/run_seeded_episode.py", "args": ["--task", "piano", "--seed", "11002", "--gpu", "7", "--name", "mcl350_probe_piano_0002"], "timeout_seconds": 300}]

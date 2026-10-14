@@ -1,0 +1,132 @@
+{
+  "diagnostic_only": true,
+  "training_episode_index": 0,
+  "training_reference": {
+    "episode_index": 0,
+    "source": "/media/external/bowenjing/projects/dexterity_living/datasets/wuji_mcl350_v1/pick_place/episode_012001",
+    "split": "train",
+    "length": 331,
+    "source_start_frame": 30,
+    "source_end_frame": 361,
+    "terminal_observation_excluded_from_training": true,
+    "numeric_sha256": "69e18180168363f03849fab83578b7fa2966b7ccc808721ffdc5191e325886a3",
+    "image_sha256": "ee2b624d71498d2c690d2653a5b8389853bcb9b3086bea5f4d38934981517f9f",
+    "parquet_numeric_and_jpeg_exact": true
+  },
+  "source_checkpoint_step": 37000,
+  "final_checkpoint_step": 38000,
+  "new_updates": 1000,
+  "baseline_success": false,
+  "overfit_success": false,
+  "baseline_teacher_groups": {
+    "left_arm": {
+      "chunk_mae_rad": 0.007044057212558867,
+      "chunk_p95_abs_rad": 0.018208801746368405,
+      "first_action_mae_rad": 0.00836581080828024,
+      "first_action_p95_abs_rad": 0.020834720134735103
+    },
+    "left_hand": {
+      "chunk_mae_rad": 0.002193328848308578,
+      "chunk_p95_abs_rad": 0.006531325262039898,
+      "first_action_mae_rad": 0.0024456078454082346,
+      "first_action_p95_abs_rad": 0.007142934622243046
+    },
+    "right_arm": {
+      "chunk_mae_rad": 0.012931069763090799,
+      "chunk_p95_abs_rad": 0.03803413808345794,
+      "first_action_mae_rad": 0.014728948548166216,
+      "first_action_p95_abs_rad": 0.04349491596221924
+    },
+    "right_hand": {
+      "chunk_mae_rad": 0.004998950354095417,
+      "chunk_p95_abs_rad": 0.013469764590263361,
+      "first_action_mae_rad": 0.0054935100686624655,
+      "first_action_p95_abs_rad": 0.01413171887397766
+    }
+  },
+  "overfit_teacher_groups": {
+    "left_arm": {
+      "chunk_mae_rad": 0.006484657633494987,
+      "chunk_p95_abs_rad": 0.016764547675848004,
+      "first_action_mae_rad": 0.0072615617899683075,
+      "first_action_p95_abs_rad": 0.019148067757487296
+    },
+    "left_hand": {
+      "chunk_mae_rad": 0.002482259567847034,
+      "chunk_p95_abs_rad": 0.00869506471790373,
+      "first_action_mae_rad": 0.0026453482017078293,
+      "first_action_p95_abs_rad": 0.008960583014413711
+    },
+    "right_arm": {
+      "chunk_mae_rad": 0.013812937799683562,
+      "chunk_p95_abs_rad": 0.04525521118193865,
+      "first_action_mae_rad": 0.013737295268346434,
+      "first_action_p95_abs_rad": 0.04237109422683711
+    },
+    "right_hand": {
+      "chunk_mae_rad": 0.0042969868224832725,
+      "chunk_p95_abs_rad": 0.011830251337960352,
+      "first_action_mae_rad": 0.00486175044442333,
+      "first_action_p95_abs_rad": 0.01298071313649416
+    }
+  },
+  "baseline_kinematic_error": {
+    "right_palm_link": {
+      "chunk_mean_target_position_error_mm": 6.413962409794538,
+      "chunk_p95_target_position_error_mm": 12.649331711533957,
+      "first_mean_target_position_error_mm": 6.9165441020232326,
+      "first_p95_target_position_error_mm": 13.561997342783684
+    },
+    "right_finger1_tip_link": {
+      "chunk_mean_target_position_error_mm": 7.826828048510947,
+      "chunk_p95_target_position_error_mm": 16.794998059413874,
+      "first_mean_target_position_error_mm": 8.181481076980754,
+      "first_p95_target_position_error_mm": 17.89407422076646
+    },
+    "right_finger2_tip_link": {
+      "chunk_mean_target_position_error_mm": 8.760206613113162,
+      "chunk_p95_target_position_error_mm": 19.221839579365675,
+      "first_mean_target_position_error_mm": 9.381102193058892,
+      "first_p95_target_position_error_mm": 21.464284129520685
+    }
+  },
+  "overfit_kinematic_error": {
+    "right_palm_link": {
+      "chunk_mean_target_position_error_mm": 6.06119353986956,
+      "chunk_p95_target_position_error_mm": 11.960582777331108,
+      "first_mean_target_position_error_mm": 7.09040531493805,
+      "first_p95_target_position_error_mm": 13.312305832013829
+    },
+    "right_finger1_tip_link": {
+      "chunk_mean_target_position_error_mm": 6.891267023790683,
+      "chunk_p95_target_position_error_mm": 14.169121794319944,
+      "first_mean_target_position_error_mm": 7.3632403364104935,
+      "first_p95_target_position_error_mm": 16.352026092479992
+    },
+    "right_finger2_tip_link": {
+      "chunk_mean_target_position_error_mm": 7.730248132958566,
+      "chunk_p95_target_position_error_mm": 15.659537593346514,
+      "first_mean_target_position_error_mm": 8.969538765296882,
+      "first_p95_target_position_error_mm": 18.393263152114805
+    }
+  },
+  "baseline_run": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_train_scene_pick_v2_20261014_101417",
+  "overfit_analysis": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_single_episode_pick_overfit_20261014_102705/evaluation/ANALYSIS.json",
+  "fit_loss_before": {
+    "step": 37000,
+    "per_task_flow_loss": {
+      "pick_place": 0.0013836906291544437
+    },
+    "macro_mean": 0.0013836906291544437,
+    "scope": "fixed32 TRAINING-EPISODE fit samples, baseline; not held-out loss or success"
+  },
+  "fit_loss_after": {
+    "step": 38000,
+    "per_task_flow_loss": {
+      "pick_place": 0.0013046103995293379
+    },
+    "macro_mean": 0.0013046103995293379,
+    "scope": "fixed TRAINING-EPISODE flow loss, not held-out loss or success rate"
+  },
+  "scope": "one train-scene diagnostic, not held-out task success or a seven-task model release"
+}

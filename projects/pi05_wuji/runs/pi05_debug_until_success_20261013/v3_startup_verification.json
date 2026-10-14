@@ -1,0 +1,30 @@
+{
+  "checked_at": 1791869715.3436356,
+  "evidence": {
+    "status.json": {
+      "state": "saving_checkpoint",
+      "pid": 454498,
+      "updated_at": 1791869575.2572641,
+      "step": 13020,
+      "target_steps": 17000
+    },
+    "checkpoint_roundtrip_8gpu.json": {
+      "passed": true,
+      "step": 13020
+    },
+    "validation/step_013020.json": {
+      "step": 13020,
+      "per_task_flow_loss": {
+        "gesture_one": 0.002912582131102681,
+        "gesture_two": 0.002828268799930811,
+        "microwave_open": 0.0040000732988119125,
+        "piano": 0.00868928898125887,
+        "pick_place": 0.0023175198584795,
+        "produce_sort": 0.008294924162328243,
+        "stack": 0.002541904104873538
+      },
+      "macro_mean": 0.004512080190969365,
+      "scope": "held-out fixed sample flow matching loss, not success rate"
+    }
+  }
+}

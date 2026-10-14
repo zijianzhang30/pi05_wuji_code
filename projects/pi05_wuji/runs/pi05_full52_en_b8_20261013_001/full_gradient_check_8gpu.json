@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "step": 3003,
+  "metrics": {
+    "grad_norm": 0.8274140954017639,
+    "grad_norm_action_expert": 0.6722792387008667,
+    "grad_norm_language": 0.2797906994819641,
+    "grad_norm_projection": 0.3689459562301636,
+    "grad_norm_vision": 0.03276622295379639,
+    "loss": 0.02636428363621235,
+    "update_norm_action_expert": 0.03164789080619812,
+    "update_norm_language": 0.0767284706234932,
+    "update_norm_projection": 0.0005052426713518798,
+    "update_norm_vision": 0.04074301943182945
+  }
+}

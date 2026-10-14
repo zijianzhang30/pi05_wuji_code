@@ -1,0 +1,76 @@
+{
+  "passed": true,
+  "checkpoint": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_single_episode_pick_overfit_20261014_102705/checkpoints/38000",
+  "per_task": {
+    "produce_sort": {
+      "shape": [
+        30,
+        52
+      ],
+      "finite": true,
+      "seconds": 1.8726221499964595,
+      "min": -1.204540491104126,
+      "max": 2.1386120319366455
+    },
+    "stack": {
+      "shape": [
+        30,
+        52
+      ],
+      "finite": true,
+      "seconds": 0.07788799103582278,
+      "min": -1.1992161273956299,
+      "max": 2.1563668251037598
+    },
+    "pick_place": {
+      "shape": [
+        30,
+        52
+      ],
+      "finite": true,
+      "seconds": 0.07655139098642394,
+      "min": -1.19273841381073,
+      "max": 2.1392502784729004
+    },
+    "microwave_open": {
+      "shape": [
+        30,
+        52
+      ],
+      "finite": true,
+      "seconds": 0.07654754095710814,
+      "min": -2.4982516765594482,
+      "max": 2.2045531272888184
+    },
+    "gesture_one": {
+      "shape": [
+        30,
+        52
+      ],
+      "finite": true,
+      "seconds": 0.07604841102147475,
+      "min": -1.2510058879852295,
+      "max": 2.1278884410858154
+    },
+    "gesture_two": {
+      "shape": [
+        30,
+        52
+      ],
+      "finite": true,
+      "seconds": 0.07638195098843426,
+      "min": -1.2491158246994019,
+      "max": 2.1291191577911377
+    },
+    "piano": {
+      "shape": [
+        30,
+        52
+      ],
+      "finite": true,
+      "seconds": 0.07591365097323433,
+      "min": -1.5439486503601074,
+      "max": 2.103404998779297
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "summary": "NCCL runtime compatibility issue isolated by four-GPU collective reproduction; newer NCCL resolves reproduction and allows full training steps. Exact internal vendor defect is unconfirmed.",
+  "original_runtime": "NCCL 2.26.2",
+  "working_runtime": "NCCL 2.28.9 loaded via per-run LD_PRELOAD",
+  "evidence": [
+    {
+      "test": "small four-GPU psum",
+      "original": "pass"
+    },
+    {
+      "test": "large four-GPU psum, 8M fp32 elements per device",
+      "original": "CUDA_ERROR_ILLEGAL_ADDRESS",
+      "replacement": "pass"
+    },
+    {
+      "test": "full pi05 52D training",
+      "replacement": "20 finite steps and gradients/updates in vision, language, action expert and projections"
+    }
+  ],
+  "not_observed": "CUDA out of memory; dataset, prompt truncation, and shape audits pass",
+  "unchanged": [
+    "full finetuning",
+    "global batch 8",
+    "4 GPUs",
+    "original ACT environment",
+    "source datasets"
+  ],
+  "logs": [
+    "probe_imports_big.py",
+    "preallocate_default.log",
+    "no_preallocate_no_xla_optimizations.log",
+    "probe_nccl2289.log",
+    "train.log"
+  ]
+}

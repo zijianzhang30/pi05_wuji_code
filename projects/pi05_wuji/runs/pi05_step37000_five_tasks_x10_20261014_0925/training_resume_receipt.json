@@ -1,0 +1,16 @@
+{
+  "training_pid": 2204578,
+  "driver_pid": 2139081,
+  "training_run": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_seven_resume10e_b32_20261014_001",
+  "evaluation_run": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_seven_resume10e_b32_dev_20261014_001",
+  "resume_checkpoint": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_seven_resume10e_b32_20261014_001/checkpoints/37020",
+  "resume_step": 37020,
+  "original_resume_step": 17000,
+  "target_steps": 46269,
+  "training_mode": "seven_task_mixed_resume",
+  "global_batch": 32,
+  "target_equivalent_frame_epochs": 10,
+  "previous_probe": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_step37000_five_tasks_x10_20261014_0925",
+  "optimizer_restore_verification": "pending training audit",
+  "resumed_at": 1791942146.3084981
+}

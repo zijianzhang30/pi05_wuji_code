@@ -1,0 +1,25 @@
+{
+  "status": "hypotheses_only_not_applied",
+  "next_decisions_after_v1_rollouts": [
+    {
+      "trigger": "Gestures approach goal but leave before 30-frame success streak",
+      "inspect": "Clock-conditioned chunk outputs at boundaries, valid training target horizon near truncated end, first reach frame",
+      "candidate": "Extend terminal HOLD supervision using newly verified physical hold data or clearly labelled terminal-state augmentation; do not reintroduce return actions or change 30-frame criterion"
+    },
+    {
+      "trigger": "Manipulation still misses objects before contact",
+      "inspect": "Per-joint first-action error on train/heldout frames, target tracking vs qpos, closest demonstrated motion phase, actual object contacts",
+      "candidate": "Improve low-error action regression and/or test arm-delta representation in a separate version with exact inverse transform; do not substitute replay or add object pose control"
+    },
+    {
+      "trigger": "Piano wrong-note or repeated-note ambiguity",
+      "inspect": "First wrong event and clock/observation alignment; compare predicted finger and arm trajectory to training-only reference",
+      "candidate": "Validate elapsed-step conditioning; if insufficient, add available observation/action history. Do not feed ground-truth note progress or expert actions"
+    },
+    {
+      "trigger": "Loss decreases but all closed-loop tasks fail",
+      "inspect": "Do not declare success; verify actual checkpoint, dataset contract, finite updates, model output quality and runtime transport",
+      "candidate": "Use small controlled training/inference experiments before scheduling another large final benchmark"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "micro_four_v34_gpu5",
+    "gpu": 5,
+    "script": "/media/external/bowenjing/projects/dexterity_living/code/physical_v11/run_micro_four_enclosed.py",
+    "args": [
+      "--name",
+      "micro_four_v34_gpu5",
+      "--gpu",
+      "5",
+      "--plan",
+      "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/micro_four_plan_v31_2/plan.json",
+      "--approach-plan",
+      "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/micro_four_plan_v31_2_approach/plan.json",
+      "--approach-seconds",
+      "1.8",
+      "--force",
+      "1.5",
+      "--grip-shift",
+      ".013",
+      "--lead",
+      "0.3",
+      "--soft-kp",
+      "80",
+      "--follow-speed",
+      "1.2"
+    ],
+    "timeout_seconds": 1200
+  },
+  {
+    "id": "micro_four_v34_gpu6",
+    "gpu": 6,
+    "script": "/media/external/bowenjing/projects/dexterity_living/code/physical_v11/run_micro_four_enclosed.py",
+    "args": [
+      "--name",
+      "micro_four_v34_gpu6",
+      "--gpu",
+      "6",
+      "--plan",
+      "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/micro_four_plan_v31_2/plan.json",
+      "--approach-plan",
+      "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/micro_four_plan_v31_2_approach/plan.json",
+      "--approach-seconds",
+      "1.8",
+      "--force",
+      "1.5",
+      "--grip-shift",
+      ".013",
+      "--lead",
+      "0.6",
+      "--soft-kp",
+      "80",
+      "--follow-speed",
+      "0.9"
+    ],
+    "timeout_seconds": 1200
+  }
+]

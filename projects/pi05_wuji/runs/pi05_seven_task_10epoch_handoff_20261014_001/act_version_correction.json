@@ -1,0 +1,6 @@
+{
+  "source": "/media/external/bowenjing/projects/act_wuji/runs/eval50_v2_20261012/final_report.md",
+  "result209of350": "seven separately trained single-task ACT checkpoints; six tasks have successes, piano0/50",
+  "result100of350": "separate seven-task joint ACT checkpoint evaluated20261013",
+  "interpretation": "Cannot summarize allACT as manipulation failure; specialist-versus-joint distinction is required"
+}

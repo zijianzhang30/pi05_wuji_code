@@ -1,0 +1,90 @@
+{
+  "state": "complete",
+  "pid": 2139082,
+  "started_at": 1791941272.9598734,
+  "updated_at": 1791942140.8474905,
+  "target_episodes": 50,
+  "finished_records": 50,
+  "valid_completed": 50,
+  "rollouts_returned_this_process": 45,
+  "active_gpus": {},
+  "pending_geometry": {},
+  "per_task": {
+    "produce_sort": {
+      "target": 10,
+      "valid_completed": 10,
+      "successes": 0,
+      "failures": 10,
+      "infrastructure_exhausted": 0,
+      "pending_geometry": 0,
+      "success_rate": 0.0,
+      "wilson_95_interval": [
+        0,
+        0.2775327998628892
+      ]
+    },
+    "stack": {
+      "target": 10,
+      "valid_completed": 10,
+      "successes": 0,
+      "failures": 10,
+      "infrastructure_exhausted": 0,
+      "pending_geometry": 0,
+      "success_rate": 0.0,
+      "wilson_95_interval": [
+        0,
+        0.2775327998628892
+      ]
+    },
+    "pick_place": {
+      "target": 10,
+      "valid_completed": 10,
+      "successes": 0,
+      "failures": 10,
+      "infrastructure_exhausted": 0,
+      "pending_geometry": 0,
+      "success_rate": 0.0,
+      "wilson_95_interval": [
+        0,
+        0.2775327998628892
+      ]
+    },
+    "microwave_open": {
+      "target": 10,
+      "valid_completed": 10,
+      "successes": 0,
+      "failures": 10,
+      "infrastructure_exhausted": 0,
+      "pending_geometry": 0,
+      "success_rate": 0.0,
+      "wilson_95_interval": [
+        0,
+        0.2775327998628892
+      ]
+    },
+    "piano": {
+      "target": 10,
+      "valid_completed": 10,
+      "successes": 0,
+      "failures": 10,
+      "infrastructure_exhausted": 0,
+      "pending_geometry": 0,
+      "success_rate": 0.0,
+      "wilson_95_interval": [
+        0,
+        0.2775327998628892
+      ]
+    }
+  },
+  "configuration": {
+    "horizon": 30,
+    "chunk_size": 30,
+    "seeds": [
+      920101,
+      920110
+    ],
+    "model": "intermediate seven-task pi05 step37000 checkpoint",
+    "environment": "v2 collection-aligned"
+  },
+  "results_dir": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_step37000_five_tasks_x10_20261014_0925/results"
+}

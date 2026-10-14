@@ -1,0 +1,22 @@
+{
+  "checked_at": 1791868467.9711318,
+  "master": {
+    "state": "starting_repair_policy",
+    "iteration": "clock_hold_low_lr_v2",
+    "driver_pid": 382130,
+    "training_run": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_repair_clock_hold_low_lr_v2_20261013_001",
+    "evaluation_run": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_repair_clock_hold_low_lr_v2_dev_20261013_001",
+    "updated_at": 1791868425.077948,
+    "policy_pid": 427405
+  },
+  "train": {
+    "state": "complete",
+    "pid": 382129,
+    "updated_at": 1791868417.7333,
+    "step": 13000,
+    "target_steps": 13000
+  },
+  "train_cmd": null,
+  "driver_cmd": "python3 /media/external/bowenjing/projects/pi05_wuji/runs/pi05_repair_clock_hold_low_lr_v2_dev_20261013_001/code/iteration_driver.py ",
+  "policy_cmd": "/media/external/bowenjing/projects/pi05_wuji/env/bin/python /media/external/bowenjing/projects/pi05_wuji/runs/pi05_repair_clock_hold_low_lr_v2_dev_20261013_001/code/policy_server.py "
+}

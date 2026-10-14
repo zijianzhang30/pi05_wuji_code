@@ -1,0 +1,207 @@
+{
+  "created_at_bjt": "2026-10-14T00:04:59.285432+08:00",
+  "state": "reference_audit_completed_root_cause_not_confirmed",
+  "references": [
+    {
+      "name": "Being-H unified action space",
+      "url": "https://github.com/BeingBeyond/Being-H/blob/27ec67b84ac6c8e55f95408205e1ad7ba8bec253/Being-H05/docs/unified_action_space.md",
+      "finding": "200 semantic slots, not 200 actual robot joints; documented dexterous hand slots have6 plus6reserved perhand, insufficient for direct Wuji20 mapping."
+    },
+    {
+      "name": "Being-H inference adapter",
+      "url": "https://github.com/BeingBeyond/Being-H/blob/27ec67b84ac6c8e55f95408205e1ad7ba8bec253/Being-H05/BeingH/inference/beingh_policy.py",
+      "finding": "Explicit UNIFIED_MAPPING, percomponent dimension assertions, optional action_valid_mask, modality inverse normalization."
+    },
+    {
+      "name": "Being-H state/action normalization",
+      "url": "https://github.com/BeingBeyond/Being-H/blob/27ec67b84ac6c8e55f95408205e1ad7ba8bec253/Being-H05/BeingH/dataset/transform/state_action.py",
+      "finding": "Percomponent normalization modes and inverse; unused slots are distinct from real but inactive joints."
+    },
+    {
+      "name": "OpenPI training configs",
+      "url": "https://github.com/Physical-Intelligence/openpi/blob/215abfb217dbac7d5f1273282331b9b1866c0479/src/openpi/training/config.py",
+      "finding": "ALOHA default relative arm targets, absolute grippers. pi0_aloha_sim explicitly sets use_delta_joint_actions=False: absolute joints are supported."
+    },
+    {
+      "name": "OpenPI delta transforms",
+      "url": "https://github.com/Physical-Intelligence/openpi/blob/215abfb217dbac7d5f1273282331b9b1866c0479/src/openpi/transforms.py",
+      "finding": "Every future action in a chunk subtracts the initial observation state on masked dimensions; inverse adds it back. Not adjacent timestep differences."
+    }
+  ],
+  "openpi_installed_commit": "215abfb217dbac7d5f1273282331b9b1866c0479",
+  "official_transform_sha256": "a1b94e9e72849a18834778f229c6bb389a495eb7fbe0aa800edea728b9424ff4",
+  "candidate_adapter_contract": {
+    "created_at_bjt": "2026-10-14T00:03:07.565759+08:00",
+    "implementation": "executed installed official openpi.transforms.DeltaActions and AbsoluteActions",
+    "scope": "CPU candidate adapter only; no running policy or training semantics changed; delta relative to initial observation for all chunk rows",
+    "arm_delta_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "checks": [
+      {
+        "task": "piano",
+        "action_shape": [
+          30,
+          52
+        ],
+        "max_roundtrip_error_rad": 2.7008354663848877e-08,
+        "hand_dimensions_unchanged": true
+      },
+      {
+        "task": "pick_place",
+        "action_shape": [
+          30,
+          52
+        ],
+        "max_roundtrip_error_rad": 5.587935447692871e-09,
+        "hand_dimensions_unchanged": true
+      },
+      {
+        "task": "microwave_open",
+        "action_shape": [
+          30,
+          52
+        ],
+        "max_roundtrip_error_rad": 0.0,
+        "hand_dimensions_unchanged": true
+      },
+      {
+        "task": "stack",
+        "action_shape": [
+          30,
+          52
+        ],
+        "max_roundtrip_error_rad": 0.0,
+        "hand_dimensions_unchanged": true
+      },
+      {
+        "task": "produce_sort",
+        "action_shape": [
+          30,
+          52
+        ],
+        "max_roundtrip_error_rad": 0.0,
+        "hand_dimensions_unchanged": true
+      }
+    ],
+    "passed": true,
+    "required_before_training": "Recompute delta action normalization from authoritative training split after DeltaActions, then train with matching inverse in inference; do not reuse absolute action normalizer."
+  },
+  "scene_check_evidence": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_code_audit_20261013_211237/evidence/initial_scene_distribution_20261014_v2.json",
+  "formal_eval_snapshot": {
+    "valid_completed": 270,
+    "target_episodes": 350,
+    "per_task": {
+      "produce_sort": {
+        "target": 50,
+        "valid_completed": 37,
+        "successes": 0,
+        "failures": 37,
+        "infrastructure_exhausted": 0,
+        "pending_geometry": 0,
+        "success_rate": 0.0,
+        "wilson_95_interval": [
+          0,
+          0.09405782583720251
+        ]
+      },
+      "stack": {
+        "target": 50,
+        "valid_completed": 39,
+        "successes": 0,
+        "failures": 39,
+        "infrastructure_exhausted": 0,
+        "pending_geometry": 0,
+        "success_rate": 0.0,
+        "wilson_95_interval": [
+          0,
+          0.08966685370757144
+        ]
+      },
+      "pick_place": {
+        "target": 50,
+        "valid_completed": 39,
+        "successes": 0,
+        "failures": 39,
+        "infrastructure_exhausted": 0,
+        "pending_geometry": 0,
+        "success_rate": 0.0,
+        "wilson_95_interval": [
+          0,
+          0.08966685370757144
+        ]
+      },
+      "microwave_open": {
+        "target": 50,
+        "valid_completed": 39,
+        "successes": 0,
+        "failures": 39,
+        "infrastructure_exhausted": 0,
+        "pending_geometry": 0,
+        "success_rate": 0.0,
+        "wilson_95_interval": [
+          0,
+          0.08966685370757144
+        ]
+      },
+      "gesture_one": {
+        "target": 50,
+        "valid_completed": 39,
+        "successes": 39,
+        "failures": 0,
+        "infrastructure_exhausted": 0,
+        "pending_geometry": 0,
+        "success_rate": 1.0,
+        "wilson_95_interval": [
+          0.9103331462924287,
+          1
+        ]
+      },
+      "gesture_two": {
+        "target": 50,
+        "valid_completed": 39,
+        "successes": 39,
+        "failures": 0,
+        "infrastructure_exhausted": 0,
+        "pending_geometry": 0,
+        "success_rate": 1.0,
+        "wilson_95_interval": [
+          0.9103331462924287,
+          1
+        ]
+      },
+      "piano": {
+        "target": 50,
+        "valid_completed": 38,
+        "successes": 0,
+        "failures": 38,
+        "infrastructure_exhausted": 0,
+        "pending_geometry": 0,
+        "success_rate": 0.0,
+        "wilson_95_interval": [
+          0,
+          0.09180986822558396
+        ]
+      }
+    }
+  },
+  "processes": {
+    "1076004": "python3 /media/external/bowenjing/projects/pi05_wuji/runs/pi05_v4_step14000_eval50_20261013_225607/code/pipeline.py ",
+    "1076107": "/media/external/bowenjing/projects/pi05_wuji/env/bin/python /media/external/bowenjing/projects/pi05_wuji/runs/pi05_v4_step14000_eval50_20261013_225607/code/policy_server.py ",
+    "1077307": "python3 /media/external/bowenjing/projects/pi05_wuji/runs/pi05_v4_step14000_eval50_20261013_225607/code/coordinator.py ",
+    "1033142": "python3 /media/external/bowenjing/projects/pi05_wuji/runs/pi05_single_piano_b32_dev_20261013_221719/code/iteration_driver.py "
+  },
+  "running_jobs_modified": false,
+  "next_experiment": "One accepted piano demonstration only; absolute versus arm-delta matched training budgets, new train-only action stats for delta, same observation/executor/success criteria. Measure physical arm/hand error and same-reset closed-loop success; then heldout-reset generalization. Not launched; current350evaluation and existing piano resume queue unchanged."
+}

@@ -1,0 +1,128 @@
+{
+  "created_at_bjt": "2026-10-14T00:01:55.229295+08:00",
+  "scope": "Accepted training episodes initial observations versus completed v4 formal episodes first recorded post-control pose. Not a pixel distribution or exact same-reset equivalence test.",
+  "tasks": {
+    "pick_place": {
+      "training_episodes": 46,
+      "completed_evaluation_episodes": 37,
+      "initial_qpos_dimension": 52,
+      "max_qpos_distance_outside_training_bbox_rad": 0.002650739625096321,
+      "mean_qpos_distance_outside_training_bbox_rad": 1.4537339666276239e-05,
+      "objects": {
+        "/World/TaskObjects/object": {
+          "training_initial_xyz_min": [
+            -1.8734238147735596,
+            -3.498380422592163,
+            0.7053000926971436
+          ],
+          "training_initial_xyz_max": [
+            -1.8675637245178223,
+            -3.492536783218384,
+            0.7053003311157227
+          ],
+          "eval_first_xyz_min": [
+            -1.8735384941101074,
+            -3.4980885982513428,
+            0.7053000926971436
+          ],
+          "eval_first_xyz_max": [
+            -1.8677281141281128,
+            -3.4925827980041504,
+            0.7053002715110779
+          ],
+          "max_distance_outside_train_bbox_m": 0.00011467933654785156,
+          "train_sample_count": 46,
+          "eval_sample_count": 37
+        }
+      },
+      "missing_source": []
+    },
+    "stack": {
+      "training_episodes": 46,
+      "completed_evaluation_episodes": 37,
+      "initial_qpos_dimension": 52,
+      "max_qpos_distance_outside_training_bbox_rad": 0.002783733420073986,
+      "mean_qpos_distance_outside_training_bbox_rad": 1.3413422493613325e-05,
+      "objects": {
+        "/World/TaskObjects/object": {
+          "training_initial_xyz_min": [
+            -1.8734238147735596,
+            -3.498380422592163,
+            0.7053000926971436
+          ],
+          "training_initial_xyz_max": [
+            -1.8685863018035889,
+            -3.492536783218384,
+            0.7053002715110779
+          ],
+          "eval_first_xyz_min": [
+            -1.8735384941101074,
+            -3.4980885982513428,
+            0.7053000926971436
+          ],
+          "eval_first_xyz_max": [
+            -1.8677281141281128,
+            -3.4925827980041504,
+            0.7053002715110779
+          ],
+          "max_distance_outside_train_bbox_m": 0.0008581876754760742,
+          "train_sample_count": 46,
+          "eval_sample_count": 37
+        },
+        "/World/TaskObjects/bottom": {
+          "training_initial_xyz_min": [
+            -2.1720378398895264,
+            -3.4918506145477295,
+            0.7053001523017883
+          ],
+          "training_initial_xyz_max": [
+            -2.1720378398895264,
+            -3.4918506145477295,
+            0.7053001523017883
+          ],
+          "eval_first_xyz_min": [
+            -2.1720352172851562,
+            -3.4918510913848877,
+            0.7053002119064331
+          ],
+          "eval_first_xyz_max": [
+            -2.1720352172851562,
+            -3.4918510913848877,
+            0.7053002119064331
+          ],
+          "max_distance_outside_train_bbox_m": 2.66626706675828e-06,
+          "train_sample_count": 46,
+          "eval_sample_count": 37
+        }
+      },
+      "missing_source": []
+    },
+    "piano": {
+      "training_episodes": 46,
+      "completed_evaluation_episodes": 37,
+      "initial_qpos_dimension": 52,
+      "max_qpos_distance_outside_training_bbox_rad": 2.47955322265625e-05,
+      "mean_qpos_distance_outside_training_bbox_rad": 7.80723254933946e-08,
+      "objects": {},
+      "missing_source": []
+    },
+    "microwave_open": {
+      "training_episodes": 45,
+      "completed_evaluation_episodes": 38,
+      "initial_qpos_dimension": 52,
+      "max_qpos_distance_outside_training_bbox_rad": 0.002489328384399414,
+      "mean_qpos_distance_outside_training_bbox_rad": 1.1304739928164054e-05,
+      "objects": {},
+      "missing_source": []
+    },
+    "produce_sort": {
+      "training_episodes": 45,
+      "completed_evaluation_episodes": 35,
+      "initial_qpos_dimension": 52,
+      "max_qpos_distance_outside_training_bbox_rad": 0.002489362843334675,
+      "mean_qpos_distance_outside_training_bbox_rad": 1.574109228386078e-05,
+      "objects": {},
+      "missing_source": []
+    }
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "checked_at": 1791872028.7747357,
+  "iteration": "start_sampling_v3",
+  "training_status": {
+    "state": "training",
+    "pid": 454498,
+    "updated_at": 1791872026.667468,
+    "step": 16020,
+    "target_steps": 17000,
+    "global_batch": 8,
+    "equivalent_frame_epochs": 1.194853626701473,
+    "elapsed_seconds": 2473.654741830018,
+    "last_step_seconds": 0.6800969819887541,
+    "grad_norm": 0.9307382702827454,
+    "grad_norm_action_expert": 0.8464010953903198,
+    "grad_norm_language": 0.25192520022392273,
+    "grad_norm_projection": 0.21727022528648376,
+    "grad_norm_vision": 0.025737198069691658,
+    "loss": 0.009332993999123573,
+    "update_norm_action_expert": 0.004624328576028347,
+    "update_norm_language": 0.009070797823369503,
+    "update_norm_projection": 7.303376332856715e-05,
+    "update_norm_vision": 0.0033742315135896206,
+    "gpu_memory": [
+      {
+        "gpu": 0,
+        "num_allocs": 70586,
+        "bytes_in_use": 5050044160,
+        "peak_bytes_in_use": 10097696000,
+        "largest_alloc_size": 2252674048,
+        "bytes_limit": 64913236150,
+        "bytes_reserved": 0,
+        "peak_bytes_reserved": 0,
+        "largest_free_block_bytes": 0,
+        "pool_bytes": 64913235968,
+        "peak_pool_bytes": 64913235968
+      },
+      {
+        "gpu": 1,
+        "num_allocs": 73512,
+        "bytes_in_use": 5049874432,
+        "peak_bytes_in_use": 10097658880,
+        "largest_alloc_size": 2252674048,
+        "bytes_limit": 64913236150,
+        "bytes_reserved": 0,
+        "peak_bytes_reserved": 0,
+        "largest_free_block_bytes": 0,
+        "pool_bytes": 64913235968,
+        "peak_pool_bytes": 64913235968
+      },
+      {
+        "gpu": 2,
+        "num_allocs": 73512,
+        "bytes_in_use": 5049874432,
+        "peak_bytes_in_use": 10097658880,
+        "largest_alloc_size": 2252674048,
+        "bytes_limit": 64913236150,
+        "bytes_reserved": 0,
+        "peak_bytes_reserved": 0,
+        "largest_free_block_bytes": 0,
+        "pool_bytes": 64913235968,
+        "peak_pool_bytes": 64913235968
+      },
+      {
+        "gpu": 3,
+        "num_allocs": 73512,
+        "bytes_in_use": 5049874432,
+        "peak_bytes_in_use": 10097658880,
+        "largest_alloc_size": 2252674048,
+        "bytes_limit": 64913236150,
+        "bytes_reserved": 0,
+        "peak_bytes_reserved": 0,
+        "largest_free_block_bytes": 0,
+        "pool_bytes": 64913235968,
+        "peak_pool_bytes": 64913235968
+      },
+      {
+        "gpu": 4,
+        "num_allocs": 73512,
+        "bytes_in_use": 5049874432,
+        "peak_bytes_in_use": 10097658880,
+        "largest_alloc_size": 2252674048,
+        "bytes_limit": 64913236150,
+        "bytes_reserved": 0,
+        "peak_bytes_reserved": 0,
+        "largest_free_block_bytes": 0,
+        "pool_bytes": 64913235968,
+        "peak_pool_bytes": 64913235968
+      },
+      {
+        "gpu": 5,
+        "num_allocs": 73512,
+        "bytes_in_use": 5049627136,
+        "peak_bytes_in_use": 10097411584,
+        "largest_alloc_size": 2252674048,
+        "bytes_limit": 64913236150,
+        "bytes_reserved": 0,
+        "peak_bytes_reserved": 0,
+        "largest_free_block_bytes": 0,
+        "pool_bytes": 64913235968,
+        "peak_pool_bytes": 64913235968
+      },
+      {
+        "gpu": 6,
+        "num_allocs": 73512,
+        "bytes_in_use": 5049827840,
+        "peak_bytes_in_use": 10097612288,
+        "largest_alloc_size": 2252674048,
+        "bytes_limit": 64913236150,
+        "bytes_reserved": 0,
+        "peak_bytes_reserved": 0,
+        "largest_free_block_bytes": 0,
+        "pool_bytes": 64913235968,
+        "peak_pool_bytes": 64913235968
+      },
+      {
+        "gpu": 7,
+        "num_allocs": 73512,
+        "bytes_in_use": 5049827840,
+        "peak_bytes_in_use": 10097612288,
+        "largest_alloc_size": 2252674048,
+        "bytes_limit": 64913236150,
+        "bytes_reserved": 0,
+        "peak_bytes_reserved": 0,
+        "largest_free_block_bytes": 0,
+        "pool_bytes": 64913235968,
+        "peak_pool_bytes": 64913235968
+      }
+    ]
+  },
+  "training_pid_live_verified": 454498,
+  "driver_pid_live_verified": 454499,
+  "all_logged_numeric_metrics_finite": true,
+  "latest_metric": {
+    "step": 16020,
+    "target_steps": 17000,
+    "global_batch": 8,
+    "equivalent_frame_epochs": 1.194853626701473,
+    "elapsed_seconds": 2473.654741830018,
+    "last_step_seconds": 0.6800969819887541,
+    "grad_norm": 0.9307382702827454,
+    "grad_norm_action_expert": 0.8464010953903198,
+    "grad_norm_language": 0.25192520022392273,
+    "grad_norm_projection": 0.21727022528648376,
+    "grad_norm_vision": 0.025737198069691658,
+    "loss": 0.009332993999123573,
+    "update_norm_action_expert": 0.004624328576028347,
+    "update_norm_language": 0.009070797823369503,
+    "update_norm_projection": 7.303376332856715e-05,
+    "update_norm_vision": 0.0033742315135896206
+  },
+  "validation": {
+    "step_013020.json": {
+      "step": 13020,
+      "per_task_flow_loss": {
+        "gesture_one": 0.002912582131102681,
+        "gesture_two": 0.002828268799930811,
+        "microwave_open": 0.0040000732988119125,
+        "piano": 0.00868928898125887,
+        "pick_place": 0.0023175198584795,
+        "produce_sort": 0.008294924162328243,
+        "stack": 0.002541904104873538
+      },
+      "macro_mean": 0.004512080190969365,
+      "scope": "held-out fixed sample flow matching loss, not success rate"
+    },
+    "step_014000.json": {
+      "step": 14000,
+      "per_task_flow_loss": {
+        "gesture_one": 0.003328414633870125,
+        "gesture_two": 0.0026011094450950623,
+        "microwave_open": 0.004058280028402805,
+        "piano": 0.008064720779657364,
+        "pick_place": 0.002973137889057398,
+        "produce_sort": 0.01705252006649971,
+        "stack": 0.00275986990891397
+      },
+      "macro_mean": 0.005834007535928062,
+      "scope": "held-out fixed sample flow matching loss, not success rate"
+    },
+    "step_015000.json": {
+      "step": 15000,
+      "per_task_flow_loss": {
+        "gesture_one": 0.0031339286360889673,
+        "gesture_two": 0.003051128936931491,
+        "microwave_open": 0.00408224668353796,
+        "piano": 0.008743349462747574,
+        "pick_place": 0.0022361604496836662,
+        "produce_sort": 0.013045378029346466,
+        "stack": 0.002631954848766327
+      },
+      "macro_mean": 0.005274878149586064,
+      "scope": "held-out fixed sample flow matching loss, not success rate"
+    },
+    "step_016000.json": {
+      "step": 16000,
+      "per_task_flow_loss": {
+        "gesture_one": 0.003355633234605193,
+        "gesture_two": 0.0025948877446353436,
+        "microwave_open": 0.003702537389472127,
+        "piano": 0.007563685532659292,
+        "pick_place": 0.0024417981039732695,
+        "produce_sort": 0.017148543149232864,
+        "stack": 0.0026888716965913773
+      },
+      "macro_mean": 0.0056422795501670665,
+      "scope": "held-out fixed sample flow matching loss, not success rate"
+    }
+  },
+  "action": "healthy training and waiting driver; no launch or configuration change"
+}

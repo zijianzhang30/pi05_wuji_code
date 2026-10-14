@@ -1,0 +1,8 @@
+{
+  "pid": 2301996,
+  "socket": "/tmp/evaluation.sock",
+  "checkpoint": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_single_episode_pick_overfit_20261014_102705/checkpoints/38000",
+  "step": 38000,
+  "gpu": 0,
+  "ready_at": 1791946864.9023066
+}

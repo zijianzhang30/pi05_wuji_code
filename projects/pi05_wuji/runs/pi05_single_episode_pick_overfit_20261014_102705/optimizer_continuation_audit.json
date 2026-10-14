@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "source": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_train_scene_pick_v2_20261014_101417/checkpoints/37000",
+  "state_step": 37000,
+  "optimizer_counts": [
+    37000,
+    37000
+  ],
+  "source_metadata_unchanged": true,
+  "source_opened_read_only": true,
+  "all_arrays_on_8gpu_mesh": true,
+  "learning_rate": 1e-06
+}

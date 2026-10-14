@@ -1,0 +1,20 @@
+{
+  "started_at": 1791779211.9504097,
+  "passed": true,
+  "jax_version": "0.5.3",
+  "devices": [
+    "cuda:0"
+  ],
+  "tested": [
+    "BF16 GEMM",
+    "float32 convolution",
+    "JIT gradient"
+  ],
+  "convolution_shape": [
+    1,
+    30,
+    30,
+    8
+  ],
+  "finished_at": 1791779239.6428683
+}

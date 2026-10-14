@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "train_episode_index": 0,
+  "train_split": true,
+  "parquet_frames": 331,
+  "hdf_actions": 331,
+  "hdf_observations": 332,
+  "state_action_exact": true,
+  "source_frame_range": [
+    30,
+    360
+  ],
+  "reference_acceptance": true
+}

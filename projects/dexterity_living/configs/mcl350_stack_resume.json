@@ -1,0 +1,1 @@
+[{"id": "mcl350_v1_stack_012001_resume", "gpu": 1, "script": "/media/external/bowenjing/projects/dexterity_living/code/mcl350/collect_one.py", "args": ["--task", "stack", "--seed", "12001", "--name", "mcl350_v1_stack_012001", "--gpu", "1", "--existing"], "timeout_seconds": 6000}]

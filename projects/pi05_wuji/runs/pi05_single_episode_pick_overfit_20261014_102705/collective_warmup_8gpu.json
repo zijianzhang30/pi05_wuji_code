@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "nccl": "2.28.9",
+  "gpu_count": 8,
+  "large_collective_elements_per_gpu": 8388608
+}

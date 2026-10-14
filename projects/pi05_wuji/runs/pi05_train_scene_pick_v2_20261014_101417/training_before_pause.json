@@ -1,0 +1,14 @@
+{
+  "previous_pause": {
+    "state": "paused_for_training_scene_diagnostic",
+    "diagnostic_run": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_train_scene_pick_20261014_095648",
+    "resume_step": 38000,
+    "updated_at": 1791943847.2447097
+  },
+  "checkpoint_status": {
+    "step": 38000,
+    "path": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_seven_resume10e_b32_20261014_001/checkpoints/38000",
+    "saved": true
+  },
+  "recovered_from_reference_schema_error": true
+}

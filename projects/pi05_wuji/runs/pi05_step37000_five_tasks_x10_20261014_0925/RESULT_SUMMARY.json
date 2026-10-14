@@ -1,0 +1,329 @@
+{
+  "created_at_bjt": "2026-10-14T09:42:27.174671+08:00",
+  "checkpoint_step": 37000,
+  "valid_episodes": 50,
+  "reused_first_seed_episodes": 5,
+  "new_episodes": 45,
+  "task_count": 5,
+  "per_task": {
+    "produce_sort": {
+      "successes": 0,
+      "episodes": 10,
+      "rate": 0.0,
+      "wilson_95": [
+        0,
+        0.2775327998628892
+      ],
+      "final_reasons": {
+        "time_limit": 9,
+        "contact_gate": 1
+      },
+      "task_passed_before_geometry": 0,
+      "infrastructure_episode_retries": 0,
+      "trace_details": [
+        {
+          "seed": 920101,
+          "peak_food_contact_N": 0.0
+        },
+        {
+          "seed": 920102,
+          "peak_food_contact_N": 0.0
+        },
+        {
+          "seed": 920103,
+          "peak_food_contact_N": 0.0
+        },
+        {
+          "seed": 920104,
+          "peak_food_contact_N": 0.0
+        },
+        {
+          "seed": 920105,
+          "peak_food_contact_N": 6.235129356384277
+        },
+        {
+          "seed": 920106,
+          "peak_food_contact_N": 0.0
+        },
+        {
+          "seed": 920107,
+          "peak_food_contact_N": 0.0
+        },
+        {
+          "seed": 920108,
+          "peak_food_contact_N": 49.95702362060547
+        },
+        {
+          "seed": 920109,
+          "peak_food_contact_N": 20.28719711303711
+        },
+        {
+          "seed": 920110,
+          "peak_food_contact_N": 0.0
+        }
+      ]
+    },
+    "stack": {
+      "successes": 0,
+      "episodes": 10,
+      "rate": 0.0,
+      "wilson_95": [
+        0,
+        0.2775327998628892
+      ],
+      "final_reasons": {
+        "time_limit": 10
+      },
+      "task_passed_before_geometry": 0,
+      "infrastructure_episode_retries": 1,
+      "trace_details": [
+        {
+          "seed": 920101,
+          "peak_object_contact_N": 0.0
+        },
+        {
+          "seed": 920102,
+          "peak_object_contact_N": 0.0
+        },
+        {
+          "seed": 920103,
+          "peak_object_contact_N": 0.0
+        },
+        {
+          "seed": 920104,
+          "peak_object_contact_N": 0.0
+        },
+        {
+          "seed": 920105,
+          "peak_object_contact_N": 0.0
+        },
+        {
+          "seed": 920106,
+          "peak_object_contact_N": 0.0
+        },
+        {
+          "seed": 920107,
+          "peak_object_contact_N": 0.0
+        },
+        {
+          "seed": 920108,
+          "peak_object_contact_N": 0.0
+        },
+        {
+          "seed": 920109,
+          "peak_object_contact_N": 0.0
+        },
+        {
+          "seed": 920110,
+          "peak_object_contact_N": 0.0
+        }
+      ]
+    },
+    "pick_place": {
+      "successes": 0,
+      "episodes": 10,
+      "rate": 0.0,
+      "wilson_95": [
+        0,
+        0.2775327998628892
+      ],
+      "final_reasons": {
+        "time_limit": 10
+      },
+      "task_passed_before_geometry": 0,
+      "infrastructure_episode_retries": 0,
+      "trace_details": [
+        {
+          "seed": 920101,
+          "peak_object_contact_N": 0.0
+        },
+        {
+          "seed": 920102,
+          "peak_object_contact_N": 0.0
+        },
+        {
+          "seed": 920103,
+          "peak_object_contact_N": 0.0
+        },
+        {
+          "seed": 920104,
+          "peak_object_contact_N": 0.0
+        },
+        {
+          "seed": 920105,
+          "peak_object_contact_N": 0.0
+        },
+        {
+          "seed": 920106,
+          "peak_object_contact_N": 0.0
+        },
+        {
+          "seed": 920107,
+          "peak_object_contact_N": 0.0
+        },
+        {
+          "seed": 920108,
+          "peak_object_contact_N": 0.0
+        },
+        {
+          "seed": 920109,
+          "peak_object_contact_N": 0.0
+        },
+        {
+          "seed": 920110,
+          "peak_object_contact_N": 0.0
+        }
+      ]
+    },
+    "microwave_open": {
+      "successes": 0,
+      "episodes": 10,
+      "rate": 0.0,
+      "wilson_95": [
+        0,
+        0.2775327998628892
+      ],
+      "final_reasons": {
+        "contact_gate": 10
+      },
+      "task_passed_before_geometry": 0,
+      "infrastructure_episode_retries": 0,
+      "trace_details": [
+        {
+          "seed": 920101,
+          "max_four_finger_streak": 0,
+          "max_door_angle_deg": 0.3003752827644348
+        },
+        {
+          "seed": 920102,
+          "max_four_finger_streak": 0,
+          "max_door_angle_deg": 0.08386330306529999
+        },
+        {
+          "seed": 920103,
+          "max_four_finger_streak": 0,
+          "max_door_angle_deg": 0.08386330306529999
+        },
+        {
+          "seed": 920104,
+          "max_four_finger_streak": 0,
+          "max_door_angle_deg": 0.08386330306529999
+        },
+        {
+          "seed": 920105,
+          "max_four_finger_streak": 0,
+          "max_door_angle_deg": 0.08386330306529999
+        },
+        {
+          "seed": 920106,
+          "max_four_finger_streak": 0,
+          "max_door_angle_deg": 0.08386330306529999
+        },
+        {
+          "seed": 920107,
+          "max_four_finger_streak": 0,
+          "max_door_angle_deg": 0.08386330306529999
+        },
+        {
+          "seed": 920108,
+          "max_four_finger_streak": 1,
+          "max_door_angle_deg": 0.08386330306529999
+        },
+        {
+          "seed": 920109,
+          "max_four_finger_streak": 0,
+          "max_door_angle_deg": 0.08386330306529999
+        },
+        {
+          "seed": 920110,
+          "max_four_finger_streak": 0,
+          "max_door_angle_deg": 0.08386330306529999
+        }
+      ]
+    },
+    "piano": {
+      "successes": 0,
+      "episodes": 10,
+      "rate": 0.0,
+      "wilson_95": [
+        0,
+        0.2775327998628892
+      ],
+      "final_reasons": {
+        "wrong_note_sequence": 9,
+        "contact_gate": 1
+      },
+      "task_passed_before_geometry": 0,
+      "infrastructure_episode_retries": 1,
+      "trace_details": [
+        {
+          "seed": 920101,
+          "events": [
+            7
+          ]
+        },
+        {
+          "seed": 920102,
+          "events": [
+            5,
+            7
+          ]
+        },
+        {
+          "seed": 920103,
+          "events": [
+            7
+          ]
+        },
+        {
+          "seed": 920104,
+          "events": [
+            7
+          ]
+        },
+        {
+          "seed": 920105,
+          "events": [
+            6,
+            7
+          ]
+        },
+        {
+          "seed": 920106,
+          "events": [
+            6
+          ]
+        },
+        {
+          "seed": 920107,
+          "events": [
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "seed": 920108,
+          "events": [
+            7
+          ]
+        },
+        {
+          "seed": 920109,
+          "events": [
+            7
+          ]
+        },
+        {
+          "seed": 920110,
+          "events": [
+            7
+          ]
+        }
+      ]
+    }
+  },
+  "scope": "Exploratory five-task10-seed evaluation at checkpoint37000, not final10-epoch benchmark",
+  "successes": 0,
+  "rate": 0.0
+}

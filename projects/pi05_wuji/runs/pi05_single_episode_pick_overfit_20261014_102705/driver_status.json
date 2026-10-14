@@ -1,0 +1,10 @@
+{
+  "state": "original_seven_task_training_resumed",
+  "driver_pid": 2269952,
+  "training_run": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_single_episode_pick_overfit_20261014_102705",
+  "evaluation_run": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_single_episode_pick_overfit_20261014_102705/evaluation",
+  "diagnostic": "single_training_episode_pick_overfit",
+  "updated_at": 1791946943.3671458,
+  "training_pid": 2306289,
+  "resume_step": 38020
+}

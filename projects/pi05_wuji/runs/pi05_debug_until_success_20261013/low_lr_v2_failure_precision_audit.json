@@ -1,0 +1,96 @@
+{
+  "scope": "held-out action precision and development trajectory diagnostics; cross-episode reference approximate due reset randomization",
+  "rows": [
+    {
+      "task": "microwave_open",
+      "reason": "contact_gate",
+      "success": false,
+      "frames": 20,
+      "first_chunk_active_mae": 0.011398127302527428,
+      "later_chunk_active_mae": 0.01185673475265503,
+      "online_first_chunk_arm_ref_mae": 0.02507161721587181,
+      "online_first_chunk_finger_ref_mae": 0.007931776344776154,
+      "raw_command_peak_delta": 0.03945515304803848,
+      "frames_clipped": 1,
+      "uniform_probability_start_first30": 0.10989010989010989
+    },
+    {
+      "task": "gesture_one",
+      "reason": "task_success",
+      "success": true,
+      "frames": 70,
+      "first_chunk_active_mae": 0.060960397124290466,
+      "later_chunk_active_mae": 0.015378652761379877,
+      "online_first_chunk_arm_ref_mae": 0.07332275807857513,
+      "online_first_chunk_finger_ref_mae": 0.03994942829012871,
+      "raw_command_peak_delta": 0.1329064667224884,
+      "frames_clipped": 35,
+      "uniform_probability_start_first30": 0.30303030303030304
+    },
+    {
+      "task": "gesture_two",
+      "reason": "time_limit",
+      "success": false,
+      "frames": 180,
+      "first_chunk_active_mae": 0.04871843382716179,
+      "later_chunk_active_mae": 0.020778896907965343,
+      "online_first_chunk_arm_ref_mae": 0.08929604291915894,
+      "online_first_chunk_finger_ref_mae": 0.043205924332141876,
+      "raw_command_peak_delta": 0.31240642070770264,
+      "frames_clipped": 20,
+      "uniform_probability_start_first30": 0.30303030303030304
+    },
+    {
+      "task": "piano",
+      "reason": "contact_gate",
+      "success": false,
+      "frames": 34,
+      "first_chunk_active_mae": 0.01176401972770691,
+      "later_chunk_active_mae": 0.016248341649770737,
+      "online_first_chunk_arm_ref_mae": 0.024887774139642715,
+      "online_first_chunk_finger_ref_mae": 0.006765794008970261,
+      "raw_command_peak_delta": 0.14374366402626038,
+      "frames_clipped": 33,
+      "uniform_probability_start_first30": 0.13157894736842105
+    },
+    {
+      "task": "pick_place",
+      "reason": "time_limit",
+      "success": false,
+      "frames": 450,
+      "first_chunk_active_mae": 0.02357896976172924,
+      "later_chunk_active_mae": 0.014228671789169312,
+      "online_first_chunk_arm_ref_mae": 0.03414153680205345,
+      "online_first_chunk_finger_ref_mae": 0.018028998747467995,
+      "raw_command_peak_delta": 0.3332345485687256,
+      "frames_clipped": 28,
+      "uniform_probability_start_first30": 0.09063444108761329
+    },
+    {
+      "task": "stack",
+      "reason": "time_limit",
+      "success": false,
+      "frames": 540,
+      "first_chunk_active_mae": 0.03167955204844475,
+      "later_chunk_active_mae": 0.00949116594468554,
+      "online_first_chunk_arm_ref_mae": 0.04095721244812012,
+      "online_first_chunk_finger_ref_mae": 0.018881164491176605,
+      "raw_command_peak_delta": 0.24245119094848633,
+      "frames_clipped": 21,
+      "uniform_probability_start_first30": 0.07092198581560284
+    },
+    {
+      "task": "produce_sort",
+      "reason": "time_limit",
+      "success": false,
+      "frames": 1200,
+      "first_chunk_active_mae": 0.043447960168123245,
+      "later_chunk_active_mae": 0.01629610514889161,
+      "online_first_chunk_arm_ref_mae": 0.06486129760742188,
+      "online_first_chunk_finger_ref_mae": 0.038831133395433426,
+      "raw_command_peak_delta": 0.36265143752098083,
+      "frames_clipped": 25,
+      "uniform_probability_start_first30": 0.03215434083601286
+    }
+  ]
+}

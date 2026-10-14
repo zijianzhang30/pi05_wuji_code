@@ -1,0 +1,62 @@
+{
+  "status.json": {
+    "state": "training",
+    "pid": 531149,
+    "updated_at": 1791873564.5345566,
+    "step": 13040,
+    "target_steps": 17000,
+    "global_batch": 8,
+    "equivalent_frame_epochs": 0.9725899683013239,
+    "elapsed_seconds": 207.6656329529942,
+    "last_step_seconds": 0.6861292329849675,
+    "grad_norm": 0.30354923009872437,
+    "grad_norm_action_expert": 0.24599987268447876,
+    "grad_norm_language": 0.11136956512928009,
+    "grad_norm_projection": 0.11935704946517944,
+    "grad_norm_vision": 0.014920075424015522,
+    "loss": 0.0038377924356609583,
+    "update_norm_action_expert": 0.003954666666686535,
+    "update_norm_language": 0.008228873834013939,
+    "update_norm_projection": 6.817789108026773e-05,
+    "update_norm_vision": 0.0034556661266833544
+  },
+  "optimizer_continuation_audit.json": {
+    "passed": true,
+    "source": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_repair_clock_hold_low_lr_v2_20261013_001/checkpoints/13000",
+    "state_step": 13000,
+    "optimizer_counts": [
+      13000,
+      13000
+    ],
+    "source_metadata_unchanged": true,
+    "source_opened_read_only": true,
+    "all_arrays_on_8gpu_mesh": true,
+    "learning_rate": 1e-06
+  },
+  "full_gradient_check_8gpu.json": {
+    "passed": true,
+    "step": 13003,
+    "metrics": {
+      "grad_norm": 0.27195024490356445,
+      "grad_norm_action_expert": 0.20637792348861694,
+      "grad_norm_language": 0.12995241582393646,
+      "grad_norm_projection": 0.11429063230752945,
+      "grad_norm_vision": 0.011910108849406242,
+      "loss": 0.005490497685968876,
+      "update_norm_action_expert": 0.003023881698027253,
+      "update_norm_language": 0.008663410320878029,
+      "update_norm_projection": 5.002571197110228e-05,
+      "update_norm_vision": 0.0032495204359292984
+    }
+  },
+  "checkpoint_roundtrip_8gpu.json": {
+    "passed": true,
+    "step": 13020
+  },
+  "validation/step_013020.json": null,
+  "checked_at": 1791873567.674313,
+  "processes": [
+    " 531149       1       03:01 /media/external/bowenjing/projects/pi05_wuji/env/bin/python /media/external/bowenjing/projects/pi05_wuji/runs/pi05_repair_clean_image_v4_20261013_001/code/train_full_8gpu.py",
+    " 531150       1       03:01 python3 /media/external/bowenjing/projects/pi05_wuji/runs/pi05_repair_clean_image_v4_dev_20261013_001/code/iteration_driver.py"
+  ]
+}

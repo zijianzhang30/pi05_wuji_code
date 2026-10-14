@@ -1,0 +1,7 @@
+{
+  "nccl": "2.28.9",
+  "mode": "run-local LD_PRELOAD",
+  "original_nccl": "2.26.2",
+  "evidence": "probe_nccl2289.log BIG_COLLECTIVE_PASSED; original large collective fails",
+  "library_sha256": "1792291e26d2b27fe51e59cf4dbd361dbfa84cbfe8ee8196c087c7ebf5146d48"
+}

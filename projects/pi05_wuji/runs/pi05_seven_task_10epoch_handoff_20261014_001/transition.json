@@ -1,0 +1,12 @@
+{
+  "state": "handoff_preparing",
+  "old_pipeline_pid": 1076004,
+  "old_pipeline_suspended": true,
+  "policy_pid": 1076107,
+  "coordinator_pid": 1077307,
+  "formal_evaluation": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_v4_step14000_eval50_20261013_225607",
+  "piano_wait_driver_stopped": 1033142,
+  "piano_checkpoint_preserved": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_single_piano_b32_20261013_221719/checkpoints/1000",
+  "reason": "Prevent original automatic piano resume while preparing user-authorized seven-task continuation. Existing evaluation workers and policy untouched.",
+  "created_at_bjt": "2026-10-14T00:12:04.068033+08:00"
+}

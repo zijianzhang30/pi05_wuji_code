@@ -1,0 +1,11 @@
+{
+  "train_script": "code/train_full_8gpu.py",
+  "train_script_sha256": "cdb558ecd50da701e91915d88c155ccaf8ca577cfa9065b0abc96d1dcb1c805b",
+  "launcher": "launch_8gpu.py",
+  "launcher_sha256": "02aa3e099a9e3ae83d66026b35aa1f734fa0e48e16cb4907d4ea7eb08096de36",
+  "previous_receipt": "source_receipt_4gpu.json",
+  "resume_from_step": 3000,
+  "gpu_count": 8,
+  "global_batch": 8,
+  "runtime": "NCCL 2.28.9"
+}

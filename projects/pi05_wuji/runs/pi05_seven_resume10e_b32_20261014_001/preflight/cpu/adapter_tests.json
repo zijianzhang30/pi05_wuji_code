@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "last_frame_mask_count": 1,
+  "batch_shape": [
+    32,
+    30,
+    52
+  ],
+  "missing_cameras_masked": true
+}

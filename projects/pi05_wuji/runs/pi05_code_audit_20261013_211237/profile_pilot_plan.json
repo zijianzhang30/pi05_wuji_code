@@ -1,0 +1,18 @@
+{
+  "training_run": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_physics_profile32_pilot_20261013_214029",
+  "evaluation_run": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_physics_profile32_dev_20261013_214029",
+  "source_checkpoint": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_repair_clean_image_v4_20261013_001/checkpoints/14000",
+  "updates": 500,
+  "start_step": 14000,
+  "target_step": 14500,
+  "global_batch": 8,
+  "learning_rate": 1e-06,
+  "action_dim": 52,
+  "action_horizon": 32,
+  "replan_control_steps": 1,
+  "control_hz": 30,
+  "source": "actual HDF5 action_substeps; original data not rewritten",
+  "scope": "small repair pilot, new control protocol; no claim of seven-task success until actual gated episodes",
+  "master_entry_unchanged": true,
+  "source_audit": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_code_audit_20261013_211237"
+}

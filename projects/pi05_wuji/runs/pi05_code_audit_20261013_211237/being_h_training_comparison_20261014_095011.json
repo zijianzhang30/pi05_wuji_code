@@ -1,0 +1,120 @@
+{
+  "scope": "Source comparison only: Being-H05 pinned commit 27ec67b84ac6c8e55f95408205e1ad7ba8bec253 vs current seven-task Pi05 continuation. No Being-H model was trained/evaluated on Wuji; no running training config was changed.",
+  "findings": [
+    {
+      "topic": "dimensions",
+      "pi05": "52 actual joint dimensions: left26 then right26; 6 arm+20 hand each",
+      "being_h": "200 semantic unified slots, mapping and unused-dimension validity masks; default dexterous hand6+6 reserved slots per side does not directly fit Wuji20",
+      "causal_status": "No evidence of current 32-D truncation; larger nominal dimension is not proof of superior Wuji learning."
+    },
+    {
+      "topic": "state",
+      "pi05": "52 normalized values discretized into 256 bins and encoded as language tokens; max320 tokens, audited no truncation",
+      "being_h": "Continuous 200-D state MLP proprio_encoder_robot",
+      "causal_status": "Architectural difference; Pi05 design is official, not identified bug."
+    },
+    {
+      "topic": "loss",
+      "pi05": "Official flow MSE first averages 52 joints, then custom temporal padding mask and per-example temporal mean. No active-joint weights.",
+      "being_h": "Flow MSE masked over time and semantic dimensions; sum divided by valid-element count",
+      "causal_status": "Unused semantic slots differ from real inactive joints. Fingers represent40/52 coordinates, arms12/52. This is coordinate weighting, not measured error contribution. Active-arm error may be obscured by scalar average; requires controlled evidence."
+    },
+    {
+      "topic": "action_normalization",
+      "pi05": "52 absolute joint targets radians; common train-only quantile stats; half-range floor0.04rad; state clipped, action not clipped",
+      "being_h": "LIBERO example uses relative EEF actions+gripper with libero_nonorm, not absolute52 joint control; generic q99 transform clamps normalized values",
+      "causal_status": "Do not change semantics of old absolute checkpoint; new delta training needs recomputed statistics and matching inference inverse."
+    },
+    {
+      "topic": "optimization",
+      "pi05": "8 GPU full finetune, global32, constant1e-6, restore model and optimizer, total equivalent frame epochs10",
+      "being_h": "LIBERO example 4 GPU, full finetune, lr1e-4, cosine,60000 steps, resume_model_only True, token-packed batches",
+      "causal_status": "Example LR is100x current LR, but architectures/pretraining/batch/data differ. 60000 steps cannot be equated to our60k or epochs; no justified direct LR copy."
+    },
+    {
+      "topic": "vision_execution",
+      "pi05": "single EGO, clean bilinear resize+pad224, horizon30, execute30 before replan, no RTC/MPG",
+      "being_h": "LIBERO example top+wrist,224, color jitter, horizon16, MPG enabled, training-timeRTC disabled, inference prefix-overwrite enabled",
+      "causal_status": "Useful candidate controls, not established cause of five-task failures."
+    }
+  ],
+  "sources": [
+    "https://github.com/BeingBeyond/Being-H/blob/27ec67b84ac6c8e55f95408205e1ad7ba8bec253/Being-H05/BeingH/model/beingvla.py",
+    "https://github.com/BeingBeyond/Being-H/blob/27ec67b84ac6c8e55f95408205e1ad7ba8bec253/Being-H05/configs/data_config.py",
+    "https://github.com/BeingBeyond/Being-H/blob/27ec67b84ac6c8e55f95408205e1ad7ba8bec253/Being-H05/scripts/train/train_libero_example.sh",
+    "https://github.com/BeingBeyond/Being-H/blob/27ec67b84ac6c8e55f95408205e1ad7ba8bec253/Being-H05/configs/posttrain/libero/libero_all.yaml",
+    "https://github.com/BeingBeyond/Being-H/blob/27ec67b84ac6c8e55f95408205e1ad7ba8bec253/Being-H05/BeingH/dataset/transform/state_action.py",
+    "https://github.com/Physical-Intelligence/openpi/blob/215abfb217dbac7d5f1273282331b9b1866c0479/src/openpi/models/pi0_config.py"
+  ],
+  "conclusion": "No new confirmed training bug from this source comparison. Five failed tasks x10 at step37000 =0/50 does not establish architecture cause. Compare per-task/arm/finger physical-unit errors, matched-budget single-task control, and separately controlled action representation/replan/LR changes after preserving this baseline.",
+  "snapshot_beijing": "2026-10-14T09:50:11.360227+08:00",
+  "current_training_run": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_seven_resume10e_b32_20261014_001",
+  "current_config": {
+    "method": "full_finetune",
+    "all_parameters_trainable": true,
+    "lora": false,
+    "global_batch": 32,
+    "gradient_accumulation": 1,
+    "fsdp_devices": 8,
+    "gpu_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "max_steps": 46269,
+    "learning_rate": 1e-06,
+    "warmup_steps": 1,
+    "action_dim": 52,
+    "action_horizon": 30,
+    "max_token_len": 320,
+    "seed": 20261013,
+    "language": "en",
+    "ema": false,
+    "train_frames": 107260,
+    "repair": "seven_task_resume_to10_frame_epochs",
+    "resume_step": 17000,
+    "prior_samples_seen": 136000,
+    "target_equivalent_frame_epochs": 10,
+    "steps_per_equivalent_epoch": 3351.875,
+    "weight_source": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_repair_clean_image_v4_20261013_001/checkpoints/17000",
+    "optimizer": "v4 step17000 AdamW moments and counts restored; constant 1e-6 continuation",
+    "normalization": "unchanged original training statistics",
+    "additional_optimizer_steps": 29269,
+    "equivalent_additional_frame_epochs": 8.732127540555659,
+    "equivalent_total_frame_epochs": 10.000074585120268,
+    "model_source_commit": "215abfb217dbac7d5f1273282331b9b1866c0479",
+    "sampling": "uniform task then uniform episode then uniform start frame; replacement",
+    "image_preprocessing": "PIL bilinear resize+pad224; random crop, rotation and color jitter disabled; same clean image preprocessing as inference",
+    "quantile_half_range_floor_rad": 0.04,
+    "state_clip": [
+      -1,
+      1
+    ],
+    "action_clip": false
+  },
+  "current_source_sha256": "d1b6b6f6f2a1cd2fe9eefe7abe94cfc4a3d87c0b29855932dc134b50a8389011",
+  "latest_logged_metric": {
+    "step": 37200,
+    "target_steps": 46269,
+    "global_batch": 32,
+    "samples_seen": 782400,
+    "equivalent_frame_epochs": 7.294424762259929,
+    "elapsed_seconds": 416.1988016599789,
+    "last_step_seconds": 1.3873786980402656,
+    "grad_norm": 0.3716490566730499,
+    "grad_norm_action_expert": 0.3232077956199646,
+    "grad_norm_language": 0.1222798302769661,
+    "grad_norm_projection": 0.11357270181179047,
+    "grad_norm_vision": 0.008624196983873844,
+    "loss": 0.002541216555982828,
+    "update_norm_action_expert": 0.003862872486934066,
+    "update_norm_language": 0.008658069185912609,
+    "update_norm_projection": 6.717501673847437e-05,
+    "update_norm_vision": 0.003538765711709857
+  }
+}

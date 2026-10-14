@@ -1,0 +1,247 @@
+[
+  {
+    "q": {
+      "fr_joint1": 0.21814590552299523,
+      "fr_joint2": 1.8817384883504489,
+      "fr_joint3": -0.8728152933845161,
+      "fr_joint4": 0.50090938047067,
+      "fr_joint5": -0.37096446916932696,
+      "fr_joint6": -1.6914674389932256,
+      "right_finger1_joint1": 1.0830289910272393,
+      "right_finger1_joint2": -0.1575859025104855,
+      "right_finger1_joint3": 0.5857182774644497,
+      "right_finger1_joint4": -0.43846017460350334,
+      "right_finger2_joint1": 0.27360420472914154,
+      "right_finger2_joint2": 0.30534900812542115,
+      "right_finger2_joint3": 1.1182079465074397,
+      "right_finger2_joint4": 0.048841596998588345,
+      "right_finger3_joint1": 0.75,
+      "right_finger3_joint2": 0.0,
+      "right_finger3_joint3": 0.8,
+      "right_finger3_joint4": 0.7,
+      "right_finger4_joint1": 0.75,
+      "right_finger4_joint2": 0.0,
+      "right_finger4_joint3": 0.8,
+      "right_finger4_joint4": 0.7,
+      "right_finger5_joint1": 0.75,
+      "right_finger5_joint2": 0.0,
+      "right_finger5_joint3": 0.8,
+      "right_finger5_joint4": 0.7
+    },
+    "errors_m": [
+      0.0014368267528363052,
+      0.0007116769390207343
+    ],
+    "table_hits": [],
+    "direction_deg": 90.0,
+    "score": 0.1680966879965732,
+    "pad_centers": {
+      "right_finger1_tip_link": [
+        9.648501873016357e-07,
+        7.39353708922863e-06,
+        -0.003082488197833355
+      ],
+      "right_finger2_tip_link": [
+        2.2030435504740917e-06,
+        1.2593809513017362e-06,
+        -0.007550463662482354
+      ]
+    }
+  },
+  {
+    "q": {
+      "fr_joint1": 0.10015073642973965,
+      "fr_joint2": 1.9302455957261746,
+      "fr_joint3": -0.7119290458620045,
+      "fr_joint4": -0.19705139146288114,
+      "fr_joint5": -0.8013067085296754,
+      "fr_joint6": -1.703983748580309,
+      "right_finger1_joint1": 1.1822241580278892,
+      "right_finger1_joint2": -0.01210751748800712,
+      "right_finger1_joint3": -0.45684663877572923,
+      "right_finger1_joint4": 0.3951129067932334,
+      "right_finger2_joint1": 0.8217961321622178,
+      "right_finger2_joint2": 0.19632117168205138,
+      "right_finger2_joint3": -0.1660804984952007,
+      "right_finger2_joint4": 0.9989375286971346,
+      "right_finger3_joint1": 0.75,
+      "right_finger3_joint2": 0.0,
+      "right_finger3_joint3": 0.8,
+      "right_finger3_joint4": 0.7,
+      "right_finger4_joint1": 0.75,
+      "right_finger4_joint2": 0.0,
+      "right_finger4_joint3": 0.8,
+      "right_finger4_joint4": 0.7,
+      "right_finger5_joint1": 0.75,
+      "right_finger5_joint2": 0.0,
+      "right_finger5_joint3": 0.8,
+      "right_finger5_joint4": 0.7
+    },
+    "errors_m": [
+      0.00153574117624936,
+      0.0005698032979425201
+    ],
+    "table_hits": [],
+    "direction_deg": 90.0,
+    "score": 0.17153656344826324,
+    "pad_centers": {
+      "right_finger1_tip_link": [
+        9.648501873016357e-07,
+        7.39353708922863e-06,
+        -0.003082488197833355
+      ],
+      "right_finger2_tip_link": [
+        2.2030435504740917e-06,
+        1.2593809513017362e-06,
+        -0.007550463662482354
+      ]
+    }
+  },
+  {
+    "q": {
+      "fr_joint1": -0.024557959132452872,
+      "fr_joint2": 2.045778442294695,
+      "fr_joint3": -0.7243166700096187,
+      "fr_joint4": -0.3388560763062519,
+      "fr_joint5": -0.9740589438372508,
+      "fr_joint6": -1.2477883387573485,
+      "right_finger1_joint1": 1.3204141537635314,
+      "right_finger1_joint2": -0.15759806528846315,
+      "right_finger1_joint3": -0.4620433734661345,
+      "right_finger1_joint4": 0.14085611338337084,
+      "right_finger2_joint1": 0.7097840170639972,
+      "right_finger2_joint2": 0.24289595678952575,
+      "right_finger2_joint3": 0.5394650180465783,
+      "right_finger2_joint4": 0.3447252359329762,
+      "right_finger3_joint1": 0.75,
+      "right_finger3_joint2": 0.0,
+      "right_finger3_joint3": 0.8,
+      "right_finger3_joint4": 0.7,
+      "right_finger4_joint1": 0.75,
+      "right_finger4_joint2": 0.0,
+      "right_finger4_joint3": 0.8,
+      "right_finger4_joint4": 0.7,
+      "right_finger5_joint1": 0.75,
+      "right_finger5_joint2": 0.0,
+      "right_finger5_joint3": 0.8,
+      "right_finger5_joint4": 0.7
+    },
+    "errors_m": [
+      0.0015820775768912352,
+      0.0005354112527421003
+    ],
+    "table_hits": [],
+    "direction_deg": 90.0,
+    "score": 0.1739733600445744,
+    "pad_centers": {
+      "right_finger1_tip_link": [
+        9.648501873016357e-07,
+        7.39353708922863e-06,
+        -0.003082488197833355
+      ],
+      "right_finger2_tip_link": [
+        2.2030435504740917e-06,
+        1.2593809513017362e-06,
+        -0.007550463662482354
+      ]
+    }
+  },
+  {
+    "q": {
+      "fr_joint1": -0.12989098824807743,
+      "fr_joint2": 2.6269386860312323,
+      "fr_joint3": -2.1149055082946417,
+      "fr_joint4": -1.8319989999974717,
+      "fr_joint5": -1.219998999524565,
+      "fr_joint6": -0.34583280229209307,
+      "right_finger1_joint1": 1.204820014858833,
+      "right_finger1_joint2": -0.09387720161004116,
+      "right_finger1_joint3": -0.4637989999985774,
+      "right_finger1_joint4": -0.48289899999999975,
+      "right_finger2_joint1": 1.5587989999999952,
+      "right_finger2_joint2": 0.30539899999999837,
+      "right_finger2_joint3": 0.8239099429384319,
+      "right_finger2_joint4": 0.052687097999633926,
+      "right_finger3_joint1": 0.75,
+      "right_finger3_joint2": 0.0,
+      "right_finger3_joint3": 0.8,
+      "right_finger3_joint4": 0.7,
+      "right_finger4_joint1": 0.75,
+      "right_finger4_joint2": 0.0,
+      "right_finger4_joint3": 0.8,
+      "right_finger4_joint4": 0.7,
+      "right_finger5_joint1": 0.75,
+      "right_finger5_joint2": 0.0,
+      "right_finger5_joint3": 0.8,
+      "right_finger5_joint4": 0.7
+    },
+    "errors_m": [
+      0.04719228366298344,
+      0.01064893133029463
+    ],
+    "table_hits": [],
+    "direction_deg": 90.0,
+    "score": 4.969586527048182,
+    "pad_centers": {
+      "right_finger1_tip_link": [
+        9.648501873016357e-07,
+        7.39353708922863e-06,
+        -0.003082488197833355
+      ],
+      "right_finger2_tip_link": [
+        2.2030435504740917e-06,
+        1.2593809513017362e-06,
+        -0.007550463662482354
+      ]
+    }
+  },
+  {
+    "q": {
+      "fr_joint1": 0.76502503057114,
+      "fr_joint2": 2.2148140412574664,
+      "fr_joint3": -0.6586593452779064,
+      "fr_joint4": 0.8263778120119333,
+      "fr_joint5": -1.2199989929142057,
+      "fr_joint6": -2.974500613239202,
+      "right_finger1_joint1": 1.6123123433722772,
+      "right_finger1_joint2": 0.48266890404190466,
+      "right_finger1_joint3": 0.04836934710842229,
+      "right_finger1_joint4": 0.043982544516611495,
+      "right_finger2_joint1": 0.3390716192346637,
+      "right_finger2_joint2": -0.4043989999997064,
+      "right_finger2_joint3": 1.550398999613367,
+      "right_finger2_joint4": -0.39325760606421184,
+      "right_finger3_joint1": 0.75,
+      "right_finger3_joint2": 0.0,
+      "right_finger3_joint3": 0.8,
+      "right_finger3_joint4": 0.7,
+      "right_finger4_joint1": 0.75,
+      "right_finger4_joint2": 0.0,
+      "right_finger4_joint3": 0.8,
+      "right_finger4_joint4": 0.7,
+      "right_finger5_joint1": 0.75,
+      "right_finger5_joint2": 0.0,
+      "right_finger5_joint3": 0.8,
+      "right_finger5_joint4": 0.7
+    },
+    "errors_m": [
+      0.007446392548184743,
+      0.059746223086465926
+    ],
+    "table_hits": [],
+    "direction_deg": 90.0,
+    "score": 6.0778667656523035,
+    "pad_centers": {
+      "right_finger1_tip_link": [
+        9.648501873016357e-07,
+        7.39353708922863e-06,
+        -0.003082488197833355
+      ],
+      "right_finger2_tip_link": [
+        2.2030435504740917e-06,
+        1.2593809513017362e-06,
+        -0.007550463662482354
+      ]
+    }
+  }
+]

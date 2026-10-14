@@ -1,0 +1,17 @@
+{
+  "source_checkpoint_step": 3000,
+  "previous_last_logged_step": 3210,
+  "previous_pid": 2592005,
+  "new_pid": 2638524,
+  "old_gpu_count": 4,
+  "new_gpu_count": 8,
+  "global_batch": 8,
+  "metrics_old_line_count": 324,
+  "four_gpu_recent_step_seconds_median": 0.6177406159986276,
+  "optimizer_state": "explicit restore args using target 8gpu sharding",
+  "reason": "user requested eight GPUs",
+  "resume_passed": true,
+  "full_gradient_check_passed": true,
+  "eight_gpu_initial_step_seconds_median": 0.6865323435049504,
+  "timing_scope": "initial non-compilation GPU step time, excludes batch prep/checkpoint/validation"
+}

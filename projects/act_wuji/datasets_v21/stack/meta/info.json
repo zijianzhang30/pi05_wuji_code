@@ -1,0 +1,200 @@
+{
+    "codebase_version": "v2.1",
+    "robot_type": "agilex_aloha_dual_wuji_52d",
+    "total_episodes": 50,
+    "total_frames": 21150,
+    "total_tasks": 1,
+    "total_videos": 0,
+    "total_chunks": 1,
+    "chunks_size": 1000,
+    "fps": 30,
+    "splits": {
+        "train": "0:50"
+    },
+    "data_path": "data/chunk-{episode_chunk:03d}/episode_{episode_index:06d}.parquet",
+    "video_path": null,
+    "features": {
+        "observation.state": {
+            "dtype": "float32",
+            "shape": [
+                52
+            ],
+            "names": [
+                "fl_joint1",
+                "fl_joint2",
+                "fl_joint3",
+                "fl_joint4",
+                "fl_joint5",
+                "fl_joint6",
+                "left_finger1_joint1",
+                "left_finger2_joint1",
+                "left_finger3_joint1",
+                "left_finger4_joint1",
+                "left_finger5_joint1",
+                "left_finger1_joint2",
+                "left_finger2_joint2",
+                "left_finger3_joint2",
+                "left_finger4_joint2",
+                "left_finger5_joint2",
+                "left_finger1_joint3",
+                "left_finger2_joint3",
+                "left_finger3_joint3",
+                "left_finger4_joint3",
+                "left_finger5_joint3",
+                "left_finger1_joint4",
+                "left_finger2_joint4",
+                "left_finger3_joint4",
+                "left_finger4_joint4",
+                "left_finger5_joint4",
+                "fr_joint1",
+                "fr_joint2",
+                "fr_joint3",
+                "fr_joint4",
+                "fr_joint5",
+                "fr_joint6",
+                "right_finger1_joint1",
+                "right_finger2_joint1",
+                "right_finger3_joint1",
+                "right_finger4_joint1",
+                "right_finger5_joint1",
+                "right_finger1_joint2",
+                "right_finger2_joint2",
+                "right_finger3_joint2",
+                "right_finger4_joint2",
+                "right_finger5_joint2",
+                "right_finger1_joint3",
+                "right_finger2_joint3",
+                "right_finger3_joint3",
+                "right_finger4_joint3",
+                "right_finger5_joint3",
+                "right_finger1_joint4",
+                "right_finger2_joint4",
+                "right_finger3_joint4",
+                "right_finger4_joint4",
+                "right_finger5_joint4"
+            ]
+        },
+        "action": {
+            "dtype": "float32",
+            "shape": [
+                52
+            ],
+            "names": [
+                "fl_joint1",
+                "fl_joint2",
+                "fl_joint3",
+                "fl_joint4",
+                "fl_joint5",
+                "fl_joint6",
+                "left_finger1_joint1",
+                "left_finger2_joint1",
+                "left_finger3_joint1",
+                "left_finger4_joint1",
+                "left_finger5_joint1",
+                "left_finger1_joint2",
+                "left_finger2_joint2",
+                "left_finger3_joint2",
+                "left_finger4_joint2",
+                "left_finger5_joint2",
+                "left_finger1_joint3",
+                "left_finger2_joint3",
+                "left_finger3_joint3",
+                "left_finger4_joint3",
+                "left_finger5_joint3",
+                "left_finger1_joint4",
+                "left_finger2_joint4",
+                "left_finger3_joint4",
+                "left_finger4_joint4",
+                "left_finger5_joint4",
+                "fr_joint1",
+                "fr_joint2",
+                "fr_joint3",
+                "fr_joint4",
+                "fr_joint5",
+                "fr_joint6",
+                "right_finger1_joint1",
+                "right_finger2_joint1",
+                "right_finger3_joint1",
+                "right_finger4_joint1",
+                "right_finger5_joint1",
+                "right_finger1_joint2",
+                "right_finger2_joint2",
+                "right_finger3_joint2",
+                "right_finger4_joint2",
+                "right_finger5_joint2",
+                "right_finger1_joint3",
+                "right_finger2_joint3",
+                "right_finger3_joint3",
+                "right_finger4_joint3",
+                "right_finger5_joint3",
+                "right_finger1_joint4",
+                "right_finger2_joint4",
+                "right_finger3_joint4",
+                "right_finger4_joint4",
+                "right_finger5_joint4"
+            ]
+        },
+        "observation.images.ego": {
+            "dtype": "image",
+            "shape": [
+                480,
+                640,
+                3
+            ],
+            "names": [
+                "height",
+                "width",
+                "channels"
+            ]
+        },
+        "source_frame": {
+            "dtype": "int64",
+            "shape": [
+                1
+            ],
+            "names": null
+        },
+        "source_time": {
+            "dtype": "float64",
+            "shape": [
+                1
+            ],
+            "names": null
+        },
+        "timestamp": {
+            "dtype": "float32",
+            "shape": [
+                1
+            ],
+            "names": null
+        },
+        "frame_index": {
+            "dtype": "int64",
+            "shape": [
+                1
+            ],
+            "names": null
+        },
+        "episode_index": {
+            "dtype": "int64",
+            "shape": [
+                1
+            ],
+            "names": null
+        },
+        "index": {
+            "dtype": "int64",
+            "shape": [
+                1
+            ],
+            "names": null
+        },
+        "task_index": {
+            "dtype": "int64",
+            "shape": [
+                1
+            ],
+            "names": null
+        }
+    }
+}

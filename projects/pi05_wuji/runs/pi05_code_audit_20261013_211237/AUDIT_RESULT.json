@@ -1,0 +1,17 @@
+{
+  "snapshot_beijing": "2026-10-13 22:01:52",
+  "state": "needs_further_debug",
+  "training_complete": true,
+  "additional_updates": 500,
+  "selected_checkpoint_step": 14500,
+  "development_valid_episodes": 7,
+  "development_successes": 0,
+  "formal_eval_started": false,
+  "training_process_exited": true,
+  "driver_process_exited": true,
+  "policy_process_exited": true,
+  "original_data_and_results_preserved": true,
+  "report": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_code_audit_20261013_211237/AUDIT_REPORT.md",
+  "training_run": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_physics_profile32_pilot_20261013_214029",
+  "evaluation_run": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_physics_profile32_dev_20261013_214029"
+}

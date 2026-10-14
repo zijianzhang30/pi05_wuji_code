@@ -1,0 +1,513 @@
+{
+  "created_at_bjt": "2026-10-14T00:03:07.565759+08:00",
+  "supersedes": "initial_scene_distribution_20261014.json used historical acceptance.split; this corrected version selects only authoritative split_manifest train indices. Previous diagnostic preserved.",
+  "scope": "Initial training observations versus first recorded evaluation post-control pose; objects axis-aligned bounding ranges only, not complete image/physics equivalence.",
+  "tasks": {
+    "pick_place": {
+      "training_episodes": 45,
+      "completed_evaluation_episodes": 38,
+      "max_qpos_distance_outside_training_bbox_rad": 0.003088344819843769,
+      "mean_qpos_distance_outside_training_bbox_rad": 1.2090974450984504e-05,
+      "objects": {
+        "/World/TaskObjects/object": {
+          "training_initial_xyz_min": [
+            -1.8734238147735596,
+            -3.498380422592163,
+            0.7053000926971436
+          ],
+          "training_initial_xyz_max": [
+            -1.8675637245178223,
+            -3.492536783218384,
+            0.7053003311157227
+          ],
+          "eval_first_xyz_min": [
+            -1.8735384941101074,
+            -3.4980885982513428,
+            0.7053000926971436
+          ],
+          "eval_first_xyz_max": [
+            -1.8677281141281128,
+            -3.4925827980041504,
+            0.7053002715110779
+          ],
+          "max_distance_outside_train_bbox_m": 0.00011467933654785156
+        }
+      },
+      "ignored_historical_acceptance_split_disagreements": [
+        "/media/external/bowenjing/projects/dexterity_living/datasets/wuji_mcl350_v1/pick_place/episode_013020",
+        "/media/external/bowenjing/projects/dexterity_living/datasets/wuji_mcl350_v1/pick_place/episode_013030",
+        "/media/external/bowenjing/projects/dexterity_living/datasets/wuji_mcl350_v1/pick_place/episode_013040",
+        "/media/external/bowenjing/projects/dexterity_living/datasets/wuji_mcl350_v1/pick_place/episode_013050"
+      ]
+    },
+    "stack": {
+      "training_episodes": 45,
+      "completed_evaluation_episodes": 38,
+      "max_qpos_distance_outside_training_bbox_rad": 0.003139008767902851,
+      "mean_qpos_distance_outside_training_bbox_rad": 1.255612642125925e-05,
+      "objects": {
+        "/World/TaskObjects/object": {
+          "training_initial_xyz_min": [
+            -1.8734238147735596,
+            -3.498380422592163,
+            0.7053000926971436
+          ],
+          "training_initial_xyz_max": [
+            -1.8685863018035889,
+            -3.492536783218384,
+            0.7053002715110779
+          ],
+          "eval_first_xyz_min": [
+            -1.8735384941101074,
+            -3.4980885982513428,
+            0.7053000926971436
+          ],
+          "eval_first_xyz_max": [
+            -1.8677281141281128,
+            -3.4925827980041504,
+            0.7053002715110779
+          ],
+          "max_distance_outside_train_bbox_m": 0.0008581876754760742
+        },
+        "/World/TaskObjects/bottom": {
+          "training_initial_xyz_min": [
+            -2.1720378398895264,
+            -3.4918506145477295,
+            0.7053001523017883
+          ],
+          "training_initial_xyz_max": [
+            -2.1720378398895264,
+            -3.4918506145477295,
+            0.7053001523017883
+          ],
+          "eval_first_xyz_min": [
+            -2.1720352172851562,
+            -3.4918510913848877,
+            0.7053002119064331
+          ],
+          "eval_first_xyz_max": [
+            -2.1720352172851562,
+            -3.4918510913848877,
+            0.7053002119064331
+          ],
+          "max_distance_outside_train_bbox_m": 2.66626706675828e-06
+        }
+      },
+      "ignored_historical_acceptance_split_disagreements": [
+        "/media/external/bowenjing/projects/dexterity_living/datasets/wuji_mcl350_v1/stack/episode_013010",
+        "/media/external/bowenjing/projects/dexterity_living/datasets/wuji_mcl350_v1/stack/episode_013020",
+        "/media/external/bowenjing/projects/dexterity_living/datasets/wuji_mcl350_v1/stack/episode_013050"
+      ]
+    },
+    "piano": {
+      "training_episodes": 45,
+      "completed_evaluation_episodes": 37,
+      "max_qpos_distance_outside_training_bbox_rad": 2.47955322265625e-05,
+      "mean_qpos_distance_outside_training_bbox_rad": 9.508009668479644e-08,
+      "objects": {
+        "/World/MusicRig/RealKeyboard/Keys/Key_0": {
+          "training_initial_xyz_min": [
+            -2.132293224334717,
+            -3.471961259841919,
+            0.7375888228416443
+          ],
+          "training_initial_xyz_max": [
+            -2.132293224334717,
+            -3.471961259841919,
+            0.7375888228416443
+          ],
+          "eval_first_xyz_min": [
+            -2.132293224334717,
+            -3.471961259841919,
+            0.7375888228416443
+          ],
+          "eval_first_xyz_max": [
+            -2.132293224334717,
+            -3.471961259841919,
+            0.7375888228416443
+          ],
+          "max_distance_outside_train_bbox_m": 0.0
+        },
+        "/World/MusicRig/RealKeyboard/Keys/Key_1": {
+          "training_initial_xyz_min": [
+            -2.108978271484375,
+            -3.471961259841919,
+            0.7375873327255249
+          ],
+          "training_initial_xyz_max": [
+            -2.108978271484375,
+            -3.471961259841919,
+            0.7375873327255249
+          ],
+          "eval_first_xyz_min": [
+            -2.108978271484375,
+            -3.471961259841919,
+            0.7375873327255249
+          ],
+          "eval_first_xyz_max": [
+            -2.108978271484375,
+            -3.471961259841919,
+            0.7375873327255249
+          ],
+          "max_distance_outside_train_bbox_m": 0.0
+        },
+        "/World/MusicRig/RealKeyboard/Keys/Key_2": {
+          "training_initial_xyz_min": [
+            -2.085566759109497,
+            -3.471961259841919,
+            0.7375873327255249
+          ],
+          "training_initial_xyz_max": [
+            -2.085566759109497,
+            -3.471961259841919,
+            0.7375873327255249
+          ],
+          "eval_first_xyz_min": [
+            -2.085566759109497,
+            -3.471961259841919,
+            0.7375873327255249
+          ],
+          "eval_first_xyz_max": [
+            -2.085566759109497,
+            -3.471961259841919,
+            0.7375873327255249
+          ],
+          "max_distance_outside_train_bbox_m": 0.0
+        },
+        "/World/MusicRig/RealKeyboard/Keys/Key_3": {
+          "training_initial_xyz_min": [
+            -2.0620999336242676,
+            -3.471961259841919,
+            0.7375873327255249
+          ],
+          "training_initial_xyz_max": [
+            -2.0620999336242676,
+            -3.471961259841919,
+            0.7375873327255249
+          ],
+          "eval_first_xyz_min": [
+            -2.0620999336242676,
+            -3.471961259841919,
+            0.7375873327255249
+          ],
+          "eval_first_xyz_max": [
+            -2.0620999336242676,
+            -3.471961259841919,
+            0.7375873327255249
+          ],
+          "max_distance_outside_train_bbox_m": 0.0
+        },
+        "/World/MusicRig/RealKeyboard/Keys/Key_4": {
+          "training_initial_xyz_min": [
+            -2.038599967956543,
+            -3.471961259841919,
+            0.7375873327255249
+          ],
+          "training_initial_xyz_max": [
+            -2.038599967956543,
+            -3.471961259841919,
+            0.7375873327255249
+          ],
+          "eval_first_xyz_min": [
+            -2.038599967956543,
+            -3.471961259841919,
+            0.7375873327255249
+          ],
+          "eval_first_xyz_max": [
+            -2.038599967956543,
+            -3.471961259841919,
+            0.7375873327255249
+          ],
+          "max_distance_outside_train_bbox_m": 0.0
+        },
+        "/World/MusicRig/RealKeyboard/Keys/Key_5": {
+          "training_initial_xyz_min": [
+            -2.0148935317993164,
+            -3.471961259841919,
+            0.7375873327255249
+          ],
+          "training_initial_xyz_max": [
+            -2.0148935317993164,
+            -3.471961259841919,
+            0.7375873327255249
+          ],
+          "eval_first_xyz_min": [
+            -2.0148935317993164,
+            -3.471961259841919,
+            0.7375873327255249
+          ],
+          "eval_first_xyz_max": [
+            -2.0148935317993164,
+            -3.471961259841919,
+            0.7375873327255249
+          ],
+          "max_distance_outside_train_bbox_m": 0.0
+        },
+        "/World/MusicRig/RealKeyboard/Keys/Key_6": {
+          "training_initial_xyz_min": [
+            -1.9912755489349365,
+            -3.471961259841919,
+            0.737587571144104
+          ],
+          "training_initial_xyz_max": [
+            -1.9912755489349365,
+            -3.471961259841919,
+            0.737587571144104
+          ],
+          "eval_first_xyz_min": [
+            -1.9912755489349365,
+            -3.471961259841919,
+            0.737587571144104
+          ],
+          "eval_first_xyz_max": [
+            -1.9912755489349365,
+            -3.471961259841919,
+            0.737587571144104
+          ],
+          "max_distance_outside_train_bbox_m": 0.0
+        },
+        "/World/MusicRig/RealKeyboard/Keys/Key_7": {
+          "training_initial_xyz_min": [
+            -1.9677066802978516,
+            -3.471961259841919,
+            0.7375693917274475
+          ],
+          "training_initial_xyz_max": [
+            -1.9677066802978516,
+            -3.471961259841919,
+            0.7375693917274475
+          ],
+          "eval_first_xyz_min": [
+            -1.9677066802978516,
+            -3.471961259841919,
+            0.7375693917274475
+          ],
+          "eval_first_xyz_max": [
+            -1.9677066802978516,
+            -3.471961259841919,
+            0.7375693917274475
+          ],
+          "max_distance_outside_train_bbox_m": 0.0
+        }
+      },
+      "ignored_historical_acceptance_split_disagreements": [
+        "/media/external/bowenjing/projects/dexterity_living/datasets/wuji_mcl350_v1/piano/episode_013010",
+        "/media/external/bowenjing/projects/dexterity_living/datasets/wuji_mcl350_v1/piano/episode_013020",
+        "/media/external/bowenjing/projects/dexterity_living/datasets/wuji_mcl350_v1/piano/episode_013030",
+        "/media/external/bowenjing/projects/dexterity_living/datasets/wuji_mcl350_v1/piano/episode_013040"
+      ]
+    },
+    "microwave_open": {
+      "training_episodes": 45,
+      "completed_evaluation_episodes": 38,
+      "max_qpos_distance_outside_training_bbox_rad": 0.005690515041351318,
+      "mean_qpos_distance_outside_training_bbox_rad": 1.7621112419874407e-05,
+      "objects": {
+        "/World/TaskMicrowave/E_body_9": {
+          "training_initial_xyz_min": [
+            -2.0199999809265137,
+            -3.299999952316284,
+            0.6812001466751099
+          ],
+          "training_initial_xyz_max": [
+            -2.0199999809265137,
+            -3.299999952316284,
+            0.6812001466751099
+          ],
+          "eval_first_xyz_min": [
+            -2.0199999809265137,
+            -3.299999952316284,
+            0.6812002658843994
+          ],
+          "eval_first_xyz_max": [
+            -2.0199999809265137,
+            -3.299999952316284,
+            0.6812002658843994
+          ],
+          "max_distance_outside_train_bbox_m": 1.1920928955078125e-07
+        },
+        "/World/TaskMicrowave/E_knob_19": {
+          "training_initial_xyz_min": [
+            -1.784332513809204,
+            -3.5470709800720215,
+            0.7878755331039429
+          ],
+          "training_initial_xyz_max": [
+            -1.784332513809204,
+            -3.5470709800720215,
+            0.7878755331039429
+          ],
+          "eval_first_xyz_min": [
+            -1.784332513809204,
+            -3.5470709800720215,
+            0.7878755927085876
+          ],
+          "eval_first_xyz_max": [
+            -1.784332513809204,
+            -3.5470709800720215,
+            0.7878755927085876
+          ],
+          "max_distance_outside_train_bbox_m": 5.960464477539063e-08
+        },
+        "/World/TaskMicrowave/E_door_2": {
+          "training_initial_xyz_min": [
+            -2.297276496887207,
+            -3.4886972904205322,
+            0.965758740901947
+          ],
+          "training_initial_xyz_max": [
+            -2.297276496887207,
+            -3.4886972904205322,
+            0.965758740901947
+          ],
+          "eval_first_xyz_min": [
+            -2.297276496887207,
+            -3.488697052001953,
+            0.9657588601112366
+          ],
+          "eval_first_xyz_max": [
+            -2.297276496887207,
+            -3.488697052001953,
+            0.9657588601112366
+          ],
+          "max_distance_outside_train_bbox_m": 2.6656007498500226e-07
+        },
+        "/World/TaskMicrowave/SpringLatchSlider": {
+          "training_initial_xyz_min": [
+            -1.8550195693969727,
+            -3.5016868114471436,
+            0.9182001352310181
+          ],
+          "training_initial_xyz_max": [
+            -1.8550195693969727,
+            -3.5016868114471436,
+            0.9182001352310181
+          ],
+          "eval_first_xyz_min": [
+            -1.8550184965133667,
+            -3.501647472381592,
+            0.9182003140449524
+          ],
+          "eval_first_xyz_max": [
+            -1.8550184965133667,
+            -3.501647472381592,
+            0.9182003140449524
+          ],
+          "max_distance_outside_train_bbox_m": 3.935409930541593e-05
+        }
+      },
+      "ignored_historical_acceptance_split_disagreements": [
+        "/media/external/bowenjing/projects/dexterity_living/datasets/wuji_mcl350_v1/microwave_open/episode_013010",
+        "/media/external/bowenjing/projects/dexterity_living/datasets/wuji_mcl350_v1/microwave_open/episode_013020",
+        "/media/external/bowenjing/projects/dexterity_living/datasets/wuji_mcl350_v1/microwave_open/episode_013030",
+        "/media/external/bowenjing/projects/dexterity_living/datasets/wuji_mcl350_v1/microwave_open/episode_013040"
+      ]
+    },
+    "produce_sort": {
+      "training_episodes": 45,
+      "completed_evaluation_episodes": 36,
+      "max_qpos_distance_outside_training_bbox_rad": 0.005690502002835274,
+      "mean_qpos_distance_outside_training_bbox_rad": 1.9957806216552854e-05,
+      "objects": {
+        "/World/TaskBin_vegetable": {
+          "training_initial_xyz_min": [
+            -2.309999942779541,
+            -3.5350003242492676,
+            0.6814999580383301
+          ],
+          "training_initial_xyz_max": [
+            -2.309999942779541,
+            -3.5350003242492676,
+            0.6814999580383301
+          ],
+          "eval_first_xyz_min": [
+            -2.309999942779541,
+            -3.5350003242492676,
+            0.6814999580383301
+          ],
+          "eval_first_xyz_max": [
+            -2.309999942779541,
+            -3.5350003242492676,
+            0.6814999580383301
+          ],
+          "max_distance_outside_train_bbox_m": 0.0
+        },
+        "/World/TaskBin_fruit": {
+          "training_initial_xyz_min": [
+            -1.7233214378356934,
+            -3.5300228595733643,
+            0.6808813214302063
+          ],
+          "training_initial_xyz_max": [
+            -1.7233214378356934,
+            -3.5300228595733643,
+            0.6808813214302063
+          ],
+          "eval_first_xyz_min": [
+            -1.723405361175537,
+            -3.530022144317627,
+            0.6808014512062073
+          ],
+          "eval_first_xyz_max": [
+            -1.723405361175537,
+            -3.530022144317627,
+            0.6808014512062073
+          ],
+          "max_distance_outside_train_bbox_m": 0.00011585720194685129
+        },
+        "/World/TaskFood_orange": {
+          "training_initial_xyz_min": [
+            -1.937399983406067,
+            -3.577622652053833,
+            0.7122196555137634
+          ],
+          "training_initial_xyz_max": [
+            -1.9315472841262817,
+            -3.571763515472412,
+            0.7122198343276978
+          ],
+          "eval_first_xyz_min": [
+            -1.9375090599060059,
+            -3.5773673057556152,
+            0.7122196555137634
+          ],
+          "eval_first_xyz_max": [
+            -1.9317145347595215,
+            -3.5718231201171875,
+            0.7122198343276978
+          ],
+          "max_distance_outside_train_bbox_m": 0.00010907649993896484
+        },
+        "/World/TaskFood_pepper": {
+          "training_initial_xyz_min": [
+            -2.07393217086792,
+            -3.5872550010681152,
+            0.7103010416030884
+          ],
+          "training_initial_xyz_max": [
+            -2.067270040512085,
+            -3.5799245834350586,
+            0.7103011608123779
+          ],
+          "eval_first_xyz_min": [
+            -2.0734589099884033,
+            -3.5864832401275635,
+            0.7103010416030884
+          ],
+          "eval_first_xyz_max": [
+            -2.0671868324279785,
+            -3.579941749572754,
+            0.7103011608123779
+          ],
+          "max_distance_outside_train_bbox_m": 8.320808410644531e-05
+        }
+      },
+      "ignored_historical_acceptance_split_disagreements": [
+        "/media/external/bowenjing/projects/dexterity_living/datasets/wuji_mcl350_v1/produce_sort/episode_013010",
+        "/media/external/bowenjing/projects/dexterity_living/datasets/wuji_mcl350_v1/produce_sort/episode_013020",
+        "/media/external/bowenjing/projects/dexterity_living/datasets/wuji_mcl350_v1/produce_sort/episode_013030",
+        "/media/external/bowenjing/projects/dexterity_living/datasets/wuji_mcl350_v1/produce_sort/episode_013040"
+      ]
+    }
+  }
+}

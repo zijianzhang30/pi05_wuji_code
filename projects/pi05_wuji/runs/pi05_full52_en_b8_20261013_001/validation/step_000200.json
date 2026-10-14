@@ -1,0 +1,14 @@
+{
+  "step": 200,
+  "per_task_flow_loss": {
+    "gesture_one": 0.9917396306991577,
+    "gesture_two": 1.0147159099578857,
+    "microwave_open": 0.997840940952301,
+    "piano": 0.9519023895263672,
+    "pick_place": 0.9345799088478088,
+    "produce_sort": 0.9657187461853027,
+    "stack": 0.9377874135971069
+  },
+  "macro_mean": 0.9706121342522758,
+  "scope": "held-out fixed sample flow matching loss, not success rate"
+}

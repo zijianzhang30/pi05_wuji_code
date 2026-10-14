@@ -1,0 +1,9 @@
+{
+  "code_sha256": {
+    "policy_context.py": "91bb446bffc74fa1cb787b3d0f7eef1d2e32ce38d29c9ce5a7b95f0c98778154",
+    "train_full_8gpu.py": "d1b6b6f6f2a1cd2fe9eefe7abe94cfc4a3d87c0b29855932dc134b50a8389011",
+    "preflight_cpu.py": "7e01bcbd4093b8a50d3005e0c13574c98a3bc0b22999a93562d5e7798f1e5610"
+  },
+  "source_training": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_repair_clean_image_v4_20261013_001",
+  "source_checkpoint_metadata_sha256": "214aa96e64234bc7e496388006db6fe6eb005e3e8faec038c69f98b075131e77"
+}

@@ -1,0 +1,10 @@
+{
+  "completed": true,
+  "diagnostic_only": true,
+  "checkpoint_step": 38000,
+  "new_training_updates": 1000,
+  "valid_model_episodes": 1,
+  "model_successes": 0,
+  "expert_replay_reused": true,
+  "finished_at": 1791946940.9223015
+}

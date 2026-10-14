@@ -1,0 +1,8 @@
+{
+  "step": 37800,
+  "per_task_flow_loss": {
+    "pick_place": 0.0013681466225534678
+  },
+  "macro_mean": 0.0013681466225534678,
+  "scope": "fixed TRAINING-EPISODE flow loss, not held-out loss or success rate"
+}

@@ -1,0 +1,33 @@
+{
+  "training_run": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_seven_resume10e_b32_20261014_001",
+  "future_evaluation_run": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_seven_resume10e_b32_dev_20261014_001",
+  "parent_handoff": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_seven_task_10epoch_handoff_20261014_001",
+  "training_pid": 2131293,
+  "parent_driver_pid": 2119725,
+  "resume_step": 37000,
+  "target_steps": 46269,
+  "probe_run": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_step37000_five_tasks_x10_20261014_0925",
+  "checkpoint_metadata_sha256": "1f6372fbcd6166888509aa38524b90acf7e6a759d4128b8b8376ea46794ec359",
+  "policy_tasks_order": [
+    "produce_sort",
+    "stack",
+    "pick_place",
+    "microwave_open",
+    "gesture_one",
+    "gesture_two",
+    "piano"
+  ],
+  "evaluation_tasks": [
+    "produce_sort",
+    "stack",
+    "pick_place",
+    "microwave_open",
+    "piano"
+  ],
+  "automatic_resume_training": true,
+  "infrastructure_attempt": 2,
+  "total_episodes": 50,
+  "reused_episodes": 5,
+  "new_episodes": 45,
+  "continuation_script": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_seven_task_10epoch_handoff_20261014_001/continue_after_five_tasks_x10.py"
+}

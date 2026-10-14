@@ -1,0 +1,6 @@
+{
+  "pid": 2587769,
+  "target": "/media/external/bowenjing/projects/pi05_wuji/runtime_overrides/nccl_2289",
+  "package": "nvidia-nccl-cu12==2.28.9",
+  "isolated_target": true
+}

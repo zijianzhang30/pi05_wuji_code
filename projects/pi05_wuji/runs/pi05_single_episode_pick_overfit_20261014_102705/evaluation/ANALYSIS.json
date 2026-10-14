@@ -1,0 +1,537 @@
+{
+  "snapshot_beijing": "2026-10-14T11:02:20.809013+08:00",
+  "checkpoint_step": 38000,
+  "diagnostic_only": true,
+  "reference": {
+    "episode_index": 0,
+    "source": "/media/external/bowenjing/projects/dexterity_living/datasets/wuji_mcl350_v1/pick_place/episode_012001",
+    "split": "train",
+    "length": 331,
+    "source_start_frame": 30,
+    "source_end_frame": 361,
+    "terminal_observation_excluded_from_training": true,
+    "numeric_sha256": "69e18180168363f03849fab83578b7fa2966b7ccc808721ffdc5191e325886a3",
+    "image_sha256": "ee2b624d71498d2c690d2653a5b8389853bcb9b3086bea5f4d38934981517f9f",
+    "parquet_numeric_and_jpeg_exact": true
+  },
+  "teacher_forced": {
+    "kinematic_target_error": {
+      "right_palm_link": {
+        "chunk_mean_target_position_error_mm": 6.06119353986956,
+        "chunk_p95_target_position_error_mm": 11.960582777331108,
+        "first_mean_target_position_error_mm": 7.09040531493805,
+        "first_p95_target_position_error_mm": 13.312305832013829
+      },
+      "right_finger1_tip_link": {
+        "chunk_mean_target_position_error_mm": 6.891267023790683,
+        "chunk_p95_target_position_error_mm": 14.169121794319944,
+        "first_mean_target_position_error_mm": 7.3632403364104935,
+        "first_p95_target_position_error_mm": 16.352026092479992
+      },
+      "right_finger2_tip_link": {
+        "chunk_mean_target_position_error_mm": 7.730248132958566,
+        "chunk_p95_target_position_error_mm": 15.659537593346514,
+        "first_mean_target_position_error_mm": 8.969538765296882,
+        "first_p95_target_position_error_mm": 18.393263152114805
+      }
+    },
+    "expert_first_contact_frame": 165,
+    "checkpoint_step": 38000,
+    "task": "pick_place",
+    "training_episode_index": 0,
+    "reference": {
+      "episode_index": 0,
+      "source": "/media/external/bowenjing/projects/dexterity_living/datasets/wuji_mcl350_v1/pick_place/episode_012001",
+      "split": "train",
+      "length": 331,
+      "source_start_frame": 30,
+      "source_end_frame": 361,
+      "terminal_observation_excluded_from_training": true,
+      "numeric_sha256": "69e18180168363f03849fab83578b7fa2966b7ccc808721ffdc5191e325886a3",
+      "image_sha256": "ee2b624d71498d2c690d2653a5b8389853bcb9b3086bea5f4d38934981517f9f",
+      "parquet_numeric_and_jpeg_exact": true
+    },
+    "input": "actual training Parquet RGB and actual qpos; no new image recompression",
+    "sampling_seeds": [
+      12001,
+      12002,
+      12003,
+      12004
+    ],
+    "num_observations": 23,
+    "num_inferences": 92,
+    "groups": {
+      "left_arm": {
+        "chunk_mae_rad": 0.006484657633494987,
+        "chunk_p95_abs_rad": 0.016764547675848004,
+        "first_action_mae_rad": 0.0072615617899683075,
+        "first_action_p95_abs_rad": 0.019148067757487296
+      },
+      "left_hand": {
+        "chunk_mae_rad": 0.002482259567847034,
+        "chunk_p95_abs_rad": 0.00869506471790373,
+        "first_action_mae_rad": 0.0026453482017078293,
+        "first_action_p95_abs_rad": 0.008960583014413711
+      },
+      "right_arm": {
+        "chunk_mae_rad": 0.013812937799683562,
+        "chunk_p95_abs_rad": 0.04525521118193865,
+        "first_action_mae_rad": 0.013737295268346434,
+        "first_action_p95_abs_rad": 0.04237109422683711
+      },
+      "right_hand": {
+        "chunk_mae_rad": 0.0042969868224832725,
+        "chunk_p95_abs_rad": 0.011830251337960352,
+        "first_action_mae_rad": 0.00486175044442333,
+        "first_action_p95_abs_rad": 0.01298071313649416
+      }
+    },
+    "per_frame": [
+      {
+        "frame": 0,
+        "left_arm_first_mae_rad": 0.019202327510962885,
+        "left_hand_first_mae_rad": 0.008183801125575485,
+        "right_arm_first_mae_rad": 0.02384267110998432,
+        "right_hand_first_mae_rad": 0.015851582814912037,
+        "palm_first_target_error_mm_by_sampling_seed": [
+          15.546399903415326,
+          9.885616290873903,
+          14.565518830745221,
+          12.624375490733922
+        ]
+      },
+      {
+        "frame": 15,
+        "left_arm_first_mae_rad": 0.005458517620960872,
+        "left_hand_first_mae_rad": 0.0023545356380509476,
+        "right_arm_first_mae_rad": 0.015663141539941233,
+        "right_hand_first_mae_rad": 0.005159692997403908,
+        "palm_first_target_error_mm_by_sampling_seed": [
+          7.0612357744317,
+          12.066532837247902,
+          8.214252584106347,
+          11.667166875574415
+        ]
+      },
+      {
+        "frame": 30,
+        "left_arm_first_mae_rad": 0.007894267948965231,
+        "left_hand_first_mae_rad": 0.002231937378348903,
+        "right_arm_first_mae_rad": 0.011650644553204378,
+        "right_hand_first_mae_rad": 0.004036006999376696,
+        "palm_first_target_error_mm_by_sampling_seed": [
+          7.123064998766118,
+          5.742541130558852,
+          2.057650502313917,
+          7.5284112544653805
+        ]
+      },
+      {
+        "frame": 45,
+        "left_arm_first_mae_rad": 0.009659386550386747,
+        "left_hand_first_mae_rad": 0.0022659044206818635,
+        "right_arm_first_mae_rad": 0.012566674500703812,
+        "right_hand_first_mae_rad": 0.004969038649176127,
+        "palm_first_target_error_mm_by_sampling_seed": [
+          4.728913601267379,
+          8.059542278719961,
+          9.222832642187194,
+          4.688669845727656
+        ]
+      },
+      {
+        "frame": 60,
+        "left_arm_first_mae_rad": 0.008167115971446037,
+        "left_hand_first_mae_rad": 0.0021575606414899083,
+        "right_arm_first_mae_rad": 0.01309418740371863,
+        "right_hand_first_mae_rad": 0.00429779812839115,
+        "palm_first_target_error_mm_by_sampling_seed": [
+          5.692263727174565,
+          4.199966709857635,
+          6.712315882756099,
+          11.013969146911457
+        ]
+      },
+      {
+        "frame": 75,
+        "left_arm_first_mae_rad": 0.007029548908273379,
+        "left_hand_first_mae_rad": 0.002277454548971036,
+        "right_arm_first_mae_rad": 0.016182400286197662,
+        "right_hand_first_mae_rad": 0.004188901278394041,
+        "palm_first_target_error_mm_by_sampling_seed": [
+          5.215421833632812,
+          3.418503928849657,
+          2.6815264777631724,
+          7.796062459060681
+        ]
+      },
+      {
+        "frame": 90,
+        "left_arm_first_mae_rad": 0.00558166050662597,
+        "left_hand_first_mae_rad": 0.0023021032625820228,
+        "right_arm_first_mae_rad": 0.01560576818883419,
+        "right_hand_first_mae_rad": 0.003413647002162179,
+        "palm_first_target_error_mm_by_sampling_seed": [
+          1.8292221965279696,
+          1.8014463897788706,
+          1.8962295062142973,
+          2.9519429862896707
+        ]
+      },
+      {
+        "frame": 105,
+        "left_arm_first_mae_rad": 0.009108195081353188,
+        "left_hand_first_mae_rad": 0.0024684336916095616,
+        "right_arm_first_mae_rad": 0.010277663047115007,
+        "right_hand_first_mae_rad": 0.0037457841115610792,
+        "palm_first_target_error_mm_by_sampling_seed": [
+          4.052050373038032,
+          3.3729582422521815,
+          5.2191677724749805,
+          3.3717507663954525
+        ]
+      },
+      {
+        "frame": 120,
+        "left_arm_first_mae_rad": 0.005965873909493287,
+        "left_hand_first_mae_rad": 0.0021391576981386606,
+        "right_arm_first_mae_rad": 0.02129957949121793,
+        "right_hand_first_mae_rad": 0.0036448017635848373,
+        "palm_first_target_error_mm_by_sampling_seed": [
+          5.856838815980941,
+          11.220285467885601,
+          15.9319537810171,
+          13.220484605453715
+        ]
+      },
+      {
+        "frame": 135,
+        "left_arm_first_mae_rad": 0.005350213187436263,
+        "left_hand_first_mae_rad": 0.002645401763237487,
+        "right_arm_first_mae_rad": 0.014374500761429468,
+        "right_hand_first_mae_rad": 0.0040565786031947935,
+        "palm_first_target_error_mm_by_sampling_seed": [
+          6.533492433827269,
+          8.141771018484963,
+          13.08912220610722,
+          8.133741889094939
+        ]
+      },
+      {
+        "frame": 150,
+        "left_arm_first_mae_rad": 0.007451121074457963,
+        "left_hand_first_mae_rad": 0.002379778176361924,
+        "right_arm_first_mae_rad": 0.014597676073511442,
+        "right_hand_first_mae_rad": 0.0043379580470627845,
+        "palm_first_target_error_mm_by_sampling_seed": [
+          2.01760905669177,
+          4.715473030745889,
+          7.561515570345671,
+          7.798756859406781
+        ]
+      },
+      {
+        "frame": 165,
+        "left_arm_first_mae_rad": 0.006234199119110902,
+        "left_hand_first_mae_rad": 0.002269599445071435,
+        "right_arm_first_mae_rad": 0.013549383108814558,
+        "right_hand_first_mae_rad": 0.004144387820269912,
+        "palm_first_target_error_mm_by_sampling_seed": [
+          10.518986890170227,
+          12.371868172596075,
+          6.447335479662791,
+          1.9423381789936551
+        ]
+      },
+      {
+        "frame": 180,
+        "left_arm_first_mae_rad": 0.00676759984344244,
+        "left_hand_first_mae_rad": 0.002656902489297863,
+        "right_arm_first_mae_rad": 0.012021991734703382,
+        "right_hand_first_mae_rad": 0.003395854168047663,
+        "palm_first_target_error_mm_by_sampling_seed": [
+          1.4428050211523287,
+          8.007470413682501,
+          13.424531775587301,
+          3.6477429805931996
+        ]
+      },
+      {
+        "frame": 195,
+        "left_arm_first_mae_rad": 0.006342149029175441,
+        "left_hand_first_mae_rad": 0.002592414045716396,
+        "right_arm_first_mae_rad": 0.014583108946681023,
+        "right_hand_first_mae_rad": 0.004141586658442975,
+        "palm_first_target_error_mm_by_sampling_seed": [
+          10.399510648330917,
+          10.492800096618996,
+          11.141464054835296,
+          10.805707602278527
+        ]
+      },
+      {
+        "frame": 210,
+        "left_arm_first_mae_rad": 0.007127292764683564,
+        "left_hand_first_mae_rad": 0.00288314716253808,
+        "right_arm_first_mae_rad": 0.010188573350509008,
+        "right_hand_first_mae_rad": 0.004591183034790447,
+        "palm_first_target_error_mm_by_sampling_seed": [
+          10.20533632442233,
+          4.228688304507905,
+          5.23889484434723,
+          10.568439486091101
+        ]
+      },
+      {
+        "frame": 225,
+        "left_arm_first_mae_rad": 0.006785907782614231,
+        "left_hand_first_mae_rad": 0.002348934411952541,
+        "right_arm_first_mae_rad": 0.014827419072389603,
+        "right_hand_first_mae_rad": 0.004505139605771547,
+        "palm_first_target_error_mm_by_sampling_seed": [
+          4.796460197688264,
+          3.941651598664008,
+          7.1525711691298515,
+          10.112148603633162
+        ]
+      },
+      {
+        "frame": 240,
+        "left_arm_first_mae_rad": 0.006938396642605464,
+        "left_hand_first_mae_rad": 0.00255639615153882,
+        "right_arm_first_mae_rad": 0.008419136206309,
+        "right_hand_first_mae_rad": 0.0049525126974913295,
+        "palm_first_target_error_mm_by_sampling_seed": [
+          8.105217062051699,
+          6.2746125401945365,
+          3.812667764099745,
+          4.936188173941415
+        ]
+      },
+      {
+        "frame": 255,
+        "left_arm_first_mae_rad": 0.006212571946283181,
+        "left_hand_first_mae_rad": 0.0020138035995216795,
+        "right_arm_first_mae_rad": 0.012320426603158316,
+        "right_hand_first_mae_rad": 0.0039718463343888285,
+        "palm_first_target_error_mm_by_sampling_seed": [
+          7.344663064391768,
+          8.671605902407768,
+          13.529154525088495,
+          7.479543293193423
+        ]
+      },
+      {
+        "frame": 270,
+        "left_arm_first_mae_rad": 0.00674788902203242,
+        "left_hand_first_mae_rad": 0.002528821843247897,
+        "right_arm_first_mae_rad": 0.01169475664695104,
+        "right_hand_first_mae_rad": 0.004599940656044054,
+        "palm_first_target_error_mm_by_sampling_seed": [
+          2.3521010147303203,
+          3.982857673891925,
+          4.495695866382114,
+          6.730385245781484
+        ]
+      },
+      {
+        "frame": 285,
+        "left_arm_first_mae_rad": 0.008494839693109194,
+        "left_hand_first_mae_rad": 0.0028883963794214653,
+        "right_arm_first_mae_rad": 0.014196569720904032,
+        "right_hand_first_mae_rad": 0.009037761983927339,
+        "palm_first_target_error_mm_by_sampling_seed": [
+          11.903410821452335,
+          11.127541920415212,
+          9.157672696504193,
+          5.560678206174442
+        ]
+      },
+      {
+        "frame": 300,
+        "left_arm_first_mae_rad": 0.005404421438773473,
+        "left_hand_first_mae_rad": 0.0024404638162423,
+        "right_arm_first_mae_rad": 0.010718469818433126,
+        "right_hand_first_mae_rad": 0.0037648240075213836,
+        "palm_first_target_error_mm_by_sampling_seed": [
+          5.711849994888091,
+          10.095644567231389,
+          4.912525767570169,
+          5.560454341502421
+        ]
+      },
+      {
+        "frame": 315,
+        "left_arm_first_mae_rad": 0.005630559598406156,
+        "left_hand_first_mae_rad": 0.0022731041092072246,
+        "right_arm_first_mae_rad": 0.011064914365609487,
+        "right_hand_first_mae_rad": 0.0033680086038657465,
+        "palm_first_target_error_mm_by_sampling_seed": [
+          8.195061213636453,
+          2.564638557425843,
+          3.1717613825321296,
+          2.846825777140444
+        ]
+      },
+      {
+        "frame": 330,
+        "left_arm_first_mae_rad": 0.0034618660186727843,
+        "left_hand_first_mae_rad": 0.0019849568404765707,
+        "right_arm_first_mae_rad": 0.013218134641647339,
+        "right_hand_first_mae_rad": 0.0036454242559557314,
+        "palm_first_target_error_mm_by_sampling_seed": [
+          5.772664316187537,
+          3.7718754084064656,
+          1.8458537055561544,
+          9.28881835338237
+        ]
+      }
+    ],
+    "mean_inference_seconds": 0.07713739141700385,
+    "scope": "teacher-forced train-set prediction; not closed-loop task success"
+  },
+  "pi05": {
+    "success": false,
+    "reason": "time_limit",
+    "frames": 450,
+    "run": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_single_episode_pick_overfit_20261014_102705_pi05_a1",
+    "first_object_contact_frame": null,
+    "object_contact_frames": 0,
+    "peak_object_contact_N": 0.0,
+    "max_object_z_m": 0.7053003311157227,
+    "reset_alignment": {
+      "status": "reset_check",
+      "passed": true,
+      "success": null,
+      "task": "pick_place",
+      "seed": 12001,
+      "reference": "/media/external/bowenjing/projects/dexterity_living/datasets/wuji_mcl350_v1/pick_place/episode_012001",
+      "checks": {
+        "qpos_max_abs_rad": 0.0,
+        "qvel_max_abs_rad_s": 0.0,
+        "gains_max_abs": 0.0,
+        "palm_pose_max_abs": 0.0,
+        "camera_matrix_max_abs": 0.0,
+        "intrinsics_max_abs": 3.204619929420005e-06,
+        "image_mean_abs_8bit": 2.033982204861111,
+        "task_body_pose_max_abs": {
+          "/World/TaskObjects/object": 4.5299530029296875e-06
+        }
+      }
+    },
+    "video": {
+      "full_decode_passed": true,
+      "decoded_frames": 450
+    },
+    "joint_error_vs_expert": {
+      "left_arm": {
+        "command_mae_rad": 0.15658435301361878,
+        "command_p95_abs_rad": 0.3870915621519089,
+        "state_mae_rad": 0.15400926768779755,
+        "precontact_command_mae_rad": 0.09028387282118953
+      },
+      "left_hand": {
+        "command_mae_rad": 0.06336017242513374,
+        "command_p95_abs_rad": 0.20731360092759127,
+        "state_mae_rad": 0.06266146898269653,
+        "precontact_command_mae_rad": 0.037169736694885325
+      },
+      "right_arm": {
+        "command_mae_rad": 0.2734217607745763,
+        "command_p95_abs_rad": 0.90200474858284,
+        "state_mae_rad": 0.26603448390960693,
+        "precontact_command_mae_rad": 0.09864873830593576
+      },
+      "right_hand": {
+        "command_mae_rad": 0.06121827881373193,
+        "command_p95_abs_rad": 0.19373575113713726,
+        "state_mae_rad": 0.06036905571818352,
+        "precontact_command_mae_rad": 0.0347672270594144
+      }
+    },
+    "measured_palm_position_error_vs_expert_mm": {
+      "mean": 181.2355194091797,
+      "p95": 441.94366455078125,
+      "precontact_mean": 48.68373107910156,
+      "at_frame_150": 128.77767944335938,
+      "at_frame_165": 159.6337890625
+    },
+    "geometry": null,
+    "simulation_infrastructure_errors": []
+  },
+  "expert": {
+    "success": true,
+    "reason": "task_success",
+    "frames": 294,
+    "run": "/media/external/bowenjing/projects/dexterity_living/runs/physical_v1/pi05_train_scene_pick_v2_20261014_101417_expert_a1",
+    "first_object_contact_frame": 165,
+    "object_contact_frames": 114,
+    "peak_object_contact_N": 12.404242515563965,
+    "max_object_z_m": 0.809334933757782,
+    "reset_alignment": {
+      "status": "reset_check",
+      "passed": true,
+      "success": null,
+      "task": "pick_place",
+      "seed": 12001,
+      "reference": "/media/external/bowenjing/projects/dexterity_living/datasets/wuji_mcl350_v1/pick_place/episode_012001",
+      "checks": {
+        "qpos_max_abs_rad": 0.0,
+        "qvel_max_abs_rad_s": 0.0,
+        "gains_max_abs": 0.0,
+        "palm_pose_max_abs": 0.0,
+        "camera_matrix_max_abs": 0.0,
+        "intrinsics_max_abs": 3.204619929420005e-06,
+        "image_mean_abs_8bit": 2.0378114149305557,
+        "task_body_pose_max_abs": {
+          "/World/TaskObjects/object": 4.5299530029296875e-06
+        }
+      }
+    },
+    "video": {
+      "full_decode_passed": true,
+      "decoded_frames": 294
+    },
+    "joint_error_vs_expert": {
+      "left_arm": {
+        "command_mae_rad": 0.0,
+        "command_p95_abs_rad": 0.0,
+        "state_mae_rad": 0.0,
+        "precontact_command_mae_rad": 0.0
+      },
+      "left_hand": {
+        "command_mae_rad": 0.0,
+        "command_p95_abs_rad": 0.0,
+        "state_mae_rad": 0.0,
+        "precontact_command_mae_rad": 0.0
+      },
+      "right_arm": {
+        "command_mae_rad": 0.0,
+        "command_p95_abs_rad": 0.0,
+        "state_mae_rad": 3.166813655752776e-07,
+        "precontact_command_mae_rad": 0.0
+      },
+      "right_hand": {
+        "command_mae_rad": 0.0,
+        "command_p95_abs_rad": 0.0,
+        "state_mae_rad": 6.31549346508109e-06,
+        "precontact_command_mae_rad": 0.0
+      }
+    },
+    "measured_palm_position_error_vs_expert_mm": {
+      "mean": 0.00032343101338483393,
+      "p95": 0.001133366260910406,
+      "precontact_mean": 1.602431984792929e-05,
+      "at_frame_150": 0.0,
+      "at_frame_165": 0.0004805480130016804
+    },
+    "geometry": {
+      "checked_frames": 294,
+      "frames_with_intersections": 0,
+      "intersection_counts": {},
+      "failed_frames": [],
+      "scope": "Recorded frames only; checks task objects, table, inter-arm, nonadjacent finger segments, cross-finger and distal finger/palm. Adjacent mechanical joint interfaces excluded."
+    },
+    "simulation_infrastructure_errors": []
+  }
+}

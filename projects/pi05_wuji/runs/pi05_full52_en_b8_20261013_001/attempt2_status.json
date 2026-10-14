@@ -1,0 +1,6 @@
+{
+  "state": "failed",
+  "pid": 2576716,
+  "updated_at": 1791822022.5953076,
+  "error": "Traceback (most recent call last):\n  File \"/media/external/bowenjing/projects/pi05_wuji/runs/pi05_full52_en_b8_20261013_001/code/train_full.py\", line 283, in <module>\n    try:main()\n        ^^^^^^\n  File \"/media/external/bowenjing/projects/pi05_wuji/runs/pi05_full52_en_b8_20261013_001/code/train_full.py\", line 248, in main\n    with sharding.set_mesh(mesh):state,metrics=train(rng,state,batch)\n                                               ^^^^^^^^^^^^^^^^^^^^^^\njaxlib.xla_extension.XlaRuntimeError: INTERNAL: Failed to complete all kernels launched on stream 0x5584cc372e10: CUDA error: Could not synchronize CUDA stream: CUDA_ERROR_ILLEGAL_ADDRESS: an illegal memory access was encountered: while running replica 0 and partition 0 of a replicated computation (other replicas may have failed as well).\n--------------------\nFor simplicity, JAX has removed its internal frames from the traceback of the following exception. Set JAX_TRACEBACK_FILTERING=off to include these.\n"
+}

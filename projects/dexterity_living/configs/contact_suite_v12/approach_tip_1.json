@@ -1,0 +1,56 @@
+{
+  "pregrasp_q": {
+    "fr_joint1": 0.23570431761523622,
+    "fr_joint2": 1.6160346843706164,
+    "fr_joint3": -0.9860573195285968,
+    "fr_joint4": 1.8319999899866197,
+    "fr_joint5": -0.19641777644171102,
+    "fr_joint6": -3.0466705150261486,
+    "right_finger1_joint1": 1.0830289910272393,
+    "right_finger1_joint2": -0.1575859025104855,
+    "right_finger1_joint3": 0.5857182774644497,
+    "right_finger1_joint4": -0.43846017460350334,
+    "right_finger2_joint1": 0.27360420472914154,
+    "right_finger2_joint2": 0.30534900812542115,
+    "right_finger2_joint3": 1.1182079465074397,
+    "right_finger2_joint4": 0.048841596998588345,
+    "right_finger3_joint1": 0.75,
+    "right_finger3_joint2": 0.0,
+    "right_finger3_joint3": 0.8,
+    "right_finger3_joint4": 0.7,
+    "right_finger4_joint1": 0.75,
+    "right_finger4_joint2": 0.0,
+    "right_finger4_joint3": 0.8,
+    "right_finger4_joint4": 0.7,
+    "right_finger5_joint1": 0.75,
+    "right_finger5_joint2": 0.0,
+    "right_finger5_joint3": 0.8,
+    "right_finger5_joint4": 0.7
+  },
+  "arm_waypoints": [
+    [
+      -0.65,
+      2.12,
+      -0.95,
+      -0.17,
+      -1.18,
+      -0.08
+    ],
+    [
+      0.23570431761523622,
+      1.6160346843706164,
+      -0.9860573195285968,
+      1.8319999899866197,
+      -0.19641777644171102,
+      -3.0466705150261486
+    ]
+  ],
+  "segment_seconds": [
+    8.476201471503282
+  ],
+  "duration": 8.476201471503282,
+  "geometry_checks": 494,
+  "nonhandle_intersections": 0,
+  "discrete_joint_step_rad": 0.045,
+  "scope": "microwave mesh clearance only; dynamics and table/self clearance require runtime validation"
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "task": "produce_sort",
+    "source": "/media/external/bowenjing/projects/dexterity_living/datasets/wuji_mcl350_v1/produce_sort/episode_013046",
+    "out_of_limit_frames": 0,
+    "affected_joints": []
+  },
+  {
+    "task": "stack",
+    "source": "/media/external/bowenjing/projects/dexterity_living/datasets/wuji_mcl350_v1/stack/episode_013062",
+    "out_of_limit_frames": 0,
+    "affected_joints": []
+  },
+  {
+    "task": "pick_place",
+    "source": "/media/external/bowenjing/projects/dexterity_living/datasets/wuji_mcl350_v1/pick_place/episode_013056",
+    "out_of_limit_frames": 0,
+    "affected_joints": []
+  },
+  {
+    "task": "microwave_open",
+    "source": "/media/external/bowenjing/projects/dexterity_living/datasets/wuji_mcl350_v1/microwave_open/episode_013048",
+    "out_of_limit_frames": 0,
+    "affected_joints": []
+  },
+  {
+    "task": "gesture_one",
+    "source": "/media/external/bowenjing/projects/dexterity_living/datasets/wuji_mcl350_v1/gesture_one/episode_013045",
+    "out_of_limit_frames": 0,
+    "affected_joints": []
+  },
+  {
+    "task": "gesture_two",
+    "source": "/media/external/bowenjing/projects/dexterity_living/datasets/wuji_mcl350_v1/gesture_two/episode_013046",
+    "out_of_limit_frames": 0,
+    "affected_joints": []
+  },
+  {
+    "task": "piano",
+    "source": "/media/external/bowenjing/projects/dexterity_living/datasets/wuji_mcl350_v1/piano/episode_013045",
+    "out_of_limit_frames": 0,
+    "affected_joints": []
+  }
+]

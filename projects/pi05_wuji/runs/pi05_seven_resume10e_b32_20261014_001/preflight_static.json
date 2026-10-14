@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "syntax_compiled": true,
+  "batch32_all_shape_assertions": true,
+  "source_optimizer_count_assertion": 17000,
+  "total_frame_epoch_budget_verified": true,
+  "unchanged_normalization": true,
+  "seven_task_eval35_no_policy_early_stop": true,
+  "created_at": 1791908347.435008,
+  "scope": "Static configuration/contracts. Actual GPU restore, updates and checkpoint roundtrip verified by trainer after launch."
+}

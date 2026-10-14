@@ -1,0 +1,10 @@
+{
+  "pid": 2571766,
+  "env": {
+    "NCCL_DEBUG": "INFO",
+    "NCCL_P2P_DISABLE": "1",
+    "NCCL_IB_DISABLE": "1",
+    "NCCL_CUMEM_ENABLE": "0",
+    "NCCL_CUMEM_HOST_ENABLE": "0"
+  }
+}

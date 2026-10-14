@@ -1,0 +1,16 @@
+{
+  "training_code_sha256": {
+    "code/train_full_8gpu.py": "38f75266209fffba4595b192517e2a9dbf32578e3ad394e30f070505169166d9",
+    "code/policy_context.py": "91bb446bffc74fa1cb787b3d0f7eef1d2e32ce38d29c9ce5a7b95f0c98778154",
+    "launch_8gpu.py": "30e13067459747f07f9fbf33e7ca5b9684ca7b5116db7e976fcbaea08adfddc3",
+    "cpu_preflight.py": "af1119874f039c0c7d3e60e9bc1c3cdad80a801039271e3ef14e66863c511a77",
+    "driver.py": "0f61d2aabfdcbcd411b71aeac5947066c225829931146f2001a3c6bbf0f85172"
+  },
+  "source": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_seven_resume10e_b32_20261014_001/code/train_full_8gpu.py",
+  "changes": [
+    "train only pick_place episode0; no validation episodes",
+    "restore frozen step37000 all weights and optimizer;1000 constant1e-6 updates",
+    "fixed train-fit checks labelled as training checks"
+  ],
+  "policy_and_executor_contract_unchanged": true
+}

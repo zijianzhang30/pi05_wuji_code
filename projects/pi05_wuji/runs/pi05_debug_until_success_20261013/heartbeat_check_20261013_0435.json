@@ -1,0 +1,34 @@
+{
+  "checked_at": 1791866190.928594,
+  "training": {
+    "state": "training",
+    "pid": 382129,
+    "updated_at": 1791866188.5070443,
+    "step": 10130,
+    "target_steps": 13000,
+    "global_batch": 8,
+    "equivalent_frame_epochs": 0.7555472683199702,
+    "elapsed_seconds": 271.52957507397514,
+    "last_step_seconds": 0.6841489549842663,
+    "grad_norm": 0.24795831739902496,
+    "grad_norm_action_expert": 0.19985683262348175,
+    "grad_norm_language": 0.08419567346572876,
+    "grad_norm_projection": 0.1155819296836853,
+    "grad_norm_vision": 0.00903228484094143,
+    "loss": 0.0030587599612772465,
+    "update_norm_action_expert": 0.0034783706068992615,
+    "update_norm_language": 0.006557141430675983,
+    "update_norm_projection": 5.7166726037394255e-05,
+    "update_norm_vision": 0.00234691402874887
+  },
+  "checks": {
+    "optimizer_continuation_audit.json": true,
+    "full_gradient_check_8gpu.json": true,
+    "checkpoint_roundtrip_8gpu.json": true
+  },
+  "training_pid_live": true,
+  "driver_pid_live": true,
+  "all_logged_losses_and_updates_finite": true,
+  "median_last_step_seconds": 0.6835679545183666,
+  "action": "continue existing healthy training and waiting evaluation driver; no duplicate launch"
+}

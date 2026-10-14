@@ -1,0 +1,9 @@
+{
+  "state": "training_resumed",
+  "driver_pid": 2248386,
+  "diagnostic_run": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_train_scene_pick_v2_20261014_101417",
+  "training_run": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_seven_resume10e_b32_20261014_001",
+  "checkpoint_step": 37000,
+  "updated_at": 1791944216.1405156,
+  "training_pid": 2254568
+}

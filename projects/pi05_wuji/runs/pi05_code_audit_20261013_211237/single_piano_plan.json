@@ -1,0 +1,29 @@
+{
+  "training_run": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_single_piano_b32_20261013_221719",
+  "evaluation_run": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_single_piano_b32_dev_20261013_221719",
+  "source_checkpoint": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_repair_clean_image_v4_20261013_001/checkpoints/14000",
+  "training_mode": "single_task",
+  "task": "piano",
+  "total_updates": 3000,
+  "global_batch": 32,
+  "train_frames": 10129,
+  "equivalent_epochs": 9.47773719024583,
+  "warmup": 200,
+  "peak_lr": 1e-05,
+  "end_lr": 1e-06,
+  "action_dim": 52,
+  "action_horizon_control_steps": 30,
+  "replan_control_steps": 30,
+  "optimizer_reset": true,
+  "validation_frames_fixed128": true,
+  "development_seeds": [
+    920101,
+    920102,
+    920103,
+    920104,
+    920105
+  ],
+  "scope": "single-task diagnostic first, then reassess seven-task mixed training",
+  "created_at": 1791901040.19665,
+  "files_only_on": "PRO5000"
+}

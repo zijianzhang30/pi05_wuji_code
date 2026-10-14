@@ -1,0 +1,21 @@
+{
+  "version": "en_v1",
+  "language": "en",
+  "status": "selected_for_next_training_run_not_yet_consumed_by_trainer",
+  "instructions": {
+    "pick_place": "Use your right hand to pick up the block, place it inside the target circle on the left, and release it.",
+    "stack": "Use your right hand to stack the upper block on top of the other block, then release it.",
+    "piano": "Use your right hand to press and release the piano keys in this order: 5, 5, 6, 6, 7, 7, 6, 4. Key indices are zero-based, from Key_0 to Key_7.",
+    "gesture_one": "Make the number-one hand gesture with your right hand and hold it.",
+    "gesture_two": "Make the number-two hand gesture with your right hand and hold it.",
+    "produce_sort": "Use your right hand to place the orange and the bell pepper into their respective designated sorting bowls, then release them.",
+    "microwave_open": "Use the four fingers of your left hand to hook around the microwave handle and pull the door open."
+  },
+  "source": "original_instruction_audit.json",
+  "notes": [
+    "Original Chinese evidence is preserved.",
+    "Piano order explicitly added from verified evaluation code; indices are not musical pitch names.",
+    "Before final training freeze, clarify produce-to-bowl color mapping from collection code.",
+    "Check actual tokenizer length; no silent truncation."
+  ]
+}

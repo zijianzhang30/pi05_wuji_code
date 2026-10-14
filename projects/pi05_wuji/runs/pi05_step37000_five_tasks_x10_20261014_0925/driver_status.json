@@ -1,0 +1,10 @@
+{
+  "state": "training_resumed_after_probe",
+  "driver_pid": 2139081,
+  "probe_run": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_step37000_five_tasks_x10_20261014_0925",
+  "checkpoint_step": 37000,
+  "training_run": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_seven_resume10e_b32_20261014_001",
+  "future_evaluation_run": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_seven_resume10e_b32_dev_20261014_001",
+  "updated_at": 1791942146.3251843,
+  "training_pid": 2204578
+}

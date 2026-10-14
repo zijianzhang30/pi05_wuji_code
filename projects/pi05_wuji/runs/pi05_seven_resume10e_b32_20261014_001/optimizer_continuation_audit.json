@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "source": "/media/external/bowenjing/projects/pi05_wuji/runs/pi05_repair_clean_image_v4_20261013_001/checkpoints/17000",
+  "state_step": 17000,
+  "optimizer_counts": [
+    17000,
+    17000
+  ],
+  "source_metadata_unchanged": true,
+  "source_opened_read_only": true,
+  "all_arrays_on_8gpu_mesh": true,
+  "learning_rate": 1e-06
+}

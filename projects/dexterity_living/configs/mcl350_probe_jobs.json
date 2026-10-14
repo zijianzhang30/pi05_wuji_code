@@ -1,0 +1,114 @@
+[
+  {
+    "id": "mcl350_probe_pick_place_0001",
+    "gpu": 0,
+    "script": "/media/external/bowenjing/projects/dexterity_living/code/mcl350/run_seeded_episode.py",
+    "args": [
+      "--task",
+      "pick_place",
+      "--seed",
+      "11001",
+      "--gpu",
+      "0",
+      "--name",
+      "mcl350_probe_pick_place_0001"
+    ],
+    "timeout_seconds": 1200
+  },
+  {
+    "id": "mcl350_probe_stack_0001",
+    "gpu": 1,
+    "script": "/media/external/bowenjing/projects/dexterity_living/code/mcl350/run_seeded_episode.py",
+    "args": [
+      "--task",
+      "stack",
+      "--seed",
+      "11001",
+      "--gpu",
+      "1",
+      "--name",
+      "mcl350_probe_stack_0001"
+    ],
+    "timeout_seconds": 1200
+  },
+  {
+    "id": "mcl350_probe_piano_0001",
+    "gpu": 2,
+    "script": "/media/external/bowenjing/projects/dexterity_living/code/mcl350/run_seeded_episode.py",
+    "args": [
+      "--task",
+      "piano",
+      "--seed",
+      "11001",
+      "--gpu",
+      "2",
+      "--name",
+      "mcl350_probe_piano_0001"
+    ],
+    "timeout_seconds": 1200
+  },
+  {
+    "id": "mcl350_probe_gesture_one_0001",
+    "gpu": 3,
+    "script": "/media/external/bowenjing/projects/dexterity_living/code/mcl350/run_seeded_episode.py",
+    "args": [
+      "--task",
+      "gesture_one",
+      "--seed",
+      "11001",
+      "--gpu",
+      "3",
+      "--name",
+      "mcl350_probe_gesture_one_0001"
+    ],
+    "timeout_seconds": 1200
+  },
+  {
+    "id": "mcl350_probe_gesture_two_0001",
+    "gpu": 4,
+    "script": "/media/external/bowenjing/projects/dexterity_living/code/mcl350/run_seeded_episode.py",
+    "args": [
+      "--task",
+      "gesture_two",
+      "--seed",
+      "11001",
+      "--gpu",
+      "4",
+      "--name",
+      "mcl350_probe_gesture_two_0001"
+    ],
+    "timeout_seconds": 1200
+  },
+  {
+    "id": "mcl350_probe_produce_sort_0001",
+    "gpu": 5,
+    "script": "/media/external/bowenjing/projects/dexterity_living/code/mcl350/run_seeded_episode.py",
+    "args": [
+      "--task",
+      "produce_sort",
+      "--seed",
+      "11001",
+      "--gpu",
+      "5",
+      "--name",
+      "mcl350_probe_produce_sort_0001"
+    ],
+    "timeout_seconds": 1200
+  },
+  {
+    "id": "mcl350_probe_microwave_open_0001",
+    "gpu": 6,
+    "script": "/media/external/bowenjing/projects/dexterity_living/code/mcl350/run_seeded_episode.py",
+    "args": [
+      "--task",
+      "microwave_open",
+      "--seed",
+      "11001",
+      "--gpu",
+      "6",
+      "--name",
+      "mcl350_probe_microwave_open_0001"
+    ],
+    "timeout_seconds": 1200
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "primary_host": "rimianpro5000",
+  "ssh": "ssh -p 1025 bowenjing@8.130.80.101",
+  "root": "/media/external/bowenjing/projects/dexterity_living",
+  "original_isaacsim": "5.1",
+  "target_isaacsim": "6.1.0.0",
+  "target_python": "/home/bowenjing/envs/isaaclab3/bin/python",
+  "microwave_collision_fix": "requested 2026-10-11; full-frame mesh intersection confirmed; repair required",
+  "physics_task_validation": false,
+  "latest_run": "runs/wuji_blackwhite_smooth_pt4k_20261011/living_mcl_wuji_v1_20261011",
+  "preview_port": 8796,
+  "active_physical_task": "single_right_hand_pick_place",
+  "active_physical_run": "runs/physical_v1/pick_left_fast_gpu0",
+  "handoff": "cancelled_by_user",
+  "physical_task_status_document": "CURRENT_SINGLE_HAND.md"
+}
